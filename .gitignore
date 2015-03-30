@@ -55,3 +55,9 @@ target/
 
 # Mac stuff:
 .DS_Store
+
+# Project specific
+css/
+output/
+.sass-cache/
+.ipynb_checkpoints/
