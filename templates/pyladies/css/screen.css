@@ -1,0 +1,1001 @@
+@charset "UTF-8";
+/* Settings for SCSS */
+/* This file left intentionally (almost) blank
+
+   Landslide always adds a print.css and a screen.css, but they
+   are not needed in impress.js, so this theme leaves them blank,
+   except for hiding some things you want to hide.
+
+   You can modify these files in your own fork, or you can add
+   css-files in the landslide configuration file.
+   See https://github.com/adamzap/landslide#presentation-configuration
+
+*/
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic|Droid+Sans+Mono:400,700");
+.impress-supported .fallback-message,
+.step .notes {
+  display: none; }
+
+.step {
+  width: 800px; }
+
+/* Help popup */
+#hovercraft-help {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+  color: #EEEEEE;
+  font-size: 100%;
+  left: 2em;
+  bottom: 2em;
+  width: 26em;
+  border-radius: 1em;
+  padding: 1em;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  z-index: 100;
+  display: block;
+  font-family: Verdana, Arial, Sans; }
+
+.impress-enabled #hovercraft-help.hide {
+  display: none; }
+
+#hovercraft-help.disabled {
+  display: none; }
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  min-height: 740px;
+  background: #d7d7d7;
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(#f0f0f0), to(#bebebe));
+  background: -webkit-radial-gradient(#f0f0f0, #bebebe);
+  background: -moz-radial-gradient(#f0f0f0, #bebebe);
+  background: -ms-radial-gradient(#f0f0f0, #bebebe);
+  background: -o-radial-gradient(#f0f0f0, #bebebe);
+  background: radial-gradient(#f0f0f0, #bebebe); }
+
+/* restore reseted stylings */
+b, strong {
+  font-weight: bold; }
+
+i, em {
+  font-style: italic; }
+
+a {
+  color: inherit;
+  text-decoration: none;
+  padding: 0 0.1em; }
+
+.fallback-message {
+  font-family: sans-serif;
+  line-height: 1.3;
+  width: 780px;
+  padding: 10px 10px 0;
+  margin: 20px auto;
+  border: 1px solid #E4C652;
+  border-radius: 10px;
+  background: #EEDC94; }
+
+.fallback-message p {
+  margin-bottom: 10px; }
+
+.impress-supported .fallback-message {
+  display: none; }
+
+/*
+    Now let's style the presentation steps.
+
+    We start with basics to make sure it displays correctly in everywhere ...
+*/
+.step {
+  position: relative;
+  width: 900px;
+  height: 700px;
+  padding: 40px;
+  margin: 20px auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'PT Serif', georgia, serif;
+  font-size: 48px;
+  line-height: 1.5; }
+
+/*
+    ... and we enhance the styles for impress.js.
+
+    Basically we remove the margin and make inactive steps a little bit transparent.
+*/
+.impress-enabled .step {
+  margin: 0;
+  opacity: 0.3;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -ms-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s; }
+
+.impress-enabled .step.active {
+  opacity: 1; }
+
+div.step div.notes {
+  display: none; }
+
+/*
+    These 'slide' step styles were heavily inspired by HTML5 Slides:
+    http://html5slides.googlecode.com/svn/trunk/styles.css
+
+    ;)
+
+    They cover everything what you see on first three steps of the demo.
+*/
+.slide {
+  display: block;
+  width: 900px;
+  height: 700px;
+  padding: 40px 60px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  color: #666666;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -1px; }
+
+/*
+    The last step is an overview.
+    There is no content in it, so we make sure it's not visible because we want
+    to be able to click on other steps.
+
+*/
+#overview {
+  display: none; }
+
+/*
+    We also make other steps visible and give them a pointer cursor using the
+    `impress-on-` class.
+*/
+.impress-on-overview .step {
+  opacity: 1;
+  cursor: pointer; }
+
+/*
+    Now, when we have all the steps styled let's give users a hint how to navigate
+    around the presentation.
+
+    The best way to do this would be to use JavaScript, show a delayed hint for a
+    first time users, then hide it and store a status in cookie or localStorage...
+
+    But I wanted to have some CSS fun and avoid additional scripting...
+
+    Let me explain it first, so maybe the transition magic will be more readable
+    when you read the code.
+
+    First of all I wanted the hint to appear only when user is idle for a while.
+    You can't detect the 'idle' state in CSS, but I delayed a appearing of the
+    hint by 5s using transition-delay.
+
+    You also can't detect in CSS if the user is a first-time visitor, so I had to
+    make an assumption that I'll only show the hint on the first step. And when
+    the step is changed hide the hint, because I can assume that user already
+    knows how to navigate.
+
+    To summarize it - hint is shown when the user is on the first step for longer
+    than 5 seconds.
+
+    The other problem I had was caused by the fact that I wanted the hint to fade
+    in and out. It can be easily achieved by transitioning the opacity property.
+    But that also meant that the hint was always on the screen, even if totally
+    transparent. It covered part of the screen and you couldn't correctly clicked
+    through it.
+    Unfortunately you cannot transition between display `block` and `none` in pure
+    CSS, so I needed a way to not only fade out the hint but also move it out of
+    the screen.
+
+    I solved this problem by positioning the hint below the bottom of the screen
+    with CSS transform and moving it up to show it. But I also didn't want this move
+    to be visible. I wanted the hint only to fade in and out visually, so I delayed
+    the fade in transition, so it starts when the hint is already in its correct
+    position on the screen.
+
+    I know, it sounds complicated ... maybe it would be easier with the code?
+*/
+.hint {
+  /*
+      We hide the hint until presentation is started and from browsers not supporting
+      impress.js, as they will have a linear scrollable view ...
+  */
+  display: none;
+  /*
+      ... and give it some fixed position and nice styles.
+  */
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 200px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #EEE;
+  text-align: center;
+  font-size: 50px;
+  line-height: 60px;
+  padding: 20px;
+  z-index: 100;
+  /*
+      By default we don't want the hint to be visible, so we make it transparent ...
+  */
+  opacity: 0;
+  /*
+      ... and position it below the bottom of the screen (relative to it's fixed position)
+  */
+  -webkit-transform: translateY(400px);
+  -moz-transform: translateY(400px);
+  -ms-transform: translateY(400px);
+  -o-transform: translateY(400px);
+  transform: translateY(400px);
+    /*
+        Now let's imagine that the hint is visible and we want to fade it out and move out
+        of the screen.
+
+        So we define the transition on the opacity property with 1s duration and another
+        transition on transform property delayed by 1s so it will happen after the fade out
+        on opacity finished.
+
+        This way user will not see the hint moving down.
+    */
+  -webkit-transition: opacity 1s, -webkit-transform 0.5s 1s;
+  -moz-transition: opacity 1s,    -moz-transform 0.5s 1s;
+  -ms-transition: opacity 1s,     -ms-transform 0.5s 1s;
+  -o-transition: opacity 1s,      -o-transform 0.5s 1s;
+  transition: opacity 1s,         transform 0.5s 1s; }
+
+/*
+    Now we 'enable' the hint when presentation is initialized ...
+*/
+.impress-enabled .hint {
+  display: block; }
+
+/*
+    ... and we will show it when the first step (with id 'title') is active.
+*/
+.impress-on-pre-title .hint {
+  /*
+      We remove the transparency and position the hint in its default fixed
+      position.
+  */
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  transform: translateY(0px);
+    /*
+        Now for fade in transition we have the oposite situation from the one
+        above.
+
+        First after 4.5s delay we animate the transform property to move the hint
+        into its correct position and after that we fade it in with opacity
+        transition.
+    */
+  -webkit-transition: opacity 1s 5s, -webkit-transform 0.5s 4.5s;
+  -moz-transition: opacity 1s 5s,    -moz-transform 0.5s 4.5s;
+  -ms-transition: opacity 1s 5s,     -ms-transform 0.5s 4.5s;
+  -o-transition: opacity 1s 5s,      -o-transform 0.5s 4.5s;
+  transition: opacity 1s 5s,         transform 0.5s 4.5s; }
+
+/*
+    And as the last thing there is a workaround for quite strange bug.
+    It happens a lot in Chrome. I don't remember if I've seen it in Firefox.
+
+    Sometimes the element positioned in 3D (especially when it's moved back
+    along Z axis) is not clickable, because it falls 'behind' the <body>
+    element.
+
+    To prevent this, I decided to make <body> non clickable by setting
+    pointer-events property to `none` value.
+    Value if this property is inherited, so to make everything else clickable
+    I bring it back on the #impress element.
+
+    If you want to know more about `pointer-events` here are some docs:
+    https://developer.mozilla.org/en/CSS/pointer-events
+
+    There is one very important thing to notice about this workaround - it makes
+    everything 'unclickable' except what's in #impress element.
+
+    So use it wisely ... or don't use at all.
+*/
+.impress-enabled {
+  pointer-events: none; }
+
+.impress-enabled #impress {
+  pointer-events: auto; }
+
+.progressbar {
+  position: absolute;
+  right: 118px;
+  bottom: 15px;
+  left: 118px;
+  border-radius: 7px;
+  border: 2px solid rgba(100, 100, 100, 0.2); }
+
+.progressbar DIV {
+  width: 0;
+  height: 10px;
+  border-radius: 5px;
+  background: rgba(75, 75, 75, 0.4);
+  -webkit-transition: width 1s linear;
+  -moz-transition: width 1s linear;
+  -ms-transition: width 1s linear;
+  -o-transition: width 1s linear;
+  transition: width 1s linear; }
+
+.progress-off {
+  z-index: 2999; }
+
+.progress {
+  position: absolute;
+  right: 50px;
+  bottom: 15px;
+  text-align: right; }
+
+body, .slide {
+  line-height: 1.2em; }
+
+h1,
+h2,
+h3 {
+  line-height: 1.2em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 0; }
+
+h1 {
+  text-align: center;
+  margin-bottom: 0.5em; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: #006633;
+  text-decoration: underline; }
+
+sup {
+  font-size: 60%;
+  vertical-align: super; }
+
+sub {
+  font-size: 60%;
+  vertical-align: sub; }
+
+q:before {
+  content: open-quote; }
+
+q:after {
+  content: close-quote; }
+
+q {
+  font-style: italic; }
+
+.centered {
+  text-align: center; }
+
+.footnote,
+.credits {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 12px;
+  line-height: 14px; }
+
+.background-image-slide {
+  /*background-image: url('../images/LMU-background.png');*/
+  background-size: 900px 700px;
+  background-color: transparent;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); }
+
+.overlay-b {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+  color: #FFF; }
+
+.centered-image {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 618px; }
+
+div.quote-slide {
+  position: relative; }
+
+div.quote-slide blockquote {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 80px;
+  line-height: 1.5em;
+  height: 1.5em;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  padding: 40px; }
+
+ul, ol {
+  padding-left: 40px;
+  list-style-position: outside;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 0;
+  padding-bottom: 0; }
+
+ul {
+  list-style-type: disc; }
+
+ol {
+  list-style-type: decimal; }
+
+ul.sign {
+  padding-left: 0px; }
+
+ul.sign li {
+  list-style-position: outside;
+  position: relative;
+  padding-left: 40px; }
+
+ul.sign li:before {
+  position: absolute;
+  left: 0px; }
+
+ul.arrow {
+  list-style: none; }
+
+ul.arrow li:before,
+ul li.arrow:before {
+  content: "\27A8"; }
+
+ul li.arrow,
+ul li.check {
+  list-style: none;
+  margin-left: -20px; }
+
+ul.sign li.arrow,
+ul.sign li.check {
+  margin-left: 0; }
+
+ul li.check:before {
+  content: "✔ "; }
+
+li.plus,
+li.minus {
+  list-style-type: none; }
+
+li.plus:before {
+  content: "+ \0020 \0020 \0020"; }
+
+li.minus:before {
+  content: "- \0020 \0020 \0020"; }
+
+dt {
+  font-weight: bold; }
+
+dt:after {
+  content: ":"; }
+
+dd {
+  margin-left: 40px;
+  font-size: 80%; }
+
+div.left-block {
+  float: left;
+  width: 300px;
+  margin-right: 18px; }
+
+div.right-block {
+  width: 300px; }
+
+.clear {
+  clear: both; }
+
+.htext {
+  line-height: 1.7em;
+  font-size: 40px;
+  font-family: "Droid Sans Mono";
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 350px; }
+
+.htext span {
+  font-size: 300%; }
+
+.future .fadein5,
+.future .fadein10,
+.future .fadein15,
+.future .fadein20 {
+  opacity: 0; }
+
+.active .fadein5 {
+  opacity: 1 !important;
+  transition: opacity 5s 5s; }
+
+.active .fadein10 {
+  opacity: 1 !important;
+  transition: opacity 5s 10s; }
+
+.active .fadein15 {
+  opacity: 1 !important;
+  transition: opacity 5s 15s; }
+
+.active .fadein20 {
+  opacity: 1 !important;
+  transition: opacity 5s 20s; }
+
+.past .fadein10,
+.past .fadein10,
+.past .fadein15,
+.past .fadein20 {
+  opacity: 1; }
+
+.impress-enabled div.no-overview.future.step {
+  opacity: 0; }
+
+.impress-enabled div.no-overview.active.step {
+  opacity: 1; }
+
+.impress-enabled div.no-overview.past.step {
+  opacity: 0; }
+
+table.bw-table {
+  border: 2px solid #000;
+  border-radius: 10px;
+  border-collapse: separate;
+  padding: 0; }
+
+table.bw-table thead {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px; }
+
+table.bw-table tbody {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; }
+
+table.bw-table tr:last-child td:first-child {
+  border-bottom-left-radius: 5px; }
+
+table.bw-table tr:last-child td:last-child {
+  border-bottom-right-radius: 5px; }
+
+table.bw-table th,
+table.bw-table td {
+  border: 1px solid #000;
+  padding: 5px;
+  border-collapse: collapse;
+  vertical-align: middle; }
+
+table.bw-table thead th {
+  background-color: #000;
+  color: #FFF;
+  font-weight: bold; }
+
+table.bw-table tbody td {
+  background-color: #FFF;
+  color: #000; }
+
+.full-img {
+  text-align: center; }
+  .full-img img {
+    max-height: 500px;
+    max-width: 778px;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; }
+
+.site-note {
+  float: right;
+  font-size: 20px;
+  border: thin solid #666;
+  border-radius: 15px;
+  display: block;
+  width: 360px;
+  padding: 10px;
+  margin-top: 30px;
+  line-height: 1.2em; }
+
+.code {
+  font-family: "Droid Sans Mono";
+  white-space: pre-wrap;
+  font-size: 20px;
+  line-height: 1.1em;
+  background-color: #f0f0f0;
+  border: 1px solid #0D0D0D;
+  border-radius: 3px;
+  padding: 5px; }
+
+ul.line li {
+  display: inline-block; }
+
+img {
+  display: block; }
+
+img.centered {
+  margin-right: auto;
+  margin-left: auto; }
+
+img.left {
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 2px; }
+
+img.right {
+  float: right;
+  margin-left: 5px;
+  margin-bottom: 2px; }
+
+.clear {
+  clear: both; }
+
+.tspacer {
+  margin-top: 1em; }
+
+.bspacer {
+  margin-bottom: 1em; }
+
+.rspacer,
+img.rspacer {
+  margin-right: 1em; }
+
+.lmu-slide.lmu-title-slide {
+  background-image: url("../images/LMU-inet-titlepage-background.png");
+  font-family: "LMU CompatilFact", "Arial", Helvetica, sans-serif; }
+
+.lmu-title-slide h1.title,
+.lmu-title-slide p.title {
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  right: 100px;
+  font-size: 160%;
+  line-height: 1.2em;
+  color: #006633; }
+
+.lmu-title-slide h1.subtitle,
+.lmu-title-slide p.subtitle {
+  position: absolute;
+  top: 450px;
+  left: 100px;
+  right: 100px;
+  color: #006633;
+  line-height: 1.1em; }
+
+.lmu-title-slide h1.referent,
+.lmu-title-slide p.referent {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  right: 100px;
+  font-size: 80%;
+  color: #000; }
+
+.lmu-slide {
+  background-image: url("../images/LMU-inet-background.png");
+  background-size: 900px 700px;
+  background-color: transparent;
+  padding-top: 160px;
+  font-family: "LMU CompatilFact", "Arial", Helvetica, sans-serif; }
+
+div.lmu-slide p.slide-title {
+  position: absolute;
+  top: 20px;
+  left: 216px;
+  font-size: 16px !important;
+  line-height: 1em;
+  color: #006633;
+  padding: 5px;
+  height: 80px;
+  width: 520px; }
+
+div.lmu-slide p.slide-title span {
+  display: block;
+  position: absolute; }
+
+div.lmu-slide p.slide-title span.line1 {
+  bottom: 2px; }
+
+div.lmu-slide p.slide-title span.line2 {
+  bottom: 18px; }
+
+div.lmu-slide p.slide-title span.line3 {
+  bottom: 34px; }
+
+div.lmu-slide p.slide-title span.line4 {
+  bottom: 50px; }
+
+div.lmu-slide p.slide-title span.line5 {
+  bottom: 66px; }
+
+.highlight .hll {
+  background-color: #ffffcc; }
+
+.highlight .c {
+  color: #408090;
+  font-style: italic; }
+
+/* Comment */
+.highlight .err {
+  border: 1px solid #FF0000; }
+
+/* Error */
+.highlight .k {
+  color: #007020;
+  font-weight: bold; }
+
+/* Keyword */
+.highlight .o {
+  color: #666666; }
+
+/* Operator */
+.highlight .cm {
+  color: #408090;
+  font-style: italic; }
+
+/* Comment.Multiline */
+.highlight .cp {
+  color: #007020; }
+
+/* Comment.Preproc */
+.highlight .c1 {
+  color: #408090;
+  font-style: italic; }
+
+/* Comment.Single */
+.highlight .cs {
+  color: #408090;
+  background-color: #fff0f0; }
+
+/* Comment.Special */
+.highlight .gd {
+  color: #A00000; }
+
+/* Generic.Deleted */
+.highlight .ge {
+  font-style: italic; }
+
+/* Generic.Emph */
+.highlight .gr {
+  color: #FF0000; }
+
+/* Generic.Error */
+.highlight .gh {
+  color: #000080;
+  font-weight: bold; }
+
+/* Generic.Heading */
+.highlight .gi {
+  color: #00A000; }
+
+/* Generic.Inserted */
+.highlight .go {
+  color: #303030; }
+
+/* Generic.Output */
+.highlight .gp {
+  color: #c65d09;
+  font-weight: bold; }
+
+/* Generic.Prompt */
+.highlight .gs {
+  font-weight: bold; }
+
+/* Generic.Strong */
+.highlight .gu {
+  color: #800080;
+  font-weight: bold; }
+
+/* Generic.Subheading */
+.highlight .gt {
+  color: #0040D0; }
+
+/* Generic.Traceback */
+.highlight .kc {
+  color: #007020;
+  font-weight: bold; }
+
+/* Keyword.Constant */
+.highlight .kd {
+  color: #007020;
+  font-weight: bold; }
+
+/* Keyword.Declaration */
+.highlight .kn {
+  color: #007020;
+  font-weight: bold; }
+
+/* Keyword.Namespace */
+.highlight .kp {
+  color: #007020; }
+
+/* Keyword.Pseudo */
+.highlight .kr {
+  color: #007020;
+  font-weight: bold; }
+
+/* Keyword.Reserved */
+.highlight .kt {
+  color: #902000; }
+
+/* Keyword.Type */
+.highlight .m {
+  color: #208050; }
+
+/* Literal.Number */
+.highlight .s {
+  color: #4070a0; }
+
+/* Literal.String */
+.highlight .na {
+  color: #4070a0; }
+
+/* Name.Attribute */
+.highlight .nb {
+  color: #007020; }
+
+/* Name.Builtin */
+.highlight .nc {
+  color: #0e84b5;
+  font-weight: bold; }
+
+/* Name.Class */
+.highlight .no {
+  color: #60add5; }
+
+/* Name.Constant */
+.highlight .nd {
+  color: #555555;
+  font-weight: bold; }
+
+/* Name.Decorator */
+.highlight .ni {
+  color: #d55537;
+  font-weight: bold; }
+
+/* Name.Entity */
+.highlight .ne {
+  color: #007020; }
+
+/* Name.Exception */
+.highlight .nf {
+  color: #06287e; }
+
+/* Name.Function */
+.highlight .nl {
+  color: #002070;
+  font-weight: bold; }
+
+/* Name.Label */
+.highlight .nn {
+  color: #0e84b5;
+  font-weight: bold; }
+
+/* Name.Namespace */
+.highlight .nt {
+  color: #062873;
+  font-weight: bold; }
+
+/* Name.Tag */
+.highlight .nv {
+  color: #bb60d5; }
+
+/* Name.Variable */
+.highlight .ow {
+  color: #007020;
+  font-weight: bold; }
+
+/* Operator.Word */
+.highlight .w {
+  color: #bbbbbb; }
+
+/* Text.Whitespace */
+.highlight .mf {
+  color: #208050; }
+
+/* Literal.Number.Float */
+.highlight .mh {
+  color: #208050; }
+
+/* Literal.Number.Hex */
+.highlight .mi {
+  color: #208050; }
+
+/* Literal.Number.Integer */
+.highlight .mo {
+  color: #208050; }
+
+/* Literal.Number.Oct */
+.highlight .sb {
+  color: #4070a0; }
+
+/* Literal.String.Backtick */
+.highlight .sc {
+  color: #4070a0; }
+
+/* Literal.String.Char */
+.highlight .sd {
+  color: #4070a0;
+  font-style: italic; }
+
+/* Literal.String.Doc */
+.highlight .s2 {
+  color: #4070a0; }
+
+/* Literal.String.Double */
+.highlight .se {
+  color: #4070a0;
+  font-weight: bold; }
+
+/* Literal.String.Escape */
+.highlight .sh {
+  color: #4070a0; }
+
+/* Literal.String.Heredoc */
+.highlight .si {
+  color: #70a0d0;
+  font-style: italic; }
+
+/* Literal.String.Interpol */
+.highlight .sx {
+  color: #c65d09; }
+
+/* Literal.String.Other */
+.highlight .sr {
+  color: #235388; }
+
+/* Literal.String.Regex */
+.highlight .s1 {
+  color: #4070a0; }
+
+/* Literal.String.Single */
+.highlight .ss {
+  color: #517918; }
+
+/* Literal.String.Symbol */
+.highlight .bp {
+  color: #007020; }
+
+/* Name.Builtin.Pseudo */
+.highlight .vc {
+  color: #bb60d5; }
+
+/* Name.Variable.Class */
+.highlight .vg {
+  color: #bb60d5; }
+
+/* Name.Variable.Global */
+.highlight .vi {
+  color: #bb60d5; }
+
+/* Name.Variable.Instance */
+.highlight .il {
+  color: #208050; }
+
+/* Literal.Number.Integer.Long */
+body {
+  background-color: #bbbbbb; }
+
+/*# sourceMappingURL=screen.css.map */
