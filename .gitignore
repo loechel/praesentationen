@@ -57,6 +57,7 @@ target/
 .DS_Store
 
 # Project specific
+.idea
 css/
 output/
 .sass-cache/

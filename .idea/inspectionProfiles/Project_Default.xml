@@ -1,0 +1,41 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <option name="myLocal" value="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="27">
+            <item index="0" class="java.lang.String" itemvalue="transaction" />
+            <item index="1" class="java.lang.String" itemvalue="Products.GenericSetup" />
+            <item index="2" class="java.lang.String" itemvalue="Products.CMFDefault" />
+            <item index="3" class="java.lang.String" itemvalue="Acquisition" />
+            <item index="4" class="java.lang.String" itemvalue="zope.formlib" />
+            <item index="5" class="java.lang.String" itemvalue="Products.Archetypes" />
+            <item index="6" class="java.lang.String" itemvalue="zope.component" />
+            <item index="7" class="java.lang.String" itemvalue="plone.indexer" />
+            <item index="8" class="java.lang.String" itemvalue="Products.CMFCore" />
+            <item index="9" class="java.lang.String" itemvalue="DateTime" />
+            <item index="10" class="java.lang.String" itemvalue="archetypes.schemaextender" />
+            <item index="11" class="java.lang.String" itemvalue="zope.i18nmessageid" />
+            <item index="12" class="java.lang.String" itemvalue="plone.app.layout" />
+            <item index="13" class="java.lang.String" itemvalue="plone.app.vocabularies" />
+            <item index="14" class="java.lang.String" itemvalue="plone.app.content" />
+            <item index="15" class="java.lang.String" itemvalue="plone.browserlayer" />
+            <item index="16" class="java.lang.String" itemvalue="collective.js.showmore" />
+            <item index="17" class="java.lang.String" itemvalue="zope.publisher" />
+            <item index="18" class="java.lang.String" itemvalue="zope.schema" />
+            <item index="19" class="java.lang.String" itemvalue="collective.indexing" />
+            <item index="20" class="java.lang.String" itemvalue="Unidecode" />
+            <item index="21" class="java.lang.String" itemvalue="Zope2" />
+            <item index="22" class="java.lang.String" itemvalue="zope.interface" />
+            <item index="23" class="java.lang.String" itemvalue="ZODB3" />
+            <item index="24" class="java.lang.String" itemvalue="plone.app.testing" />
+            <item index="25" class="java.lang.String" itemvalue="plone.app.controlpanel" />
+            <item index="26" class="java.lang.String" itemvalue="Plone" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
