@@ -40,6 +40,24 @@
     padding: 20px;
 }
 
+.overlay ul,
+.overlay-b ul,
+.overlay ol,
+.overlay-b ol {
+  text-align: left;
+}
+
+blockquote {
+  font-size: 2em;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+div.cite {
+  font-size: 0.6em;
+  text-align: right;
+}
+
 .code {
   text-align: left;
   background-color: transparent;
@@ -67,17 +85,19 @@
   }
 }
 
-#enterprise {
+div#enterprise {
   background-image: url("../images/aircraft-carrier.jpg");
 }
-#school-bus {
+
+div#school-bus {
   background-image: url("../images/schoolbus.jpg");
 }
-#zen {
+
+div#zen {
   background-image: url("../images/zen.jpg");
 }
 
-#intergration-framework {
+div#intergration-framework {
   background-image: url("../images/puzzle.jpg");
   .overlay-b {
     font-size: 56px;
@@ -85,16 +105,29 @@
     margin-top: 180px
   }
 }
-#community {
+
+div#community {
   background-image: url("../images/2012_conference.jpeg");
+  .overlay {
+    margin-top: 140px;
+    p {
+      font-size: 1.6em;
+      line-height: 1.2em;
+    }
+  }
 }
 
-#diazo-printservice {
+div#diazo-printservice {
   background-image: url("../images/cloud-printing.png");
 
 }
 
-#diazo {
+div#repeatable {
+  background-image: url("../images/sisyphos.jpg");
+
+}
+
+div#diazo {
   text-align: center;
   h2 {
     font-size: 36px;
@@ -102,3 +135,60 @@
   }
 }
 
+div#turnaround blockquote {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  font-size: 3em;
+  line-height: 2em;
+}
+
+
+div#lessons-learned {
+  background-image: url("../images/lessons-learned.jpg");
+}
+
+div#user-matters {
+  background-image: url("../images/users.jpg");
+}
+
+div#hard-way {
+  background-image: url("../images/Wüste_ende_starsse.jpg");
+}
+
+div#master {
+  background-image: url("../images/karate-kid.jpg");
+}
+
+div#let-it-fly {
+  background-image: url("../images/liftoff.jpg");
+}
+
+
+div#market {
+  background-image: url("../images/subway_Graphic_2015_1280px.jpg");
+
+  .overlay {
+    margin-top: 250px;
+  }
+
+}
+
+
+div#garden {
+  background-image: url("../images/cms-garden.jpg");
+  img {
+    margin-top: 110px;
+  }
+  .overlay-b {
+    width: 350px;
+    margin-top: 440px;
+  }
+}
+
+
+div#success {
+  background-image: url("../images/success.jpg");
+  .overlay {
+    margin-top: 200px;
+  }
+}
