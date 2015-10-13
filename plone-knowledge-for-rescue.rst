@@ -176,8 +176,6 @@ Basic Skills
 * Philosophies and Decent Mood
 
 
-
-
 ----
 
 :id: python
@@ -199,11 +197,9 @@ Basic Skills
 :data-x: r+0
 :data-y: r+1000
 
-.. container:: overlay
+.. container:: overlay centered
 
     **Version Control Systems**
-
-
 
 
 ----
@@ -214,7 +210,7 @@ Basic Skills
 :data-y: r+1000
 
 
-.. container:: overlay
+.. container:: overlay centered
 
     **Repeatable Environments**
 
@@ -235,7 +231,7 @@ Basic Skills
 :data-x: r+0
 :data-y: r+1000
 
-.. container:: overlay
+.. container:: overlay centered
 
     **Quality**
 
@@ -250,21 +246,12 @@ Basic Skills
       * plone.recipe.codeanalysis
       * QuantifiedCode
 
-
-----
-
-:id: philosophy
-:class: slide level-1
-:data-x: r+1000
-:data-y: 1000
-
-
 ----
 
 :id: zen
 :class: slide background-image-slide level-1
-:data-x: r+0
-:data-y: r+1000
+:data-x: r+1000
+:data-y: 1000
 
 .. container:: overlay centered
 
@@ -341,8 +328,8 @@ Basic Skills
 
 :id: intergration-framework
 :class: slide background-image-slide level-1
-:data-x: r+0
-:data-y: r+1000
+:data-x: r+1000
+:data-y: 1000
 
 .. container:: overlay-b centered
 
@@ -415,6 +402,27 @@ Basic Skills
     The User Counts
 
 
+----
+
+:id: techs
+:class: slide level-1
+:data-x: r+1000
+:data-y: 1000
+
+Special Knowledge
+=================
+
+
+
+----
+
+:id: examples
+:class: slide level-1
+:data-x: r+1000
+:data-y: 1000
+
+Examples from Projects
+======================
 
 ----
 
@@ -444,6 +452,33 @@ Diazo helps to brand Web Applications
 :data-y: r+1000
 
 
+----
+
+:id: one-domain
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+
+.. image:: images/intranet.png
+    :height: 600px
+    :class: right
+    :alt: Intranet
+
+.. image:: images/proxy.png
+    :width: 450px
+    :class: left
+    :alt: Proxy Model
+
+.. image:: images/includes.png
+    :height: 300px
+    :class: left
+    :alt: Includes
+
+.. container:: overlay-b centered
+
+    Serving different system under one URL
+
 
 ----
 
@@ -452,9 +487,50 @@ Diazo helps to brand Web Applications
 :data-x: r+0
 :data-y: r+1000
 
+Searching cross domains and different systems
+=============================================
+
+* Solr
+* Elastic Search
+* Google Search Appliance
+
+
 
 .. image:: images/sp-livesuche.png
     :width: 300px
+    :class: centered
+    :alt:
+
+
+
+----
+
+:id: edit-forms
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+Customize UX - Custom Add & Edit Forms
+======================================
+
+.. image:: images/blog.png
+    :height: 500px
+    :class: centered
+    :alt:
+
+
+----
+
+:id: alchemy
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+write and read different backends
+=================================
+
+.. image:: images/asic.png
+    :height: 500px
     :class: centered
     :alt:
 
@@ -519,5 +595,5 @@ It is a hard way
 
 :id: overview
 :data-x: 0
-:data-y: 4000
+:data-y: 3250
 :data-scale: 10
