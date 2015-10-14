@@ -49,7 +49,7 @@
         :class: centered
 
 Knowledge |br| to the Rescue
-=========================
+============================
 
 .. container:: centered
 
@@ -337,9 +337,6 @@ Lessons Learned
         Readability counts.
         Special cases aren't special enough to break the rules.
         ...
-
-
-
 
 ----
 
@@ -631,9 +628,6 @@ Corporate Identity |br| is important
 *Diazo helps to brand Web Applications*
 
 
-
-
-
 ----
 
 :id: diazo-printservice
@@ -669,7 +663,6 @@ Corporate Identity |br| is important
 
     Serving different systems from one domain
 
-
 ----
 
 :id: complex-setups
@@ -693,7 +686,7 @@ Corporate Identity |br| is important
 :data-y: r+1000
 
 Searching Across Domains |br| and Different Systems
-==================================================
+===================================================
 
 .. image:: images/sp-livesuche.png
     :width: 300px
@@ -713,8 +706,6 @@ Specials
 * ACLs
 * Live and Advanced Search
 
-
-
 ----
 
 :id: edit-forms
@@ -729,7 +720,6 @@ Customize UX - Custom Add & Edit Forms
     :height: 500px
     :class: centered
     :alt:
-
 
 ----
 
@@ -814,14 +804,12 @@ It is a hard way
 
     Mastering Plone - Mastering Software Development
 
-
 ----
 
 :id: nh90
 :class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
-
 
 ----
 
