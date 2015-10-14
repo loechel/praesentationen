@@ -1,4 +1,4 @@
-:title: Plone Knowledge for Rescue
+:title: Plone Knowledge to the Rescue
 :author: Alexander Loechel
 :event: PloneConf 2015 - Bucharest
 :keywords: Plone, Zope, Knowledge, PloneConf 2015
@@ -48,7 +48,7 @@
         :height: 200px
         :class: centered
 
-Knowledge |br| for Rescue
+Knowledge |br| to the Rescue
 =========================
 
 .. container:: centered
@@ -65,7 +65,7 @@ Knowledge |br| for Rescue
 
 .. container:: overlay centered
 
-    **Complain:**
+    **Complaint:**
 
     Plone has a steep learning curve
 
@@ -107,7 +107,7 @@ Knowledge |br| for Rescue
 
 .. container:: overlay-b centered
 
-    **Tinker**  vs. **Professionals**
+    **Tinkerers**  vs. **Professionals**
 
 
 .. image:: images/racing-car.jpg
@@ -129,7 +129,7 @@ Knowledge |br| for Rescue
 
 .. container:: overlay centered
 
-    Plone target on Enterprise Sector
+    Plone is targeted at the Enterprise Sector
 
 ----
 
@@ -166,7 +166,7 @@ Lessons Learned
 * Basic Skills
 
   * Technologies and Tools
-  * Philosophies and decent mood
+  * Philosophies and Mindset
 
 * Special Techniques
 
@@ -175,7 +175,7 @@ Lessons Learned
 
 .. container:: overlay centered
 
-    *This is my lessons learned with Plone the CMS and Plone the Community. Other projects, technologies and communities might teach you the same lessons.*
+    *These are my lessons learned with Plone the CMS and Plone the Community. Other projects, technologies and communities might teach you the same lessons.*
 
 .. container:: img-quote
 
@@ -194,7 +194,7 @@ Lessons Learned
 
     * Technologies and Tools
 
-    * Philosophies and Decent Mood
+    * Philosophies and Mindset
 
 .. container:: img-quote
 
@@ -265,9 +265,9 @@ Lessons Learned
 
     * Test, Test and Test
 
-      * Unitest
+      * Unit Tests
       * Integration Tests
-      * Acception Test
+      * Acceptance Tests
 
     * Code Analysis
 
@@ -290,7 +290,7 @@ Lessons Learned
 
     **DOCUMENTATION FIRST!**
 
-    Think about the process of writing |br| the documentation for your project as |br| *the true act of creation* .
+    Think about the process of writing |br| the documentation for your project as |br| *the true act of creation*.
 
     **Documentation Driven Development**
 
@@ -472,7 +472,7 @@ Lessons Learned
 .. container:: overlay-b
 
     * *learn from others,*
-    * *interchange with other communities*
+    * *exchange knowledge with other communities*
 
 ----
 
@@ -515,7 +515,7 @@ Special Knowledge
 
 .. container:: overlay-b centered
 
-    **Infinitive Scaling**
+    **Infinite Scaling**
 
     .. image:: images/cluster.png
         :height: 500px
@@ -667,7 +667,7 @@ Corporate Identity |br| is important
 
 .. container:: overlay-b centered
 
-    Serving different system under one URL
+    Serving different systems from one domain
 
 
 ----
@@ -692,7 +692,7 @@ Corporate Identity |br| is important
 :data-x: r+0
 :data-y: r+1000
 
-Searching Cross Domains |br| and different Systems
+Searching Across Domains |br| and Different Systems
 ==================================================
 
 .. image:: images/sp-livesuche.png
@@ -746,7 +746,7 @@ Write and Read different Backends
     :class: right
     :alt:
 
-Project from 2008 for German Armed Forces in Afganistan
+Project from 2008 for German Armed Forces in Afghanistan
 
 * Archetypes SQLStorage into a PostgreSQL + PostGIS DB
 
@@ -799,7 +799,7 @@ It is a hard way
 
 .. container:: overlay centered
 
-    *The difference between a master and a novice is, that the master have failed more often than the novice has tried*
+    *The difference between a master and a novice is, that the master has failed more often than the novice has tried*
 
     You can move fast and break things, |br| if you know the procedure to repair it quickly
 
