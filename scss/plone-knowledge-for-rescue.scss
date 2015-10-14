@@ -23,6 +23,10 @@
   }
 }
 
+.subtitle-slide h1 {
+  margin-top: 280px;
+}
+
 .overlay {
   background-color: rgba(255, 255, 255, 0.75);
   border: 2px solid rgba(255, 255, 255, 1);
@@ -91,10 +95,36 @@ div#enterprise {
 
 div#school-bus {
   background-image: url("../images/schoolbus.jpg");
+
+  img {
+    position: absolute;
+    bottom: 60px;
+    right: 30px;
+  }
 }
 
 div#zen {
   background-image: url("../images/zen.jpg");
+
+  .overlay {
+    margin-top: 220px;
+  }
+}
+
+div#quality {
+  background-image: url("../images/tuev.jpg");
+}
+
+div#basics {
+  background-image: url("../images/school.jpg");
+
+  .overlay-b {
+    margin-top: 200px;
+
+    li {
+      margin-top: 15px;
+    }
+  }
 }
 
 div#intergration-framework {
@@ -125,6 +155,10 @@ div#diazo-printservice {
 div#repeatable {
   background-image: url("../images/sisyphos.jpg");
 
+  .overlay {
+    margin-top: 300px;
+  }
+
 }
 
 div#diazo {
@@ -133,36 +167,109 @@ div#diazo {
     font-size: 36px;
 
   }
+  ul li {
+    text-align: left;
+    margin-bottom: 20px;
+  }
 }
 
 div#turnaround blockquote {
   margin-top: 80px;
   margin-bottom: 30px;
-  font-size: 3em;
+  font-size: 2.5em;
   line-height: 2em;
 }
 
 
 div#lessons-learned {
   background-image: url("../images/lessons-learned.jpg");
+  color: #FFF;
+
+  li {
+    margin-top: 30px;
+    font-size: 36px;
+  }
+  .overlay {
+    margin-top: 50px;
+    color: #0D0D0D;
+  }
 }
+
+
+div#vcs {
+  background-image: url("../images/vcs.png");
+
+  .overlay-b {
+    margin-top: 435px;
+  }
+}
+
 
 div#user-matters {
   background-image: url("../images/users.jpg");
+
+  .overlay-b {
+    margin-top: 300px;
+  }
 }
 
 div#hard-way {
   background-image: url("../images/Wüste_ende_starsse.jpg");
+
+  h1 {
+    color: #fff;
+  }
 }
 
 div#master {
   background-image: url("../images/karate-kid.jpg");
+
+  .overlay {
+    margin-top: 350px;
+    p {
+      margin-bottom: 20px;
+    }
+  }
 }
 
 div#let-it-fly {
   background-image: url("../images/liftoff.jpg");
 }
 
+div#nh90 {
+  background-image: url("../images/nh90.jpg");
+}
+
+div#complex-systems {
+  background-image: url("../images/Tokyo_by_night_2011.jpg");
+
+  blockquote {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding: 20px;
+    font-size: 36px;
+    margin-top: 90px;
+  }
+  cite {
+    color: #fff;
+  }
+}
+
+div#complex-setups {
+  background-image: url("../images/system.png");
+
+  .overlay-b {
+    position: absolute;
+    right: 30px;
+    top: 50px;
+    font-size: 20px;
+    width: 330px;
+    padding: 5px;
+  }
+}
 
 div#market {
   background-image: url("../images/subway_Graphic_2015_1280px.jpg");
@@ -173,6 +280,15 @@ div#market {
 
 }
 
+div#search h1,
+div#edit-forms h1,
+div#alchemy h1 {
+  font-size: 40px;
+}
+
+div#search h2 {
+  font-size: 30px;
+}
 
 div#garden {
   background-image: url("../images/cms-garden.jpg");
@@ -185,11 +301,42 @@ div#garden {
   }
 }
 
+div#soap-car {
+  background-image: url("../images/seifenkisten-unfall.jpg");
+
+  .overlay-b strong {
+    font-size: 1.5em;
+  }
+
+  img {
+    margin-top: 300px;
+    border-radius: 50px;
+  }
+}
+
+div#one-click {
+  background-image: url("../images/one-click.png");
+
+  .overlay-b {
+
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+
+    strong {
+      text-align: center;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+  }
+}
 
 div#success {
   background-image: url("../images/success.jpg");
   .overlay {
-    margin-top: 200px;
+    margin-top: 300px;
   }
 }
 
@@ -200,4 +347,77 @@ div#python img {
 div#one-domain .overlay-b {
   position: absolute;
   bottom: 50px;
+}
+
+div#caching {
+  background-image: url("../images/queue_up.jpg");
+
+  blockquote {
+    font-size: 1em;
+    line-height: 1.2em;
+  }
+}
+
+
+div#ids {
+  background-image: url("../images/passports.jpg");
+
+  blockquote {
+    font-size: 1em;
+    line-height: 1.2em;
+  }
+}
+
+
+div#docs {
+  background-image: url("../images/docs_archive.jpg");
+
+  blockquote {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding: 20px;
+    font-size: 30px;
+    margin-top: 0px;
+  }
+
+  div.cite {
+    margin-top: -30px;
+    color: #fff;
+  }
+}
+
+div#scaling {
+  background-image: url("../images/stars.jpg");
+
+  .overlay-b p {
+    margin-bottom: 20px;
+  }
+}
+
+div#no-downtime {
+  background-image: url("../images/24-7.jpg");
+
+  .overlay-b {
+    margin-top: 150px;
+  }
+}
+
+div#fixing {
+  background-image: url("../images/repair.jpg");
+
+  .overlay {
+    margin-top:350px;
+  }
+}
+
+div.slide .timed {
+  opacity: 0;
+}
+
+div.slide.active .timed {
+    opacity: 1;
+    transition: opacity 5s ease 5s;
 }
