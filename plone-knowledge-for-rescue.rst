@@ -638,6 +638,30 @@ Corporate Identity |br| is important
 
 ----
 
+:id: alchemy
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+Write and Read different Backends
+=================================
+
+.. image:: images/asic.png
+    :height: 350px
+    :class: right
+    :alt:
+
+Project from 2008 for German Armed Forces in Afghanistan
+
+* Archetypes SQLStorage into a PostgreSQL + PostGIS DB
+
+.. image:: images/arch.png
+    :height: 350px
+    :class: right
+    :alt: Arch
+
+----
+
 :id: one-domain
 :class: slide level-1
 :data-x: r+1000
@@ -720,30 +744,6 @@ Customize UX - Custom Add & Edit Forms
     :height: 500px
     :class: centered
     :alt:
-
-----
-
-:id: alchemy
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-Write and Read different Backends
-=================================
-
-.. image:: images/asic.png
-    :height: 350px
-    :class: right
-    :alt:
-
-Project from 2008 for German Armed Forces in Afghanistan
-
-* Archetypes SQLStorage into a PostgreSQL + PostGIS DB
-
-.. image:: images/arch.png
-    :height: 350px
-    :class: right
-    :alt: Arch
 
 ----
 
