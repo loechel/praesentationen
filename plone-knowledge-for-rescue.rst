@@ -304,7 +304,7 @@ Lessons Learned
 
 .. container:: img-quote
 
-    CC3-BY-SA https://commons.wikimedia.org/wiki/File:Bonanjo_-_Centre_de_documentation_et_information_urbanisme_%28CUD%29_04.JPG
+    CC3-BY-SA https://commons.wikimedia.org/wiki/File%3ABonanjo_-_Centre_de_documentation_et_information_urbanisme_%28CUD%29_04.JPG
 
 
 .. note::

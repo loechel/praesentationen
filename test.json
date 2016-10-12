@@ -1,0 +1,905 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 15,
+    "params": {
+      "q": "Intranet",
+      "enableElevation": "true",
+      "wt": "json",
+      "debugQuery": "true"
+    }
+  },
+  "response": {
+    "numFound": 17,
+    "start": 0,
+    "docs": [
+      {
+        "UID": "40A0805C8B2480CB6AFB11A07F95E3E6",
+        "path_string": "/30_zentralbereich/30zb_zuv-intranet/index.html",
+        "path_depth": 2,
+        "path_parents": [
+          "/30_zentralbereich",
+          "/30_zentralbereich/30zb_zuv-intranet"
+        ],
+        "Title": "ZUV-Intranet",
+        "default": [
+          "ZUV-Intranet"
+        ],
+        "effective": "2014-03-27T13:46:00Z",
+        "created": "2014-03-27T13:46:00Z",
+        "modified": "2015-10-08T05:50:03Z",
+        "allowedRolesAndUsers": [
+          "user$test",
+          "user$ZUV-Intranet-Members"
+        ],
+        "context_path_string": "/index.html",
+        "cms_system": "fiona",
+        "domain": [
+          "https://www.internet.verwaltung.uni-muenchen.de",
+          "https://iukintest.verwaltung.uni-muenchen.de"
+        ],
+        "_version_": 1514926626587017216,
+        "expires": "2499-12-30T23:00:00Z",
+        "review_state": "Published",
+        "Language": "de",
+        "showinsearch": true
+      },
+      {
+        "created": "2015-10-12T17:34:19.362Z",
+        "getId": "mitarbeiterfotos-im-zuv-intranet",
+        "object_provides": [
+          "plone.dexterity.schema.generated.30_zentralbereich_4_30zb_zuv_3_intranet_0_Blog_1_Entry",
+          "plone.supermodel.model.Schema",
+          "plone.dexterity.interfaces.IDexteritySchema",
+          "plone.app.content.interfaces.INameFromTitle",
+          "plone.app.versioningbehavior.behaviors.IVersioningSupport",
+          "plone.app.dexterity.behaviors.nextprevious.INextPreviousEnabled",
+          "plone.app.referenceablebehavior.referenceable.IReferenceable",
+          "lmu.contenttypes.blog.interfaces.IBlogEntry",
+          "lmu.policy.base.interfaces.ILMUContent",
+          "plone.dexterity.interfaces.IDexterityContainer",
+          "Products.CMFPlone.interfaces.syndication.ISyndicatable",
+          "collective.quickupload.interfaces.IQuickUploadCapable",
+          "plone.dexterity.interfaces.IDexterityContent",
+          "plone.uuid.interfaces.IAttributeUUID",
+          "grokcore.component.interfaces.IContext",
+          "plone.app.relationfield.interfaces.IDexterityHasRelations",
+          "z3c.relationfield.interfaces.IHasRelations",
+          "z3c.relationfield.interfaces.IHasIncomingRelations",
+          "z3c.relationfield.interfaces.IHasOutgoingRelations",
+          "plone.namedfile.interfaces.IImageScaleTraversable",
+          "Products.CMFCore.interfaces._content.IContentish",
+          "webdav.interfaces.IWriteLock",
+          "zope.location.interfaces.IContained",
+          "zope.location.interfaces.ILocation"
+        ],
+        "getIcon": "None",
+        "context_path_string": "/blog-mit/mitarbeiterfotos-im-zuv-intranet",
+        "Creator": "3ABBA66EEABFBA4A",
+        "domain": [
+          "www.intranet.verwaltung.uni-muenchen.de",
+          "localhost"
+        ],
+        "portal_type": "Blog Entry",
+        "is_folderish": true,
+        "path_depth": 5,
+        "path_parents": [
+          "/30_zentralbereich",
+          "/30_zentralbereich/30zb_zuv-intranet",
+          "/30_zentralbereich/30zb_zuv-intranet/blog-mit",
+          "/30_zentralbereich/30zb_zuv-intranet/blog-mit/mitarbeiterfotos-im-zuv-intranet"
+        ],
+        "effective": "2015-10-06T14:10:00Z",
+        "Type": "Blog Entry",
+        "Description": "",
+        "default": [
+          "",
+          "Mitarbeiterfotos im ZUV-Intranet",
+          "mitarbeiterfotos-im-zuv-intranet Mitarbeiterfotos im ZUV-Intranet  <p>Da das ZUV-Intranet nicht nur als reine Informationsplattform für ZUV-Mitarbeiter, sondern auch zur Vernetzung untereinander gedacht ist, halte ich es für sehr sinnvoll, wenn alle Mitarbeiter auf ihrer Personenprofilseite ein Foto von sich platzieren.\n        Ich gebe zu, dass das Thema \"Gesichter merken und wieder erkennen\" nicht zu meinen herausragendsten Fähigkeiten zählt.\n        Es passiert mir immer wieder, dass ich eine Kollegin oder einen Kollegen auf dem Gang begegne und nicht auf Anhieb weiss um wen es sich dabei handelt.\n        Entsprechend aufbereitete Personenprofilseiten im ZUV-Intranet würden mir enorm helfen.\n        Wenn man dann noch neben einem freundlichen \"Guten Tag Herr Müller\" im richtigen Moment ein zusätzliches \"Ach übrigens, alles Gute zum Geburtstag\" anbringen kann, dann steht einer engeren Vernetzung der einzelnen ZUV-Mitarbeiter nichts mehr im Weg.</p>"
+        ],
+        "path_string": "/30_zentralbereich/30zb_zuv-intranet/blog-mit/mitarbeiterfotos-im-zuv-intranet",
+        "allowedRolesAndUsers": [
+          "Editor",
+          "Reader",
+          "Member",
+          "user$ZUV-Intranet-Blog",
+          "Site Administrator",
+          "user$admin",
+          "Manager",
+          "user$3ABBA66EEABFBA4A",
+          "Contributor"
+        ],
+        "cms_system": "plone-dev",
+        "review_state": "internally_published",
+        "expires": "2499-12-30T23:00:00Z",
+        "Title": "Mitarbeiterfotos im ZUV-Intranet",
+        "Language": "any",
+        "SearchableText": [
+          "mitarbeiterfotos-im-zuv-intranet Mitarbeiterfotos im ZUV-Intranet  <p>Da das ZUV-Intranet nicht nur als reine Informationsplattform für ZUV-Mitarbeiter, sondern auch zur Vernetzung untereinander gedacht ist, halte ich es für sehr sinnvoll, wenn alle Mitarbeiter auf ihrer Personenprofilseite ein Foto von sich platzieren.\n        Ich gebe zu, dass das Thema \"Gesichter merken und wieder erkennen\" nicht zu meinen herausragendsten Fähigkeiten zählt.\n        Es passiert mir immer wieder, dass ich eine Kollegin oder einen Kollegen auf dem Gang begegne und nicht auf Anhieb weiss um wen es sich dabei handelt.\n        Entsprechend aufbereitete Personenprofilseiten im ZUV-Intranet würden mir enorm helfen.\n        Wenn man dann noch neben einem freundlichen \"Guten Tag Herr Müller\" im richtigen Moment ein zusätzliches \"Ach übrigens, alles Gute zum Geburtstag\" anbringen kann, dann steht einer engeren Vernetzung der einzelnen ZUV-Mitarbeiter nichts mehr im Weg.</p>"
+        ],
+        "showinsearch": true,
+        "UID": "7c033aa853924f5283d2b086c7797592",
+        "modified": "2015-10-12T17:34:19.362Z",
+        "Date": "2015-10-12T17:34:19Z",
+        "_version_": 1518741578816946176
+      },
+      {
+        "UID": "1D1C50490D8CB795FF06D22D85FD59DE",
+        "path_string": "/30_zentralbereich/30zb_zuv-intranet/wissen/projekte/zuv2015-tp-iuk/index.html",
+        "path_depth": 5,
+        "path_parents": [
+          "/30_zentralbereich",
+          "/30_zentralbereich/30zb_zuv-intranet",
+          "/30_zentralbereich/30zb_zuv-intranet/wissen",
+          "/30_zentralbereich/30zb_zuv-intranet/wissen/projekte",
+          "/30_zentralbereich/30zb_zuv-intranet/wissen/projekte/zuv2015-tp-iuk"
+        ],
+        "Title": "Umsetzung ZUV-Intranet und Serviceportal",
+        "default": [
+          "Umsetzung ZUV-Intranet und Serviceportal",
+          "Vizepr&auml;sident Dr. Christoph M&uuml;lke   Im Rahmen des ZUV 2015-Teilprojekts &bdquo;Information und Kommunikation&ldquo; wurde ein Konzept f&uuml;r die Interne Kommunikation der ZUV entwickelt. Dieses skizziert ein ZUV-Intranet und ein ZUV-Serviceportal als zentrale Instrumente eines internen Kommunikationssystems auf inhaltlicher und technisch-organisatorischer Ebene. Die St&auml;rken von webbasierten internen Kommunikationsplattformen liegen in deren Flexibilit&auml;t und Aktualit&auml;t. Solche Plattformen bieten umf&auml;ngliche Informationen und unterst&uuml;tzen die Anforderungen an moderne kollaborative Arbeitsweisen. Zudem sollen &ndash; gem&auml;&szlig; diesem Konzept &ndash; Elemente der Leitungskommunikation mit denen der vernetzten Mitarbeiter-Kommunikation produktiv verbunden werden. Nur durch ein solches &bdquo;Doppelkonzept&ldquo; k&ouml;nnen die Anforderungen an eine zielgruppen- und kundenorientierte Kommunikation (ZUV f&uuml;r ZUV, ZUV f&uuml;r Kunden) umgesetzt werden. Hierf&uuml;r wurde ein ausf&uuml;hrliches Kommunikationskonzept erarbeitet. \n Um eine geeignete L&ouml;sung f&uuml;r die technische Umsetzung identifizieren zu k&ouml;nnen, hat die vom TP eingesetzte Arbeitsgruppe (KuP, Internetdienste, Anwendungsbetreuung) auf der Basis des Kommunikationskonzepts die Anforderungen an ein technisches System analysiert. Dazu wurden die erhobenen Anforderungen strukturiert, klassifiziert und im Rahmen einer Anforderungsanalyse einer ersten Priorisierung unterzogen sowie in einem Katalog geb&uuml;ndelt. Der Anforderungskatalog beschreibt die technisch-organisatorischen Anforderungen aus funktionaler und nicht-funktionaler Sicht und ist damit die Grundlage f&uuml;r die Identifikation und Bewertung der technischen L&ouml;sungsalternativen. Anhand einer spezifischen Matrix wurden die technischen L&ouml;sungsalternativen auf ihre Vorteilhaftigkeit hin bewertet. Das ZUV-Intranet und das ZUV-Serviceportal sollen mit dem bestehenden CMS &bdquo;Fiona classic&ldquo; umgesetzt werden. Da die ZUV zwar ein eigenst&auml;ndiger Bereich innerhalb der LMU mit Alleinstellungsmerkmalen ist, dennoch aber in die Kommunikationsinfrastruktur der Gesamt-LMU eingebettet ist, wurde ein allgemeiner technischer und organisatorischer Rahmen definiert.  20151230230000   Auf Basis der o.g. konzeptionellen Vorarbeiten wurde der Projektrahmen abgesteckt und Projektphasen definiert. F&uuml;r die Projektumsetzung wird eine agile Vorgehensweise (iterativ, konzeptbegleitend) gew&auml;hlt. Aus diesem Grund k&ouml;nnen die einzelnen Projektphasen und Arbeitspakete auch zeitlich ineinander &uuml;bergreifen. Als Bearbeitungsformat sind vor allem Workshops der eingesetzten Arbeitsgruppen &ndash; unter Hinzuziehung relevanter ZUV-Einheiten &ndash; vorgesehen. \n  Phase 1: Design und Implementierung Content &amp; Function  \n \n AP 1 Content-Analyse \n AP 2 Rahmenvorgaben f&uuml;r Informationsarchitektur \n AP 3 Content Design &ndash; Detailkonzept Struktur und Funktionalit&auml;t \n AP 4 Web-Design \n AP 5 Umsetzung Dienstleistungsangebote \n AP 6 Organisations- und Rollenkonzept, Berechtigungen, CM-Prozesse \n \n  Phase 2: IT-Infrastruktur und Basisaktivit&auml;ten  \n \n AP 1 Umsetzung Rahmenkonzept \n AP 2 Interne Suche \n AP 3 Aufsetzen der Basis-Infrastuktur \n \n  Phase 3: Go-live-Vorbereitung  \n \n AP 1 Go-live Planung \n AP 2 Organisatorische Vorbereitung \n AP 3 Technische Vorbereitung \n AP 4 Qualit&auml;tssicherung und Freigabe \n AP 5 Schulung + Beratung \n \n  Phase 4: Go-live und stufenweiser Ausbau   L 20130731220000  Ziel des Projekts ist es, ein ZUV-Intranet f&uuml;r die Kommunikation innerhalb der ZUV sowie ein Serviceportal zur Darstellung der Dienstleistungen der ZUV f&uuml;r ihre Kunden innerhalb der LMU (exklusive Studierende) zu entwickeln. Damit sollen folgende Kommunikationsziele weitgehend erf&uuml;llt werden: \n Die interne Kommunikation erm&ouml;glicht die gezielte Steuerung, Vernetzung und Verbesserung von Arbeitsprozessen. \n \n Die interne Kommunikation erreicht alle Mitarbeiter, bringt sie auf einen besseren Informationsstand und steigert dadurch die Motivation. \n Die interne Kommunikation b&uuml;ndelt das Wissen der ZUV und macht es f&uuml;r alle verf&uuml;gbar. Alle k&ouml;nnen ihr Fachwissen unkompliziert einbringen. \n Die interne Kommunikation bietet neue Services und einen Mehrwert sowohl f&uuml;r die ZUV-Mitarbeiter als auch f&uuml;r die Kunden der ZUV. \n Es werden Werkzeuge implementiert, die den gegenseitigen Austausch der Mitarbeiter untereinander erm&ouml;glichen und die Zusammenarbeit erleichtern. \n Im Rahmen des Projekts werden tragf&auml;hige Organisationsstrukturen (Rollen, Funktionen und Workflows) sowohl f&uuml;r die Projekt- als und vor allem auch f&uuml;r die Betriebsphase definiert und mit VPV und DSL abgestimmt."
+        ],
+        "Type": "zuv_projekt",
+        "portal_type": "zuv_projekt",
+        "effective": "2015-04-30T11:51:14Z",
+        "created": "2015-04-30T11:51:14Z",
+        "modified": "2015-10-28T17:09:56Z",
+        "allowedRolesAndUsers": [
+          "user$test",
+          "user$ZUV-Intranet-Members"
+        ],
+        "context_path_string": "/wissen/projekte/zuv2015-tp-iuk/index.html",
+        "cms_system": "fiona",
+        "domain": [
+          "https://www.internet.verwaltung.uni-muenchen.de",
+          "https://iukintest.verwaltung.uni-muenchen.de"
+        ],
+        "nav_title": "Umsetzung ZUV-Intranet und Serviceportal",
+        "breadcrumb_parent_titles": [
+          "Umsetzung ZUV-Intranet und Serviceportal",
+          "Umsetzung ZUV-Intranet und Serviceportal",
+          "Umsetzung ZUV-Intranet und Serviceportal",
+          "Umsetzung ZUV-Intranet und Serviceportal"
+        ],
+        "SearchableText": [
+          "Vizepr&auml;sident Dr. Christoph M&uuml;lke   Im Rahmen des ZUV 2015-Teilprojekts &bdquo;Information und Kommunikation&ldquo; wurde ein Konzept f&uuml;r die Interne Kommunikation der ZUV entwickelt. Dieses skizziert ein ZUV-Intranet und ein ZUV-Serviceportal als zentrale Instrumente eines internen Kommunikationssystems auf inhaltlicher und technisch-organisatorischer Ebene. Die St&auml;rken von webbasierten internen Kommunikationsplattformen liegen in deren Flexibilit&auml;t und Aktualit&auml;t. Solche Plattformen bieten umf&auml;ngliche Informationen und unterst&uuml;tzen die Anforderungen an moderne kollaborative Arbeitsweisen. Zudem sollen &ndash; gem&auml;&szlig; diesem Konzept &ndash; Elemente der Leitungskommunikation mit denen der vernetzten Mitarbeiter-Kommunikation produktiv verbunden werden. Nur durch ein solches &bdquo;Doppelkonzept&ldquo; k&ouml;nnen die Anforderungen an eine zielgruppen- und kundenorientierte Kommunikation (ZUV f&uuml;r ZUV, ZUV f&uuml;r Kunden) umgesetzt werden. Hierf&uuml;r wurde ein ausf&uuml;hrliches Kommunikationskonzept erarbeitet. \n Um eine geeignete L&ouml;sung f&uuml;r die technische Umsetzung identifizieren zu k&ouml;nnen, hat die vom TP eingesetzte Arbeitsgruppe (KuP, Internetdienste, Anwendungsbetreuung) auf der Basis des Kommunikationskonzepts die Anforderungen an ein technisches System analysiert. Dazu wurden die erhobenen Anforderungen strukturiert, klassifiziert und im Rahmen einer Anforderungsanalyse einer ersten Priorisierung unterzogen sowie in einem Katalog geb&uuml;ndelt. Der Anforderungskatalog beschreibt die technisch-organisatorischen Anforderungen aus funktionaler und nicht-funktionaler Sicht und ist damit die Grundlage f&uuml;r die Identifikation und Bewertung der technischen L&ouml;sungsalternativen. Anhand einer spezifischen Matrix wurden die technischen L&ouml;sungsalternativen auf ihre Vorteilhaftigkeit hin bewertet. Das ZUV-Intranet und das ZUV-Serviceportal sollen mit dem bestehenden CMS &bdquo;Fiona classic&ldquo; umgesetzt werden. Da die ZUV zwar ein eigenst&auml;ndiger Bereich innerhalb der LMU mit Alleinstellungsmerkmalen ist, dennoch aber in die Kommunikationsinfrastruktur der Gesamt-LMU eingebettet ist, wurde ein allgemeiner technischer und organisatorischer Rahmen definiert.  20151230230000   Auf Basis der o.g. konzeptionellen Vorarbeiten wurde der Projektrahmen abgesteckt und Projektphasen definiert. F&uuml;r die Projektumsetzung wird eine agile Vorgehensweise (iterativ, konzeptbegleitend) gew&auml;hlt. Aus diesem Grund k&ouml;nnen die einzelnen Projektphasen und Arbeitspakete auch zeitlich ineinander &uuml;bergreifen. Als Bearbeitungsformat sind vor allem Workshops der eingesetzten Arbeitsgruppen &ndash; unter Hinzuziehung relevanter ZUV-Einheiten &ndash; vorgesehen. \n  Phase 1: Design und Implementierung Content &amp; Function  \n \n AP 1 Content-Analyse \n AP 2 Rahmenvorgaben f&uuml;r Informationsarchitektur \n AP 3 Content Design &ndash; Detailkonzept Struktur und Funktionalit&auml;t \n AP 4 Web-Design \n AP 5 Umsetzung Dienstleistungsangebote \n AP 6 Organisations- und Rollenkonzept, Berechtigungen, CM-Prozesse \n \n  Phase 2: IT-Infrastruktur und Basisaktivit&auml;ten  \n \n AP 1 Umsetzung Rahmenkonzept \n AP 2 Interne Suche \n AP 3 Aufsetzen der Basis-Infrastuktur \n \n  Phase 3: Go-live-Vorbereitung  \n \n AP 1 Go-live Planung \n AP 2 Organisatorische Vorbereitung \n AP 3 Technische Vorbereitung \n AP 4 Qualit&auml;tssicherung und Freigabe \n AP 5 Schulung + Beratung \n \n  Phase 4: Go-live und stufenweiser Ausbau   L 20130731220000  Ziel des Projekts ist es, ein ZUV-Intranet f&uuml;r die Kommunikation innerhalb der ZUV sowie ein Serviceportal zur Darstellung der Dienstleistungen der ZUV f&uuml;r ihre Kunden innerhalb der LMU (exklusive Studierende) zu entwickeln. Damit sollen folgende Kommunikationsziele weitgehend erf&uuml;llt werden: \n Die interne Kommunikation erm&ouml;glicht die gezielte Steuerung, Vernetzung und Verbesserung von Arbeitsprozessen. \n \n Die interne Kommunikation erreicht alle Mitarbeiter, bringt sie auf einen besseren Informationsstand und steigert dadurch die Motivation. \n Die interne Kommunikation b&uuml;ndelt das Wissen der ZUV und macht es f&uuml;r alle verf&uuml;gbar. Alle k&ouml;nnen ihr Fachwissen unkompliziert einbringen. \n Die interne Kommunikation bietet neue Services und einen Mehrwert sowohl f&uuml;r die ZUV-Mitarbeiter als auch f&uuml;r die Kunden der ZUV. \n Es werden Werkzeuge implementiert, die den gegenseitigen Austausch der Mitarbeiter untereinander erm&ouml;glichen und die Zusammenarbeit erleichtern. \n Im Rahmen des Projekts werden tragf&auml;hige Organisationsstrukturen (Rollen, Funktionen und Workflows) sowohl f&uuml;r die Projekt- als und vor allem auch f&uuml;r die Betriebsphase definiert und mit VPV und DSL abgestimmt."
+        ],
+        "_version_": 1518627366793904128,
+        "expires": "2499-12-30T23:00:00Z",
+        "review_state": "Published",
+        "Language": "de",
+        "showinsearch": true
+      },
+      {
+        "UID": "EC04B832425DFEEA8974796D4CABFFA3",
+        "path_string": "/30_zentralbereich/30zb_zuv-intranet/aktuelles/alle-news/2015-news/wissenswertes_intranet/index.html",
+        "path_depth": 6,
+        "path_parents": [
+          "/30_zentralbereich",
+          "/30_zentralbereich/30zb_zuv-intranet",
+          "/30_zentralbereich/30zb_zuv-intranet/aktuelles",
+          "/30_zentralbereich/30zb_zuv-intranet/aktuelles/alle-news",
+          "/30_zentralbereich/30zb_zuv-intranet/aktuelles/alle-news/2015-news",
+          "/30_zentralbereich/30zb_zuv-intranet/aktuelles/alle-news/2015-news/wissenswertes_intranet"
+        ],
+        "Title": "Wissenswertes zum ZUV-Intranet",
+        "default": [
+          "Wissenswertes zum ZUV-Intranet",
+          "Tipps & Informationen 20151021220000 Herzlich willkommen im neuen ZUV-Intranet! Im Folgenden haben wir für Sie wichtige Informationen rund um die Nutzung des neuen Intranets zusammengestellt – damit Sie sich schnell und unkompliziert zurechtfinden."
+        ],
+        "Type": "zuv_meldung",
+        "portal_type": "zuv_meldung",
+        "effective": "2015-10-15T11:28:04Z",
+        "created": "2015-10-15T11:28:04Z",
+        "modified": "2015-11-04T09:19:34Z",
+        "allowedRolesAndUsers": [
+          "user$ZUV-Intranet-Members",
+          "user$test"
+        ],
+        "context_path_string": "/aktuelles/alle-news/2015-news/wissenswertes_intranet/index.html",
+        "cms_system": "fiona",
+        "domain": [
+          "https://www.internet.verwaltung.uni-muenchen.de",
+          "https://iukintest.verwaltung.uni-muenchen.de"
+        ],
+        "nav_title": "Wissenswertes zum ZUV-Intranet",
+        "breadcrumb_parent_titles": [
+          "Wissenswertes zum ZUV-Intranet",
+          "Wissenswertes zum ZUV-Intranet",
+          "Wissenswertes zum ZUV-Intranet",
+          "Wissenswertes zum ZUV-Intranet",
+          "Wissenswertes zum ZUV-Intranet"
+        ],
+        "SearchableText": [
+          "Tipps & Informationen 20151021220000 Herzlich willkommen im neuen ZUV-Intranet! Im Folgenden haben wir für Sie wichtige Informationen rund um die Nutzung des neuen Intranets zusammengestellt – damit Sie sich schnell und unkompliziert zurechtfinden."
+        ],
+        "_version_": 1518645605319049216,
+        "expires": "2499-12-30T23:00:00Z",
+        "review_state": "Published",
+        "Language": "de",
+        "showinsearch": true
+      },
+      {
+        "UID": "FFFB1B91B9FBC6C913BD1ADA37228F2D",
+        "path_string": "/30_zentralbereich/30zb_zuv-intranet/services/_ich-moechte/task_mitarbeiter_einstellen/personalgewinnung/index.html",
+        "path_depth": 6,
+        "path_parents": [
+          "/30_zentralbereich",
+          "/30_zentralbereich/30zb_zuv-intranet",
+          "/30_zentralbereich/30zb_zuv-intranet/services",
+          "/30_zentralbereich/30zb_zuv-intranet/services/_ich-moechte",
+          "/30_zentralbereich/30zb_zuv-intranet/services/_ich-moechte/task_mitarbeiter_einstellen",
+          "/30_zentralbereich/30zb_zuv-intranet/services/_ich-moechte/task_mitarbeiter_einstellen/personalgewinnung"
+        ],
+        "Title": "Personalgewinnung",
+        "default": [
+          "Personalgewinnung",
+          "[ZUV-Intranet Version]",
+          "[ZUV-Intranet Version]"
+        ],
+        "Type": "zuv_service",
+        "portal_type": "zuv_service",
+        "effective": "2015-06-15T16:25:48Z",
+        "created": "2015-06-15T16:25:48Z",
+        "modified": "2015-06-18T08:11:42Z",
+        "allowedRolesAndUsers": [
+          "user$test",
+          "user$ZUV-Intranet-Members"
+        ],
+        "context_path_string": "/services/_ich-moechte/task_mitarbeiter_einstellen/personalgewinnung/index.html",
+        "cms_system": "fiona",
+        "domain": [
+          "https://www.internet.verwaltung.uni-muenchen.de",
+          "https://iukintest.verwaltung.uni-muenchen.de"
+        ],
+        "Description": "[ZUV-Intranet Version]",
+        "nav_title": "Personalgewinnung",
+        "breadcrumb_parent_titles": [
+          "Personalgewinnung",
+          "Personalgewinnung",
+          "Personalgewinnung",
+          "Personalgewinnung",
+          "Personalgewinnung"
+        ],
+        "SearchableText": [
+          "[ZUV-Intranet Version]"
+        ],
+        "_version_": 1518647307828985856,
+        "expires": "2499-12-30T23:00:00Z",
+        "review_state": "Published",
+        "Language": "de",
+        "showinsearch": true
+      },
+      {
+        "UID": "CB94AD019DD537C385F57F302A4BDF14",
+        "path_string": "/30_zentralbereich/30zb_zuv-intranet/services/_ich-moechte/arbeitsplatzwechsel/desktop-management/index.html",
+        "path_depth": 6,
+        "path_parents": [
+          "/30_zentralbereich",
+          "/30_zentralbereich/30zb_zuv-intranet",
+          "/30_zentralbereich/30zb_zuv-intranet/services",
+          "/30_zentralbereich/30zb_zuv-intranet/services/_ich-moechte",
+          "/30_zentralbereich/30zb_zuv-intranet/services/_ich-moechte/arbeitsplatzwechsel",
+          "/30_zentralbereich/30zb_zuv-intranet/services/_ich-moechte/arbeitsplatzwechsel/desktop-management"
+        ],
+        "Title": "Desktop Management",
+        "default": [
+          "Desktop Management",
+          "[ZUV-Intranet Service]",
+          "[ZUV-Intranet Service]"
+        ],
+        "Type": "zuv_service",
+        "portal_type": "zuv_service",
+        "effective": "2015-06-18T07:30:15Z",
+        "created": "2015-06-18T07:30:15Z",
+        "modified": "2015-07-07T09:29:06Z",
+        "allowedRolesAndUsers": [
+          "user$test",
+          "user$ZUV-Intranet-Members"
+        ],
+        "context_path_string": "/services/_ich-moechte/arbeitsplatzwechsel/desktop-management/index.html",
+        "cms_system": "fiona",
+        "domain": [
+          "https://www.internet.verwaltung.uni-muenchen.de",
+          "https://iukintest.verwaltung.uni-muenchen.de"
+        ],
+        "Description": "[ZUV-Intranet Service]",
+        "SearchableText": [
+          "[ZUV-Intranet Service]"
+        ],
+        "_version_": 1518647308145655808,
+        "expires": "2499-12-30T23:00:00Z",
+        "review_state": "Published",
+        "Language": "de",
+        "showinsearch": true
+      },
+      {
+        "UID": "021AD13B520FEFCEDC1EDB1DEB9F8181",
+        "path_string": "/30_zentralbereich/30zb_zuv-intranet/services/personalgewinnung-_zuv/index.html",
+        "path_depth": 4,
+        "path_parents": [
+          "/30_zentralbereich",
+          "/30_zentralbereich/30zb_zuv-intranet",
+          "/30_zentralbereich/30zb_zuv-intranet/services",
+          "/30_zentralbereich/30zb_zuv-intranet/services/personalgewinnung-_zuv"
+        ],
+        "Title": "Personalgewinnung",
+        "default": [
+          "Personalgewinnung",
+          "Zu den meisten unserer 250 Services, die Sie in Intranet und Serviceportal künftig abrufen können, haben wir bereits ausführliche Informationen hinterlegt. Bis Ende des Jahres arbeiten wir mit Hochdruck daran, dass wir auch die noch ausstehenden Inhalte für Sie zusammenstellen.  \n\nAuch an diesem Service arbeiten wir noch und werden die Informationen hier in Kürze freischalten. Bitte haben Sie noch etwas Geduld.  \n",
+          "Zu den meisten unserer 250 Services, die Sie in Intranet und Serviceportal künftig abrufen können, haben wir bereits ausführliche Informationen hinterlegt. Bis Ende des Jahres arbeiten wir mit Hochdruck daran, dass wir auch die noch ausstehenden Inhalte für Sie zusammenstellen.  \n\nAuch an diesem Service arbeiten wir noch und werden die Informationen hier in Kürze freischalten. Bitte haben Sie noch etwas Geduld."
+        ],
+        "Type": "zuv_service",
+        "portal_type": "zuv_service",
+        "effective": "2015-10-19T14:31:00Z",
+        "created": "2015-10-19T14:31:00Z",
+        "modified": "2015-10-20T08:01:00Z",
+        "allowedRolesAndUsers": [
+          "user$ZUV-Intranet-Members",
+          "user$test"
+        ],
+        "context_path_string": "/services/personalgewinnung-_zuv/index.html",
+        "cms_system": "fiona",
+        "domain": [
+          "https://www.internet.verwaltung.uni-muenchen.de",
+          "https://iukintest.verwaltung.uni-muenchen.de"
+        ],
+        "Description": "Zu den meisten unserer 250 Services, die Sie in Intranet und Serviceportal künftig abrufen können, haben wir bereits ausführliche Informationen hinterlegt. Bis Ende des Jahres arbeiten wir mit Hochdruck daran, dass wir auch die noch ausstehenden Inhalte für Sie zusammenstellen.  \n\nAuch an diesem Service arbeiten wir noch und werden die Informationen hier in Kürze freischalten. Bitte haben Sie noch etwas Geduld.  \n",
+        "nav_title": "Personalgewinnung",
+        "breadcrumb_parent_titles": [
+          "ZUV-Intranet"
+        ],
+        "SearchableText": [
+          "Zu den meisten unserer 250 Services, die Sie in Intranet und Serviceportal künftig abrufen können, haben wir bereits ausführliche Informationen hinterlegt. Bis Ende des Jahres arbeiten wir mit Hochdruck daran, dass wir auch die noch ausstehenden Inhalte für Sie zusammenstellen.  \n\nAuch an diesem Service arbeiten wir noch und werden die Informationen hier in Kürze freischalten. Bitte haben Sie noch etwas Geduld."
+        ],
+        "_version_": 1518734436372316160,
+        "expires": "2499-12-30T23:00:00Z",
+        "review_state": "Published",
+        "Language": "de",
+        "showinsearch": true
+      },
+      {
+        "UID": "624D4278C7ABEE26FFB49FF712A6D625",
+        "path_string": "/30_zentralbereich/30zb_zuv-intranet/services/_ich-moechte/task_mitarbeiter_einstellen/personaleinstellung_tarif/index.html",
+        "path_depth": 6,
+        "path_parents": [
+          "/30_zentralbereich",
+          "/30_zentralbereich/30zb_zuv-intranet",
+          "/30_zentralbereich/30zb_zuv-intranet/services",
+          "/30_zentralbereich/30zb_zuv-intranet/services/_ich-moechte",
+          "/30_zentralbereich/30zb_zuv-intranet/services/_ich-moechte/task_mitarbeiter_einstellen",
+          "/30_zentralbereich/30zb_zuv-intranet/services/_ich-moechte/task_mitarbeiter_einstellen/personaleinstellung_tarif"
+        ],
+        "Title": "Personaleinstellung Tarifbeschäftigte",
+        "default": [
+          "Personaleinstellung Tarifbeschäftigte",
+          "[ZUV-Intranet Version]",
+          "[ZUV-Intranet Version]"
+        ],
+        "Type": "zuv_service",
+        "portal_type": "zuv_service",
+        "effective": "2015-06-15T16:24:43Z",
+        "created": "2015-06-15T16:24:43Z",
+        "modified": "2015-06-18T08:11:41Z",
+        "allowedRolesAndUsers": [
+          "user$test",
+          "user$ZUV-Intranet-Members"
+        ],
+        "context_path_string": "/services/_ich-moechte/task_mitarbeiter_einstellen/personaleinstellung_tarif/index.html",
+        "cms_system": "fiona",
+        "domain": [
+          "https://www.internet.verwaltung.uni-muenchen.de",
+          "https://iukintest.verwaltung.uni-muenchen.de"
+        ],
+        "Description": "[ZUV-Intranet Version]",
+        "nav_title": "Personaleinstellung Tarifbeschäftigte",
+        "breadcrumb_parent_titles": [
+          "ZUV-Intranet"
+        ],
+        "SearchableText": [
+          "[ZUV-Intranet Version]"
+        ],
+        "_version_": 1518734449763680256,
+        "expires": "2499-12-30T23:00:00Z",
+        "review_state": "Published",
+        "Language": "de",
+        "showinsearch": true
+      },
+      {
+        "UID": "B988C4764D41D9CDB4E29588AC428C1A",
+        "path_string": "/30_zentralbereich/30zb_lmu-intern/_alte-kategorien/mitarbeiter/index.html#goto656877",
+        "path_depth": 4,
+        "path_parents": [
+          "/30_zentralbereich",
+          "/30_zentralbereich/30zb_lmu-intern",
+          "/30_zentralbereich/30zb_lmu-intern/_alte-kategorien",
+          "/30_zentralbereich/30zb_lmu-intern/_alte-kategorien/mitarbeiter"
+        ],
+        "Title": "ZUV-Intranet",
+        "default": [
+          "ZUV-Intranet"
+        ],
+        "Type": "zuv_baukasten",
+        "portal_type": "zuv_baukasten",
+        "effective": "2015-06-17T09:37:46Z",
+        "created": "2015-06-17T09:37:46Z",
+        "modified": "2015-09-24T13:56:17Z",
+        "context_path_string": "/_alte-kategorien/mitarbeiter/zuv.html",
+        "cms_system": "fiona",
+        "nav_title": "ZUV-Intranet",
+        "breadcrumb_parent_titles": [
+          "3925",
+          "623720",
+          "922275",
+          "656867"
+        ],
+        "_version_": 1518286594742681600,
+        "expires": "2499-12-30T23:00:00Z",
+        "review_state": "Published",
+        "allowedRolesAndUsers": [
+          "Anonymous"
+        ],
+        "Language": "de",
+        "showinsearch": true
+      },
+      {
+        "UID": "F4BFBF60E87891516ECAC8B9C9EC3BBB",
+        "path_string": "/30_zentralbereich/30zb_lmu-intern/angebote-beschreibung/zuv/index.html",
+        "path_depth": 4,
+        "path_parents": [
+          "/30_zentralbereich",
+          "/30_zentralbereich/30zb_lmu-intern",
+          "/30_zentralbereich/30zb_lmu-intern/angebote-beschreibung",
+          "/30_zentralbereich/30zb_lmu-intern/angebote-beschreibung/zuv"
+        ],
+        "Title": "ZUV-Intranet",
+        "default": [
+          "ZUV-Intranet"
+        ],
+        "Type": "zuv_baukasten",
+        "portal_type": "zuv_baukasten",
+        "effective": "2015-09-11T13:34:10Z",
+        "created": "2015-09-11T13:34:10Z",
+        "modified": "2015-09-24T10:39:45Z",
+        "context_path_string": "/angebote-beschreibung/zuv/index.html",
+        "cms_system": "fiona",
+        "nav_title": "ZUV-Intranet",
+        "breadcrumb_parent_titles": [
+          "3925",
+          "623720",
+          "658008"
+        ],
+        "_version_": 1518286692879958016,
+        "expires": "2499-12-30T23:00:00Z",
+        "review_state": "Published",
+        "allowedRolesAndUsers": [
+          "Anonymous"
+        ],
+        "Language": "de",
+        "showinsearch": true
+      },
+      {
+        "UID": "89CBFC674F874886E1DE0F016D6668E0",
+        "path_string": "/30_zentralbereich/30zb_lmu-intern/angebote-uebersicht/index.html#goto921583",
+        "path_depth": 3,
+        "path_parents": [
+          "/30_zentralbereich",
+          "/30_zentralbereich/30zb_lmu-intern",
+          "/30_zentralbereich/30zb_lmu-intern/angebote-uebersicht"
+        ],
+        "Title": "ZUV-Intranet",
+        "default": [
+          "ZUV-Intranet"
+        ],
+        "Type": "zuv_baukasten",
+        "portal_type": "zuv_baukasten",
+        "effective": "2015-06-17T09:37:46Z",
+        "created": "2015-06-17T09:37:46Z",
+        "modified": "2015-11-17T15:23:07Z",
+        "context_path_string": "/angebote-uebersicht/zuv.html",
+        "cms_system": "fiona",
+        "nav_title": "ZUV-Intranet",
+        "breadcrumb_parent_titles": [
+          "ZUV-Intranet",
+          "ZUV-Intranet",
+          "ZUV-Intranet"
+        ],
+        "_version_": 1518632863709265920,
+        "expires": "2499-12-30T23:00:00Z",
+        "review_state": "Published",
+        "allowedRolesAndUsers": [
+          "Anonymous"
+        ],
+        "Language": "de",
+        "showinsearch": true
+      },
+      {
+        "UID": "995AC8C0D89AF7A8D126FC4140EB06ED",
+        "path_string": "/30_zentralbereich/30zb_zuv-intranet/aktuelles/alle-news/2015-news/gewinner_quiz/index.html",
+        "path_depth": 6,
+        "path_parents": [
+          "/30_zentralbereich",
+          "/30_zentralbereich/30zb_zuv-intranet",
+          "/30_zentralbereich/30zb_zuv-intranet/aktuelles",
+          "/30_zentralbereich/30zb_zuv-intranet/aktuelles/alle-news",
+          "/30_zentralbereich/30zb_zuv-intranet/aktuelles/alle-news/2015-news",
+          "/30_zentralbereich/30zb_zuv-intranet/aktuelles/alle-news/2015-news/gewinner_quiz"
+        ],
+        "Title": "Gewonnen haben…",
+        "default": [
+          "Gewonnen haben…",
+          "ZUV-Intranet-Quiz 20151111130000"
+        ],
+        "Type": "zuv_meldung",
+        "portal_type": "zuv_meldung",
+        "effective": "2015-10-08T14:38:08Z",
+        "created": "2015-10-08T14:38:08Z",
+        "modified": "2015-11-11T07:42:46Z",
+        "allowedRolesAndUsers": [
+          "user$ZUV-Intranet-Members",
+          "user$test"
+        ],
+        "context_path_string": "/aktuelles/alle-news/2015-news/gewinner_quiz/index.html",
+        "cms_system": "fiona",
+        "domain": [
+          "https://www.internet.verwaltung.uni-muenchen.de",
+          "https://iukintest.verwaltung.uni-muenchen.de"
+        ],
+        "nav_title": "ZUV-Intranet-Quiz",
+        "breadcrumb_parent_titles": [
+          "ZUV-Intranet-Quiz",
+          "ZUV-Intranet-Quiz",
+          "ZUV-Intranet-Quiz",
+          "ZUV-Intranet-Quiz",
+          "ZUV-Intranet-Quiz"
+        ],
+        "SearchableText": [
+          "ZUV-Intranet-Quiz 20151111130000"
+        ],
+        "_version_": 1518645482648240128,
+        "expires": "2499-12-30T23:00:00Z",
+        "review_state": "Published",
+        "Language": "de",
+        "showinsearch": true
+      },
+      {
+        "UID": "957B81C39CB96627514203E0C96C8E98",
+        "path_string": "/30_zentralbereich/30zb_zuv-intranet/aktuelles/alle-news/2015-news/bitte-geduld/index.html",
+        "path_depth": 6,
+        "path_parents": [
+          "/30_zentralbereich",
+          "/30_zentralbereich/30zb_zuv-intranet",
+          "/30_zentralbereich/30zb_zuv-intranet/aktuelles",
+          "/30_zentralbereich/30zb_zuv-intranet/aktuelles/alle-news",
+          "/30_zentralbereich/30zb_zuv-intranet/aktuelles/alle-news/2015-news",
+          "/30_zentralbereich/30zb_zuv-intranet/aktuelles/alle-news/2015-news/bitte-geduld"
+        ],
+        "Title": "Haben Sie bitte noch ein wenig Geduld!",
+        "default": [
+          "Haben Sie bitte noch ein wenig Geduld!",
+          "Intranet und Serviceportal 20151008120000"
+        ],
+        "Type": "zuv_meldung",
+        "portal_type": "zuv_meldung",
+        "effective": "2015-10-08T14:38:08Z",
+        "created": "2015-10-08T14:38:08Z",
+        "modified": "2015-11-12T08:37:56Z",
+        "allowedRolesAndUsers": [
+          "user$test",
+          "user$ZUV-Intranet-Members"
+        ],
+        "context_path_string": "/aktuelles/alle-news/2015-news/bitte-geduld/index.html",
+        "cms_system": "fiona",
+        "domain": [
+          "https://www.internet.verwaltung.uni-muenchen.de",
+          "https://iukintest.verwaltung.uni-muenchen.de"
+        ],
+        "nav_title": "Haben Sie bitte noch ein wenig Geduld!",
+        "breadcrumb_parent_titles": [
+          "Haben Sie bitte noch ein wenig Geduld!",
+          "Haben Sie bitte noch ein wenig Geduld!",
+          "Haben Sie bitte noch ein wenig Geduld!",
+          "Haben Sie bitte noch ein wenig Geduld!",
+          "Haben Sie bitte noch ein wenig Geduld!"
+        ],
+        "SearchableText": [
+          "Intranet und Serviceportal 20151008120000"
+        ],
+        "_version_": 1518645524718157824,
+        "expires": "2499-12-30T23:00:00Z",
+        "review_state": "Published",
+        "Language": "de",
+        "showinsearch": true
+      },
+      {
+        "UID": "FE410E6245500635823F96748F08ABC4",
+        "path_string": "/30_zentralbereich/30zb_zuv-intranet/aktuelles/alle-news/2015-news/willkommen/index.html",
+        "path_depth": 6,
+        "path_parents": [
+          "/30_zentralbereich",
+          "/30_zentralbereich/30zb_zuv-intranet",
+          "/30_zentralbereich/30zb_zuv-intranet/aktuelles",
+          "/30_zentralbereich/30zb_zuv-intranet/aktuelles/alle-news",
+          "/30_zentralbereich/30zb_zuv-intranet/aktuelles/alle-news/2015-news",
+          "/30_zentralbereich/30zb_zuv-intranet/aktuelles/alle-news/2015-news/willkommen"
+        ],
+        "Title": "Willkommen im ZUV-Intranet",
+        "default": [
+          "Willkommen im ZUV-Intranet",
+          "Der Vizepräsident informiert 20151022070000"
+        ],
+        "Type": "zuv_meldung",
+        "portal_type": "zuv_meldung",
+        "effective": "2015-10-06T12:16:05Z",
+        "created": "2015-10-06T12:16:05Z",
+        "modified": "2015-10-22T09:43:07Z",
+        "allowedRolesAndUsers": [
+          "user$test",
+          "user$ZUV-Intranet-Members"
+        ],
+        "context_path_string": "/aktuelles/alle-news/2015-news/willkommen/index.html",
+        "cms_system": "fiona",
+        "domain": [
+          "https://www.internet.verwaltung.uni-muenchen.de",
+          "https://iukintest.verwaltung.uni-muenchen.de"
+        ],
+        "nav_title": "Willkommen im ZUV-Intranet",
+        "breadcrumb_parent_titles": [
+          "Willkommen im ZUV-Intranet",
+          "Willkommen im ZUV-Intranet",
+          "Willkommen im ZUV-Intranet",
+          "Willkommen im ZUV-Intranet",
+          "Willkommen im ZUV-Intranet"
+        ],
+        "SearchableText": [
+          "Der Vizepräsident informiert 20151022070000"
+        ],
+        "_version_": 1518645548663439360,
+        "expires": "2499-12-30T23:00:00Z",
+        "review_state": "Published",
+        "Language": "de",
+        "showinsearch": true
+      },
+      {
+        "UID": "60544E4597A745B5380FD4E2F7FB50FC",
+        "path_string": "/30_zentralbereich/30zb_zuv-serviceportal/services/it/zuv-basisdienste/mobile-geraete/index.html",
+        "path_depth": 6,
+        "path_parents": [
+          "/30_zentralbereich",
+          "/30_zentralbereich/30zb_zuv-serviceportal",
+          "/30_zentralbereich/30zb_zuv-serviceportal/services",
+          "/30_zentralbereich/30zb_zuv-serviceportal/services/it",
+          "/30_zentralbereich/30zb_zuv-serviceportal/services/it/zuv-basisdienste",
+          "/30_zentralbereich/30zb_zuv-serviceportal/services/it/zuv-basisdienste/mobile-geraete"
+        ],
+        "Title": "Mobile Geräte (Notebooks, Smartphones, Tablets)",
+        "default": [
+          "Mobile Geräte (Notebooks, Smartphones, Tablets)",
+          "Damit Sie auch außerhalb des Verwaltungsnetzes nicht auf Ihre digitalen Hilfsmittel und auf wichtige Informationen verzichten müssen, halten wir für die unterschiedlichsten Einsatzszenarien geeignete Mobilgeräte für Sie bereit. Das Spektrum reicht dabei von Smartphones in verschiedenen Größen über Tablets bis hin zu Notebooks.",
+          "Damit Sie auch außerhalb des Verwaltungsnetzes nicht auf Ihre digitalen Hilfsmittel und auf wichtige Informationen verzichten müssen, halten wir für die unterschiedlichsten Einsatzszenarien geeignete Mobilgeräte für Sie bereit. Das Spektrum reicht dabei von Smartphones in verschiedenen Größen über Tablets bis hin zu Notebooks.  Mit dem  Smartphone/Tablet k&ouml;nnen  Sie telefonieren, im Internet surfen sowie auf Ihre Mailbox im Verwaltungsnetz zugreifen. Die Mobilger&auml;te werden vom Benutzerservice mit grundlegenden Apps vorkonfiguriert und &uuml;ber ein zentrales System gemanagt, um das erforderliche Sicherheitsniveau zu gew&auml;hrleisten. \n Die  Notebooks  bieten denselben Installationsumfang wie die Arbeitsplatzrechner im Verwaltungsnetz, d&uuml;rfen aber aus Sicherheitsgr&uuml;nden nicht an dieses angeschlossen werden. Die Mailbox im Verwaltungsnetz l&auml;sst sich weltweit mit  Outlook Web App (OWA)  &uuml;ber den integrierten Web-Browser nutzen. \n F&uuml;r den Synchronisation von Daten zwischen den Mobilger&auml;ten und dem Verwaltungsnetz wird in der  ZUV-Cloud  ein eigener Online-Speicher vorgehalten, auf den von beiden Seiten aus zugegriffen werden kann. \n  Neuigkeiten  zu diesem Bereich kommunizieren wir &uuml;ber einen eigenen Newsletter, der in unregelm&auml;&szlig;igen Abst&auml;nden erscheint und an alle Nutzer eines Mobilger&auml;ts verschickt wird. Alle bisher erschienenen Ausgaben finden Sie im ZUV-Intranet&nbsp;in unserem  Newsletter-Archiv . \n Dar&uuml;ber hinaus haben wir Ihnen eine kleine  Video-Sammlung  mit Anleitungen zusammengestellt."
+        ],
+        "Type": "zuv_service",
+        "portal_type": "zuv_service",
+        "effective": "2015-09-15T15:38:00Z",
+        "created": "2015-09-15T15:38:00Z",
+        "modified": "2015-10-28T15:46:33Z",
+        "allowedRolesAndUsers": [
+          "user$test",
+          "user$ZUV-Serviceportal-Members"
+        ],
+        "context_path_string": "/services/it/zuv-basisdienste/mobile-geraete/index.html",
+        "cms_system": "fiona",
+        "domain": [
+          "https://www.serviceportal.verwaltung.uni-muenchen.de",
+          "https://iuksptest.verwaltung.uni-muenchen.de"
+        ],
+        "Description": "Damit Sie auch außerhalb des Verwaltungsnetzes nicht auf Ihre digitalen Hilfsmittel und auf wichtige Informationen verzichten müssen, halten wir für die unterschiedlichsten Einsatzszenarien geeignete Mobilgeräte für Sie bereit. Das Spektrum reicht dabei von Smartphones in verschiedenen Größen über Tablets bis hin zu Notebooks.",
+        "nav_title": "Mobile Geräte",
+        "breadcrumb_parent_titles": [
+          "Mobile Geräte",
+          "Mobile Geräte",
+          "Mobile Geräte",
+          "Mobile Geräte",
+          "Mobile Geräte"
+        ],
+        "SearchableText": [
+          "Damit Sie auch außerhalb des Verwaltungsnetzes nicht auf Ihre digitalen Hilfsmittel und auf wichtige Informationen verzichten müssen, halten wir für die unterschiedlichsten Einsatzszenarien geeignete Mobilgeräte für Sie bereit. Das Spektrum reicht dabei von Smartphones in verschiedenen Größen über Tablets bis hin zu Notebooks.  Mit dem  Smartphone/Tablet k&ouml;nnen  Sie telefonieren, im Internet surfen sowie auf Ihre Mailbox im Verwaltungsnetz zugreifen. Die Mobilger&auml;te werden vom Benutzerservice mit grundlegenden Apps vorkonfiguriert und &uuml;ber ein zentrales System gemanagt, um das erforderliche Sicherheitsniveau zu gew&auml;hrleisten. \n Die  Notebooks  bieten denselben Installationsumfang wie die Arbeitsplatzrechner im Verwaltungsnetz, d&uuml;rfen aber aus Sicherheitsgr&uuml;nden nicht an dieses angeschlossen werden. Die Mailbox im Verwaltungsnetz l&auml;sst sich weltweit mit  Outlook Web App (OWA)  &uuml;ber den integrierten Web-Browser nutzen. \n F&uuml;r den Synchronisation von Daten zwischen den Mobilger&auml;ten und dem Verwaltungsnetz wird in der  ZUV-Cloud  ein eigener Online-Speicher vorgehalten, auf den von beiden Seiten aus zugegriffen werden kann. \n  Neuigkeiten  zu diesem Bereich kommunizieren wir &uuml;ber einen eigenen Newsletter, der in unregelm&auml;&szlig;igen Abst&auml;nden erscheint und an alle Nutzer eines Mobilger&auml;ts verschickt wird. Alle bisher erschienenen Ausgaben finden Sie im ZUV-Intranet&nbsp;in unserem  Newsletter-Archiv . \n Dar&uuml;ber hinaus haben wir Ihnen eine kleine  Video-Sammlung  mit Anleitungen zusammengestellt."
+        ],
+        "_version_": 1518650382055636992,
+        "expires": "2499-12-30T23:00:00Z",
+        "review_state": "Published",
+        "Language": "de",
+        "showinsearch": true
+      },
+      {
+        "UID": "FCF6CC7E46F6E4887FC0CE021C975F75",
+        "path_string": "/30_zentralbereich/30zb_zuv-serviceportal/services/it/zuv-basisdienste/zuv-benutzerkennung/index.html",
+        "path_depth": 6,
+        "path_parents": [
+          "/30_zentralbereich",
+          "/30_zentralbereich/30zb_zuv-serviceportal",
+          "/30_zentralbereich/30zb_zuv-serviceportal/services",
+          "/30_zentralbereich/30zb_zuv-serviceportal/services/it",
+          "/30_zentralbereich/30zb_zuv-serviceportal/services/it/zuv-basisdienste",
+          "/30_zentralbereich/30zb_zuv-serviceportal/services/it/zuv-basisdienste/zuv-benutzerkennung"
+        ],
+        "Title": "ZUV-Benutzerkennung",
+        "default": [
+          "ZUV-Benutzerkennung",
+          "Voraussetzung für den Zugriff auf die Dienste des Verwaltungsnetzes ist ein eigener Account (gebildet aus Benutzername und Passwort) . Dieser Account wird i. d. R. von Ihrem Vorgesetzen beantragt und vom Benutzerservice so eingerichtet, dass Sie an Ihrem ersten Arbeitstag sofort davon Gebrauch machen können. Ihre ZUV-Benutzerkennung wird Ihnen im Rahmen der Erstanmeldung mitgeteilt, bei der Sie eine kurze Einführung zum Verwaltungsnetz erhalten.  Falls sich z. B. Änderungen an den Daten ergeben, die zusammen mit Ihrer ZUV-Benutzerkennung gespeichert sind (z. B. Dienststelle, Adresse, etc.), erfahren Sie im Folgenden, wie Sie uns diese schnell und unkompliziert mitteilen können bzw. an wen Sie sich bei Fragen im Zusammenhang mit Ihrer ZUV-Benutzerkennung wenden können.",
+          "Voraussetzung für den Zugriff auf die Dienste des Verwaltungsnetzes ist ein eigener Account (gebildet aus Benutzername und Passwort) . Dieser Account wird i. d. R. von Ihrem Vorgesetzen beantragt und vom Benutzerservice so eingerichtet, dass Sie an Ihrem ersten Arbeitstag sofort davon Gebrauch machen können. Ihre ZUV-Benutzerkennung wird Ihnen im Rahmen der Erstanmeldung mitgeteilt, bei der Sie eine kurze Einführung zum Verwaltungsnetz erhalten.  Falls sich z. B. Änderungen an den Daten ergeben, die zusammen mit Ihrer ZUV-Benutzerkennung gespeichert sind (z. B. Dienststelle, Adresse, etc.), erfahren Sie im Folgenden, wie Sie uns diese schnell und unkompliziert mitteilen können bzw. an wen Sie sich bei Fragen im Zusammenhang mit Ihrer ZUV-Benutzerkennung wenden können.  Damit Sie nicht mit verschiedenen Passw&ouml;rtern hantieren m&uuml;ssen, sind die meisten Dienste im Verwaltungsnetz so konfiguriert, dass sie sich durchg&auml;ngig mit dem ZUV-Account ausweisen k&ouml;nnen ( Single-Sign-On ) bzw. die Anmeldung komfortabel im Hintergrund erfolgt. \n Neben den Account-Daten sind in einer zentralen Datenbank (Verzeichnisdienst) weitere Informationen zu Ihrer Person hinterlegt, aus denen dann wieder andere Dienste gespeist werden, z. B. das globale Adressbuch in Outlook. Damit die Informationen immer aktuell sind, m&uuml;ssen uns &Auml;nderungen (bei Eintritt/Ausscheiden eines Mitarbeiters, Wechsel der Dienststelle, Umzug etc.) rechtzeitig gemeldet werden. Benutzen Sie hierf&uuml;r bitte&nbsp;das jeweilige  Online-Formular&nbsp;f&uuml;r &Auml;nderungsmeldungen . \n Sofern Sie die Dienste des Verwaltungsnetzes nicht mehr nutzen, m&uuml;ssen Sie im Vorfeld regeln, wie mit Ihrem digitalen Nachlass verfahren werden soll. Insbesondere bei den pers&ouml;nlichen Daten ben&ouml;tigen wir von Ihnen eine  unterschriebene Erkl&auml;rung ; bitte verwenden Sie dazu unseren  Vordruck . \n Sollten Sie Ihr  Passwort vergessen , sich durch mehrfache Fehleingabe vom Verwaltungsnetz ausgesperrt oder den Verdacht haben, dass das Kennwort kompromittiert wurde, setzen Sie sich bitte umgehend mit dem&nbsp; IT-Support  in Verbindung. \n &Uuml;ber  Neuigkeiten  im Verwaltungsnetz informieren wir Sie mit dem IT-Newsletter, der in unregelm&auml;&szlig;igen Abst&auml;nden an alle Nutzer verschickt wird; alle bisher erschienenen Ausgaben sind&nbsp;im  ZUV-Intranet &nbsp;archiviert.   Bitte beantragen Sie eine ZUV-Benutzerkennung f&uuml;r neue Mitarbeiterinnen oder Mitarbeiter  rechtzeitig  &uuml;ber das entsprechende  Online-Formular .   Bitte denken Sie auch daran, uns ausscheidende Mitarbeiterinnen oder Mitarbeiter zu  melden , damit wir die ZUV-Benutzerkennung deaktivieren k&ouml;nnen."
+        ],
+        "Type": "zuv_service",
+        "portal_type": "zuv_service",
+        "effective": "2015-10-05T18:26:25Z",
+        "created": "2015-10-05T18:26:25Z",
+        "modified": "2015-10-15T06:33:07Z",
+        "allowedRolesAndUsers": [
+          "user$test",
+          "user$ZUV-Serviceportal-Members"
+        ],
+        "context_path_string": "/services/it/zuv-basisdienste/zuv-benutzerkennung/index.html",
+        "cms_system": "fiona",
+        "domain": [
+          "https://www.serviceportal.verwaltung.uni-muenchen.de",
+          "https://iuksptest.verwaltung.uni-muenchen.de"
+        ],
+        "Description": "Voraussetzung für den Zugriff auf die Dienste des Verwaltungsnetzes ist ein eigener Account (gebildet aus Benutzername und Passwort) . Dieser Account wird i. d. R. von Ihrem Vorgesetzen beantragt und vom Benutzerservice so eingerichtet, dass Sie an Ihrem ersten Arbeitstag sofort davon Gebrauch machen können. Ihre ZUV-Benutzerkennung wird Ihnen im Rahmen der Erstanmeldung mitgeteilt, bei der Sie eine kurze Einführung zum Verwaltungsnetz erhalten.  Falls sich z. B. Änderungen an den Daten ergeben, die zusammen mit Ihrer ZUV-Benutzerkennung gespeichert sind (z. B. Dienststelle, Adresse, etc.), erfahren Sie im Folgenden, wie Sie uns diese schnell und unkompliziert mitteilen können bzw. an wen Sie sich bei Fragen im Zusammenhang mit Ihrer ZUV-Benutzerkennung wenden können.",
+        "SearchableText": [
+          "Voraussetzung für den Zugriff auf die Dienste des Verwaltungsnetzes ist ein eigener Account (gebildet aus Benutzername und Passwort) . Dieser Account wird i. d. R. von Ihrem Vorgesetzen beantragt und vom Benutzerservice so eingerichtet, dass Sie an Ihrem ersten Arbeitstag sofort davon Gebrauch machen können. Ihre ZUV-Benutzerkennung wird Ihnen im Rahmen der Erstanmeldung mitgeteilt, bei der Sie eine kurze Einführung zum Verwaltungsnetz erhalten.  Falls sich z. B. Änderungen an den Daten ergeben, die zusammen mit Ihrer ZUV-Benutzerkennung gespeichert sind (z. B. Dienststelle, Adresse, etc.), erfahren Sie im Folgenden, wie Sie uns diese schnell und unkompliziert mitteilen können bzw. an wen Sie sich bei Fragen im Zusammenhang mit Ihrer ZUV-Benutzerkennung wenden können.  Damit Sie nicht mit verschiedenen Passw&ouml;rtern hantieren m&uuml;ssen, sind die meisten Dienste im Verwaltungsnetz so konfiguriert, dass sie sich durchg&auml;ngig mit dem ZUV-Account ausweisen k&ouml;nnen ( Single-Sign-On ) bzw. die Anmeldung komfortabel im Hintergrund erfolgt. \n Neben den Account-Daten sind in einer zentralen Datenbank (Verzeichnisdienst) weitere Informationen zu Ihrer Person hinterlegt, aus denen dann wieder andere Dienste gespeist werden, z. B. das globale Adressbuch in Outlook. Damit die Informationen immer aktuell sind, m&uuml;ssen uns &Auml;nderungen (bei Eintritt/Ausscheiden eines Mitarbeiters, Wechsel der Dienststelle, Umzug etc.) rechtzeitig gemeldet werden. Benutzen Sie hierf&uuml;r bitte&nbsp;das jeweilige  Online-Formular&nbsp;f&uuml;r &Auml;nderungsmeldungen . \n Sofern Sie die Dienste des Verwaltungsnetzes nicht mehr nutzen, m&uuml;ssen Sie im Vorfeld regeln, wie mit Ihrem digitalen Nachlass verfahren werden soll. Insbesondere bei den pers&ouml;nlichen Daten ben&ouml;tigen wir von Ihnen eine  unterschriebene Erkl&auml;rung ; bitte verwenden Sie dazu unseren  Vordruck . \n Sollten Sie Ihr  Passwort vergessen , sich durch mehrfache Fehleingabe vom Verwaltungsnetz ausgesperrt oder den Verdacht haben, dass das Kennwort kompromittiert wurde, setzen Sie sich bitte umgehend mit dem&nbsp; IT-Support  in Verbindung. \n &Uuml;ber  Neuigkeiten  im Verwaltungsnetz informieren wir Sie mit dem IT-Newsletter, der in unregelm&auml;&szlig;igen Abst&auml;nden an alle Nutzer verschickt wird; alle bisher erschienenen Ausgaben sind&nbsp;im  ZUV-Intranet &nbsp;archiviert.   Bitte beantragen Sie eine ZUV-Benutzerkennung f&uuml;r neue Mitarbeiterinnen oder Mitarbeiter  rechtzeitig  &uuml;ber das entsprechende  Online-Formular .   Bitte denken Sie auch daran, uns ausscheidende Mitarbeiterinnen oder Mitarbeiter zu  melden , damit wir die ZUV-Benutzerkennung deaktivieren k&ouml;nnen."
+        ],
+        "_version_": 1518650390698000384,
+        "expires": "2499-12-30T23:00:00Z",
+        "review_state": "Published",
+        "Language": "de",
+        "showinsearch": true
+      },
+      {
+        "UID": "5F8971FEF9CC57FD24F850229D6408AF",
+        "path_string": "/30_zentralbereich/30zb_zuv-serviceportal/services/recht/zivilrecht/schutz_urheber_namensrechte/index.html#goto711683",
+        "path_depth": 7,
+        "path_parents": [
+          "/30_zentralbereich",
+          "/30_zentralbereich/30zb_zuv-serviceportal",
+          "/30_zentralbereich/30zb_zuv-serviceportal/services",
+          "/30_zentralbereich/30zb_zuv-serviceportal/services/recht",
+          "/30_zentralbereich/30zb_zuv-serviceportal/services/recht/zivilrecht",
+          "/30_zentralbereich/30zb_zuv-serviceportal/services/recht/zivilrecht/schutz_urheber_namensrechte",
+          "/30_zentralbereich/30zb_zuv-serviceportal/services/recht/zivilrecht/schutz_urheber_namensrechte/01_unterrichtsmaterial_in_intranet_lernplattformen"
+        ],
+        "Title": "Unterrichtsmaterialien im Intranet und in Lernplattformen",
+        "default": [
+          "Unterrichtsmaterialien im Intranet und in Lernplattformen",
+          "Wir kl&auml;ren im Einzelfall, bei welchen Unterrichtsmedien das Urheberrecht eine Rolle spielt. Nach dem Motto &bdquo;Nicht alles, was geht, ist auch erlaubt&ldquo; erkl&auml;ren wir Nutzungsfreiheiten und Grenzen des Urheberrechts.  Sie sind sich nicht sicher, ob Sie Lehrbücher und andere Publikationen ganz oder teilweise online zugänglich machen dürfen? Wir beantworten Fragen zur Rechtslage, wobei wir die neueste Rechtsprechung berücksichtigen."
+        ],
+        "Type": "zuv_service",
+        "portal_type": "zuv_service",
+        "effective": "2015-10-01T15:47:02Z",
+        "created": "2015-10-01T15:47:02Z",
+        "modified": "2015-10-02T08:13:19Z",
+        "allowedRolesAndUsers": [
+          "user$test",
+          "user$ZUV-Serviceportal-Members"
+        ],
+        "context_path_string": "/services/recht/zivilrecht/schutz_urheber_namensrechte/01_unterrichtsmaterial_in_intranet_lernplattformen/index.html",
+        "cms_system": "fiona",
+        "domain": [
+          "https://www.serviceportal.verwaltung.uni-muenchen.de",
+          "https://iuksptest.verwaltung.uni-muenchen.de"
+        ],
+        "nav_title": "Unterrichtsmaterialien im Intranet und in Lernplattformen",
+        "breadcrumb_parent_titles": [
+          "Unterrichtsmaterialien im Intranet und in Lernplattformen",
+          "Unterrichtsmaterialien im Intranet und in Lernplattformen",
+          "Unterrichtsmaterialien im Intranet und in Lernplattformen",
+          "Unterrichtsmaterialien im Intranet und in Lernplattformen",
+          "Unterrichtsmaterialien im Intranet und in Lernplattformen",
+          "Unterrichtsmaterialien im Intranet und in Lernplattformen"
+        ],
+        "SearchableText": [
+          "Wir kl&auml;ren im Einzelfall, bei welchen Unterrichtsmedien das Urheberrecht eine Rolle spielt. Nach dem Motto &bdquo;Nicht alles, was geht, ist auch erlaubt&ldquo; erkl&auml;ren wir Nutzungsfreiheiten und Grenzen des Urheberrechts.  Sie sind sich nicht sicher, ob Sie Lehrbücher und andere Publikationen ganz oder teilweise online zugänglich machen dürfen? Wir beantworten Fragen zur Rechtslage, wobei wir die neueste Rechtsprechung berücksichtigen."
+        ],
+        "_version_": 1518650393733627904,
+        "expires": "2499-12-30T23:00:00Z",
+        "review_state": "Published",
+        "Language": "de",
+        "showinsearch": true
+      }
+    ]
+  },
+  "debug": {
+    "queryBoosting": {
+      "q": "Intranet",
+      "match": [
+        "40A0805C8B2480CB6AFB11A07F95E3E6"
+      ]
+    },
+    "rawquerystring": "Intranet",
+    "querystring": "Intranet",
+    "parsedquery": "(default:intranet ((UID:40A0805C8B2480CB6AFB11A07F95E3E6)^0.0))/no_coord",
+    "parsedquery_toString": "default:intranet ((UID:40A0805C8B2480CB6AFB11A07F95E3E6)^0.0)",
+    "explain": {
+      "40A0805C8B2480CB6AFB11A07F95E3E6": "\n0.0 = (MATCH) sum of:\n  0.0 = (MATCH) weight(UID:40A0805C8B2480CB6AFB11A07F95E3E6^0.0 in 1311) [DefaultSimilarity], result of:\n    0.0 = score(doc=1311,freq=1.0), product of:\n      0.0 = queryWeight, product of:\n        0.0 = boost\n        8.934692 = idf(docFreq=1, maxDocs=5585)\n        0.14717513 = queryNorm\n      8.934692 = fieldWeight in 1311, product of:\n        1.0 = tf(freq=1.0), with freq of:\n          1.0 = termFreq=1.0\n        8.934692 = idf(docFreq=1, maxDocs=5585)\n        1.0 = fieldNorm(doc=1311)\n",
+      "7c033aa853924f5283d2b086c7797592": "\n15.193247 = (MATCH) sum of:\n  15.193247 = (MATCH) weight(default:intranet in 5577) [DefaultSimilarity], result of:\n    15.193247 = fieldWeight in 5577, product of:\n      2.236068 = tf(freq=5.0), with freq of:\n        5.0 = termFreq=5.0\n      6.794626 = idf(docFreq=16, maxDocs=5585)\n      1.0 = fieldNorm(doc=5577)\n",
+      "1D1C50490D8CB795FF06D22D85FD59DE": "\n13.589252 = (MATCH) sum of:\n  13.589252 = (MATCH) weight(default:intranet in 2084) [DefaultSimilarity], result of:\n    13.589252 = fieldWeight in 2084, product of:\n      2.0 = tf(freq=4.0), with freq of:\n        4.0 = termFreq=4.0\n      6.794626 = idf(docFreq=16, maxDocs=5585)\n      1.0 = fieldNorm(doc=2084)\n",
+      "EC04B832425DFEEA8974796D4CABFFA3": "\n11.768638 = (MATCH) sum of:\n  11.768638 = (MATCH) weight(default:intranet in 2412) [DefaultSimilarity], result of:\n    11.768638 = fieldWeight in 2412, product of:\n      1.7320508 = tf(freq=3.0), with freq of:\n        3.0 = termFreq=3.0\n      6.794626 = idf(docFreq=16, maxDocs=5585)\n      1.0 = fieldNorm(doc=2412)\n",
+      "FFFB1B91B9FBC6C913BD1ADA37228F2D": "\n9.609053 = (MATCH) sum of:\n  9.609053 = (MATCH) weight(default:intranet in 2819) [DefaultSimilarity], result of:\n    9.609053 = fieldWeight in 2819, product of:\n      1.4142135 = tf(freq=2.0), with freq of:\n        2.0 = termFreq=2.0\n      6.794626 = idf(docFreq=16, maxDocs=5585)\n      1.0 = fieldNorm(doc=2819)\n",
+      "CB94AD019DD537C385F57F302A4BDF14": "\n9.609053 = (MATCH) sum of:\n  9.609053 = (MATCH) weight(default:intranet in 2822) [DefaultSimilarity], result of:\n    9.609053 = fieldWeight in 2822, product of:\n      1.4142135 = tf(freq=2.0), with freq of:\n        2.0 = termFreq=2.0\n      6.794626 = idf(docFreq=16, maxDocs=5585)\n      1.0 = fieldNorm(doc=2822)\n",
+      "021AD13B520FEFCEDC1EDB1DEB9F8181": "\n9.609053 = (MATCH) sum of:\n  9.609053 = (MATCH) weight(default:intranet in 5196) [DefaultSimilarity], result of:\n    9.609053 = fieldWeight in 5196, product of:\n      1.4142135 = tf(freq=2.0), with freq of:\n        2.0 = termFreq=2.0\n      6.794626 = idf(docFreq=16, maxDocs=5585)\n      1.0 = fieldNorm(doc=5196)\n",
+      "624D4278C7ABEE26FFB49FF712A6D625": "\n9.609053 = (MATCH) sum of:\n  9.609053 = (MATCH) weight(default:intranet in 5217) [DefaultSimilarity], result of:\n    9.609053 = fieldWeight in 5217, product of:\n      1.4142135 = tf(freq=2.0), with freq of:\n        2.0 = termFreq=2.0\n      6.794626 = idf(docFreq=16, maxDocs=5585)\n      1.0 = fieldNorm(doc=5217)\n",
+      "B988C4764D41D9CDB4E29588AC428C1A": "\n6.794626 = (MATCH) sum of:\n  6.794626 = (MATCH) weight(default:intranet in 1902) [DefaultSimilarity], result of:\n    6.794626 = fieldWeight in 1902, product of:\n      1.0 = tf(freq=1.0), with freq of:\n        1.0 = termFreq=1.0\n      6.794626 = idf(docFreq=16, maxDocs=5585)\n      1.0 = fieldNorm(doc=1902)\n",
+      "F4BFBF60E87891516ECAC8B9C9EC3BBB": "\n6.794626 = (MATCH) sum of:\n  6.794626 = (MATCH) weight(default:intranet in 1941) [DefaultSimilarity], result of:\n    6.794626 = fieldWeight in 1941, product of:\n      1.0 = tf(freq=1.0), with freq of:\n        1.0 = termFreq=1.0\n      6.794626 = idf(docFreq=16, maxDocs=5585)\n      1.0 = fieldNorm(doc=1941)\n",
+      "89CBFC674F874886E1DE0F016D6668E0": "\n6.794626 = (MATCH) sum of:\n  6.794626 = (MATCH) weight(default:intranet in 2200) [DefaultSimilarity], result of:\n    6.794626 = fieldWeight in 2200, product of:\n      1.0 = tf(freq=1.0), with freq of:\n        1.0 = termFreq=1.0\n      6.794626 = idf(docFreq=16, maxDocs=5585)\n      1.0 = fieldNorm(doc=2200)\n",
+      "995AC8C0D89AF7A8D126FC4140EB06ED": "\n6.794626 = (MATCH) sum of:\n  6.794626 = (MATCH) weight(default:intranet in 2374) [DefaultSimilarity], result of:\n    6.794626 = fieldWeight in 2374, product of:\n      1.0 = tf(freq=1.0), with freq of:\n        1.0 = termFreq=1.0\n      6.794626 = idf(docFreq=16, maxDocs=5585)\n      1.0 = fieldNorm(doc=2374)\n",
+      "957B81C39CB96627514203E0C96C8E98": "\n6.794626 = (MATCH) sum of:\n  6.794626 = (MATCH) weight(default:intranet in 2384) [DefaultSimilarity], result of:\n    6.794626 = fieldWeight in 2384, product of:\n      1.0 = tf(freq=1.0), with freq of:\n        1.0 = termFreq=1.0\n      6.794626 = idf(docFreq=16, maxDocs=5585)\n      1.0 = fieldNorm(doc=2384)\n",
+      "FE410E6245500635823F96748F08ABC4": "\n6.794626 = (MATCH) sum of:\n  6.794626 = (MATCH) weight(default:intranet in 2395) [DefaultSimilarity], result of:\n    6.794626 = fieldWeight in 2395, product of:\n      1.0 = tf(freq=1.0), with freq of:\n        1.0 = termFreq=1.0\n      6.794626 = idf(docFreq=16, maxDocs=5585)\n      1.0 = fieldNorm(doc=2395)\n",
+      "60544E4597A745B5380FD4E2F7FB50FC": "\n6.794626 = (MATCH) sum of:\n  6.794626 = (MATCH) weight(default:intranet in 4187) [DefaultSimilarity], result of:\n    6.794626 = fieldWeight in 4187, product of:\n      1.0 = tf(freq=1.0), with freq of:\n        1.0 = termFreq=1.0\n      6.794626 = idf(docFreq=16, maxDocs=5585)\n      1.0 = fieldNorm(doc=4187)\n",
+      "FCF6CC7E46F6E4887FC0CE021C975F75": "\n6.794626 = (MATCH) sum of:\n  6.794626 = (MATCH) weight(default:intranet in 4327) [DefaultSimilarity], result of:\n    6.794626 = fieldWeight in 4327, product of:\n      1.0 = tf(freq=1.0), with freq of:\n        1.0 = termFreq=1.0\n      6.794626 = idf(docFreq=16, maxDocs=5585)\n      1.0 = fieldNorm(doc=4327)\n",
+      "5F8971FEF9CC57FD24F850229D6408AF": "\n6.794626 = (MATCH) sum of:\n  6.794626 = (MATCH) weight(default:intranet in 4347) [DefaultSimilarity], result of:\n    6.794626 = fieldWeight in 4347, product of:\n      1.0 = tf(freq=1.0), with freq of:\n        1.0 = termFreq=1.0\n      6.794626 = idf(docFreq=16, maxDocs=5585)\n      1.0 = fieldNorm(doc=4347)\n"
+    },
+    "QParser": "LuceneQParser",
+    "timing": {
+      "time": 15.0,
+      "prepare": {
+        "time": 1.0,
+        "query": {
+          "time": 1.0
+        },
+        "facet": {
+          "time": 0.0
+        },
+        "facet_module": {
+          "time": 0.0
+        },
+        "mlt": {
+          "time": 0.0
+        },
+        "highlight": {
+          "time": 0.0
+        },
+        "stats": {
+          "time": 0.0
+        },
+        "expand": {
+          "time": 0.0
+        },
+        "elevator": {
+          "time": 0.0
+        },
+        "debug": {
+          "time": 0.0
+        }
+      },
+      "process": {
+        "time": 14.0,
+        "query": {
+          "time": 1.0
+        },
+        "facet": {
+          "time": 0.0
+        },
+        "facet_module": {
+          "time": 0.0
+        },
+        "mlt": {
+          "time": 0.0
+        },
+        "highlight": {
+          "time": 0.0
+        },
+        "stats": {
+          "time": 0.0
+        },
+        "expand": {
+          "time": 0.0
+        },
+        "elevator": {
+          "time": 0.0
+        },
+        "debug": {
+          "time": 13.0
+        }
+      }
+    }
+  }
+}
