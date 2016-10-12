@@ -4,6 +4,7 @@
 :keywords: Plone, Zope, Security, PloneConf 2016
 :data-transition-duration: 1200
 :css-all: css/plone-security-in-context.css
+:js: js/plone-security-in-context-charts-js
 :auto-console: Yes
 
 
@@ -62,7 +63,7 @@ Security in Context
 ----
 
 :id: security-basics
-:class: slide background-image-slide level-1
+:class: slide level-1
 :data-x: r-3500
 :data-y: r+1000
 
@@ -92,7 +93,7 @@ Safety
 ----
 
 :id: context
-:class: slide background-image-slide level-1
+:class: slide level-1
 :data-x: r+0
 :data-y: r+1000
 
@@ -152,30 +153,39 @@ Definition of Context
 ----
 
 
-:id: is-plone-Secure
-:class: slide background-image-slide level-1
-:data-x: r+0
-:data-y: r+1000
+:id: is-plone-secure
+:class: slide level-1
+:data-x: r+1000
+:data-y: 1000
 
 Is Plone Secure?
 ================
 
 ----
 
-
-:id: is-plone-Secure-answer1
-:class: slide background-image-slide level-1
+:id: is-plone-secure-answer1
+:class: slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-YES
-===
+It Depends
+==========
+
+* Plone Core itself is pretty secure
+* Security of an installation depends on the installation and maintenance
+
+
+*so basically*
+--------------
+
+YES Plone is pretty secure
+==========================
 
 ----
 
 
-:id: is-plone-Secure-answer2
-:class: slide background-image-slide level-1
+:id: is-plone-secure-answer2
+:class: slide level-1
 :data-x: r+0
 :data-y: r+1000
 
@@ -185,22 +195,22 @@ But Why is it Secure?
 And what are good indicators for security?
 ------------------------------------------
 
-* Do Number of Published Problems (CVEs and CVE Scores) give a good comparisson?
+* Do Number of Published Problems (CVEs and CVE Scores) give a good comparison?
 * Number of Hacked Sites
 * Zero Day Exploides
 
 SORRY NO!
 =========
 
-Those are not objective and relevant comparisson
+Those are not objective and relevant comparison
 and those do not reflect the current situation
 
 ----
 
-:id: is-plone-Secure-answer3
+:id: proof-of-security
 :class: slide level-1
-:data-x: r+0
-:data-y: r+1000
+:data-x: r+1000
+:data-y: 1000
 
 How to proof Security
 =====================
@@ -244,7 +254,7 @@ OWASP Top 10 Report
 .. image:: images/OWASP-report.png
     :width: 280px
     :class: right
-    :alt:
+    :alt: OWASP Report - Top 10 from 2013
 
 #. Injection
 #. Broken Authentication and Session Management
@@ -256,6 +266,123 @@ OWASP Top 10 Report
 #. Cross-Site Request Forgery (CSRF)
 #. Using Known Vulnerable Components
 #. Unvalidated Redirects and Forwards
+
+----
+
+:id: numbers1
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+Compare sources of Vulnerabilities in common CMSs
+
+.. note::
+
+    BSI CMS-Sicherheitsstudie 2013
+    BSI CMS Studie 2016 (not published)
+
+
+
+
+----
+
+:id: comparison-question
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+So Plone is more secure in comparison to:
+-----------------------------------------
+
+* Wordpress
+* Joomla
+* Drupal
+* Typo3
+* ...
+
+But Why?
+========
+
+
+----
+
+:id: reasons
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+Reasons Why Plone is more Secure
+================================
+
+* Different Focus
+
+  * Plone strenghs are Intranets
+  * Plone is not only a CMS it is actually a Portal Engine
+
+* Python |rarr| Zen of Python
+* System Design |rarr| RestrictedPython, AccessControl, ... |rarr| Security and Permisson Checks
+* No SQL Database
+* Best of Breed Approach |rarr| DRY-Princip or why should we build all tools ourself
+* Code / Addon Skelletons / Templates (ZopeSkel, mr.bob)
+
+* Zope/Plone is very complex |rarr| *Security by obscurity*
+
+
+----
+
+:id: complex-systems
+:class: slide background-image-slide level-1
+:data-x: r+1000
+:data-y: 1000
+
+.
+
+    A complex system that works is invariably found to have envolved from a simple system that worked.
+    A complex system designed from scratch never works and cannot be patched up to make it work.
+    You have to start over with a working simple system.
+
+    -- Jon Gall
+
+
+.. container:: img-quote
+
+    CC3-BY-SA https://en.wikipedia.org/wiki/File:Tokyo_by_night_2011.jpg
+
+
+
+----
+
+:id: back2basics
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+Back to the Basics
+==================
+
+Safety
+------
+
+*The system behaves like it should*
+
+IT-Security (InfoSec triad)
+---------------------------
+
+* Confidentiality
+* Integrity / Authenticity
+* Availiablity
+
+
+
+----
+
+:id: safety
+:class: slide level-1
+:data-x: r+1000
+:data-y: 1000
+
+Safety
+======
 
 
 ----
@@ -285,41 +412,72 @@ OWASP Top 10 Report
         Special cases aren't special enough to break the rules.
         ...
 
+.. note::
 
-
-
-
-
-----
-
-:id: techs
-:class: slide subtitle-slide level-1
-:data-x: r+1000
-:data-y: 1000
-
-Special Knowledge
-=================
-
+    * Understanding of the Code
+    * Maintainability
+    * Reduction to the minimum |rarr| Donald Knuth - Preamture Optimazation is the root of all evel
 
 ----
 
-:id: ids
-:class: slide background-image-slide level-1
+:id: test
+:class: slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-.. container:: overlay centered
+Code Conventions and Test Coverage
+==================================
 
-    **Users - Authentication - Authorization**
-
-    * Shared IDs
-    * Shared Secrets
-    * Horizontal and Vertical Single Sign On
+* Enforcement of Code Conventions in the Core
+* Enforcement of Tests (Unit and Functional Test) for Core
+*
 
 
-.. container:: img-quote
 
-    CC2-BY https://www.flickr.com/photos/16048742@N08/3458184491
+----
+
+:id: it-security
+:class: slide level-1
+:data-x: r+2000
+:data-y: 1000
+
+
+IT-Security (InfoSec triad)
+===========================
+
+* Confidentiality
+* Integrity / Authenticity
+* Availiablity
+
+----
+
+:id: Confidentiality
+:class: slide level-1
+:data-x: r-1000
+:data-y: 2000
+
+Confidentiality
+===============
+
+----
+
+:id: Integrity
+:class: slide level-1
+:data-x: r+1000
+:data-y: 2000
+
+Integrity / Authenticity
+========================
+
+----
+
+:id: Availiablity
+:class: slide level-1
+:data-x: r+1000
+:data-y: 2000
+
+Availiablity
+============
 
 ----
 
@@ -390,105 +548,78 @@ Special Knowledge
 
     Bundesarchiv, B 145 Bild-F079012-0030 / CC-BY-SA 3.0
 
-
-
 ----
 
-:id: fixing
+:id: banning
 :class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-.. container:: overlay
+Active Bans
+===========
 
-    *Fixing Problems the easiest Way*
+Misbehaving Clients get automatically banned
 
-    .. code:: apache
-
-        RewriteRule ^(.*)manage(_.*)$ - [L,NC]
-
-        <LocationMatch "^/(manage|manage_main|(.*)/manage(_.*))$" >
-         Order deny,allow
-         Deny from all
-        </LocationMatch>
-
-.. container:: img-quote
-
-    CC2-BY https://www.flickr.com/photos/axel-d/488690177
-
-
-
+|rarr| Fail2Ban
 
 ----
 
-:id: complex-setups
-:class: slide background-image-slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. container:: overlay-b centered
-
-    *complex is better than complicated*
-
-    * specialized Systems
-    * small and readable configurations
-    * best of breed tools
-
-----
-
-:id: search
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-Searching Across Domains |br| and Different Systems
-===================================================
-
-.. image:: images/sp-livesuche.png
-    :width: 300px
-    :class: right
-    :alt:
-
-Backends
---------
-
-* Solr |br| (collective.solr)
-* Elastic Search |br| (collective.elasticindex)
-* Google Search Appliance |br| (collective.gsa)
-
-Specials
---------
-
-* ACLs
-* Live and Advanced Search
-
-
-
-----
-
-:id: complex-systems
+:id: work-security-teams
 :class: slide background-image-slide level-1
 :data-x: r+1000
 :data-y: 1000
 
-.
-
-    A complex system that works is invariably found to have envolved from a simple system that worked.
-    A complex system designed from scratch never works and cannot be patched up to make it work.
-    You have to start over with a working simple system.
-
-    -- Jon Gall
+Work of a Security Team
+=======================
 
 
-.. container:: img-quote
+----
 
-    CC3-BY-SA https://en.wikipedia.org/wiki/File:Tokyo_by_night_2011.jpg
+:id: other-security-teams-better
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+What do other Security Teams do better?
+=======================================
+
+* More Secure Communication Channels (S/MIME / GPG-Keys for Commmuication are published)
+* More Ussage of Issue Tracker for Communications
+* More communication with Hoster of the CMS (Joomla)
+* *Phone Home Function* (Auto-Update, Info in Control-Panels)
+* Better Information on Project Home Page
+
+  * https://developer.joomla.org/security-centre.html
+  * https://docs.joomla.org/Security
+  * https://extensions.joomla.org/category/access-a-security/site-security
+
+* CSV Reports
+* More People |rarr| active Review and Inspection of CMS-Core Modules
+
+----
+
+:id: other-security-teams-worse
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+What Do other Security Teams do worse?
+======================================
 
 
+.. image:: images/SA-CORE-2014-005.png
+    :width: 200px
+    :class: right
+    :alt:
+
+* Security Team is attached to one large provider and supply patches to customers before official release
+* Only Bugfix-Releases no Hotfixes
+* No Security Information Avaliable
+* No Security Process on Add-Ons - Communication Process
 
 ----
 
 :id: overview
 :data-x: 0
-:data-y: 3250
-:data-scale: 10
+:data-y: 3000
+:data-scale: 8
