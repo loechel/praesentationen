@@ -237,7 +237,6 @@ Approach
 
     OWASP |rarr| Open Web Application Security Project
 
-
 ----
 
 :id: owasp-top10
@@ -276,10 +275,42 @@ OWASP Top 10 Report
 
 Compare sources of Vulnerabilities in common CMSs
 
+
+.. image:: images/CMS_Darstellung_Durchschnittswerte.jpg
+    :width: 300px
+    :class: right
+    :alt: BSI CMS Security Study 2013
+
+
+
 .. note::
 
     BSI CMS-Sicherheitsstudie 2013
     BSI CMS Studie 2016 (not published)
+
+----
+
+:id: numbers2
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+State 2013
+==========
+
+
+.. image:: images/study_cover.png
+    :width: 300px
+    :class: right
+    :alt: BSI CMS Security Study 2013
+
+
+
+.. note::
+
+    BSI CMS-Sicherheitsstudie 2013
+    BSI CMS Studie 2016 (not published)
+
 
 
 
