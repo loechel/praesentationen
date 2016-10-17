@@ -64,7 +64,7 @@ Security in Context
 
 :id: security-basics
 :class: slide level-1
-:data-x: r-3500
+:data-x: r-4500
 :data-y: r+1000
 
 
@@ -299,6 +299,12 @@ State 2013
 ==========
 
 
+.. container:: 2013-chart
+
+    .. raw:: html
+
+        &nbsp;
+
 .. image:: images/study_cover.png
     :width: 300px
     :class: right
@@ -312,15 +318,42 @@ State 2013
     BSI CMS Studie 2016 (not published)
 
 
+----
 
+:id: numbers3
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+State 2016
+==========
+
+
+.. image:: images/study_cover2016.png
+    :width: 300px
+    :class: left
+    :alt: BSI CMS Security Study 2016
+
+
+.. container:: 2016-chart
+
+    .. raw:: html
+
+        &nbsp;
+
+
+.. note::
+
+    BSI CMS-Sicherheitsstudie 2013
+    BSI CMS Studie 2016 (not published)
 
 
 ----
 
 :id: comparison-question
 :class: slide level-1
-:data-x: r+0
-:data-y: r+1000
+:data-x: r+1000
+:data-y: 1000
 
 So Plone is more secure in comparison to:
 -----------------------------------------
@@ -337,7 +370,7 @@ But Why?
 
 ----
 
-:id: reasons
+:id: reasons1
 :class: slide level-1
 :data-x: r+0
 :data-y: r+1000
@@ -351,12 +384,29 @@ Reasons Why Plone is more Secure
   * Plone is not only a CMS it is actually a Portal Engine
 
 * Python |rarr| Zen of Python
-* System Design |rarr| RestrictedPython, AccessControl, ... |rarr| Security and Permisson Checks
-* No SQL Database
-* Best of Breed Approach |rarr| DRY-Princip or why should we build all tools ourself
+* System Design |br| |rarr| RestrictedPython, AccessControl, ... |br| |rarr| Security and Permisson Checks
+* No SQL Database |rarr| no SQL injection possible
+* Best of Breed Approach |br| |rarr| DRY-Princip or why should we build all tools ourself
 * Code / Addon Skelletons / Templates (ZopeSkel, mr.bob)
 
+
+----
+
+:id: reasons2
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+Additional Reasons Why Plone is more Secure for most users
+==========================================================
+
 * Zope/Plone is very complex |rarr| *Security by obscurity*
+* Zope/Plone has not a large market share |br| |rarr| not interesting for bot networks
+* Zope/Plone is used by several high value targets |br|
+  |rarr| Normally those will get attacked first |br|
+  |rarr| attacks against them might not get published.
+* Zope/Plone users are normaly more aware of security concepts and web technologies
+
 
 
 ----
@@ -463,7 +513,7 @@ Code Conventions and Test Coverage
 * Enforcement of Tests (Unit and Functional Test) for Core
 *
 
-
+|rarr| The Plone Community ensures functional correctness
 
 ----
 
@@ -483,22 +533,66 @@ IT-Security (InfoSec triad)
 ----
 
 :id: Confidentiality
-:class: slide level-1
+:class: slide background-image-slide level-1
 :data-x: r-1000
 :data-y: 2000
 
-Confidentiality
-===============
+
+----
+
+
+:id: workflows-permissions
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+Permissions & Workflow
+======================
+
+* Roles
+
+* Permissions
+
+* Guards
+
+|rarr| but standard model is not enough for high confidential content - admins could see everything
+
+|rarr| but also Custom Workflows could hide content from higher roles like managers
 
 ----
 
 :id: Integrity
-:class: slide level-1
+:class: slide background-image-slide level-1
 :data-x: r+1000
 :data-y: 2000
 
+
+
 Integrity / Authenticity
 ========================
+
+----
+
+:id: RestrictedPython
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+RestrictedPython & AccessControl
+================================
+
+all attributes and objects has guared methods for read and write
+
+|rarr| permission to read and write objects and attributes
+
+|rarr| automatically on all objects and the catalog
+
+History
+=======
+
+All Changes are recorded, you can inspect who did what
+
+
 
 ----
 
@@ -654,3 +748,8 @@ What Do other Security Teams do worse?
 :data-x: 0
 :data-y: 3000
 :data-scale: 8
+
+
+.. raw:: html
+
+    <script type="text/javascript" src="js/charts" />

@@ -203,3 +203,82 @@ function balance() {
 
 
 };
+
+$(function () {
+    $('#container').highcharts({
+
+        chart: {
+            type: 'column'
+        },
+
+        title: {
+            text: 'BSI - CMS Security Study 2016'
+        },
+
+        xAxis: {
+            categories: ['WordPress', 'Joomla!', 'Typo3', 'Plone', 'Liferay']
+        },
+
+        yAxis: {
+            allowDecimals: false,
+            min: 0,
+            max: 30,
+            title: {
+                text: 'Vulnerabilities'
+            }
+        },
+
+        tooltip: {
+            formatter: function () {
+                return '<b>' + this.x + '</b><br/>' +
+                    this.series.name + ': ' + this.y + '<br/>' +
+                    'Total: ' + this.point.stackTotal;
+            }
+        },
+
+        plotOptions: {
+            column: {
+                stacking: 'normal'
+            }
+        },
+
+        series: [{
+            name: 'core high',
+            data: [0, 0, 1, 1, 2],
+            stack: 'core'
+        }, {
+            name: 'core medium',
+            data: [3, 3, 7, 14, 8],
+            stack: 'core'
+        }, {
+            name: 'core low',
+            data: [11, 2, 6, 14, 7],
+            stack: 'core'
+        }, {
+            name: 'plugin very high',
+            data: [0, 0, 1, 0, 0],
+            stack: 'plugins'
+        }, {
+            name: 'plugin high',
+            data: [5, 5, 1, 0, 2],
+            stack: 'plugins'
+        }, {
+            name: 'plugin medium',
+            data: [6, 5, 6, 1, 2],
+            stack: 'plugins'
+        }, {
+            name: 'plugin low',
+            data: [8, 4, 3, 0, 1],
+            stack: 'plugins'
+        }, {
+            name: 'hardening medium',
+            data: [1, 0, 1, 0, 1],
+            stack: 'hardening'
+        }, {
+            name: 'hardening low',
+            data: [0, 0, 8, 0, 4],
+            stack: 'hardening'
+        },
+        ]
+    });
+});
