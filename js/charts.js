@@ -1,8 +1,13 @@
+$(document).ready ( function(){
+    results2013();
+    results2016();
 
-function balance() {
+});​
+
+function results2013() {
     var chart = new Highcharts.Chart({
         chart: {
-            renderTo: 'balance_chart_container',
+            renderTo: 'results2013_chart',
             type: 'column',
             plotBackgroundColor: null,
             plotBorderWidth: null,
@@ -109,7 +114,7 @@ function balance() {
 
     });
 
-	var chart2016 = new Highcharts.Chart({
+    var chart2016 = new Highcharts.Chart({
         chart: {
             renderTo: 'chart2016_container',
             type: 'column',
@@ -204,7 +209,7 @@ function balance() {
 
 };
 
-$(function () {
+function results2016 () {
     $('#container').highcharts({
 
         chart: {
@@ -281,4 +286,4 @@ $(function () {
         },
         ]
     });
-});
+};

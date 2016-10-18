@@ -182,10 +182,79 @@ div#fixing {
 
 div#Confidentiality {
   background-image: url("../images/world-confidential.jpg");
+  h1 {
+    color: transparent;
+  }
 }
 
 div#Integrity {
   background-image: url("../images/integrity.jpg");
+
+  h1 {
+    margin-top: 400px;
+    margin-right: 300px;
+
+  }
+}
+
+
+div#caching {
+  background-image: url("../images/queue_up.jpg");
+
+  blockquote {
+    font-size: 1em;
+    line-height: 1.2em;
+  }
+}
+
+div#banning {
+  background-image: url("../images/festnahme.jpg");
+
+  .overlay {
+    margin-top: 450px;
+  }
+}
+
+div#numbers3 {
+  .rotated-warning {
+    position: absolute;
+    top: 350px;
+    left: 45px;
+    font-size: 180%;
+  }
+
+  .info {
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+    width: 360px;
+  }
+}
+
+
+div#recomendations {
+  background-image: url("../images/conclusions-recommendations.jpg");
+}
+
+
+
+div#asis {
+  background-image: url("../images/box.png");
+    .overlay-b {
+    margin-top: 500px;
+  }
+}
+
+
+div#min {
+  background-image: url("../images/15min.jpg");
+}
+
+div#survey {
+  background-image: url("../images/Survey-App-Reminder-Slide.png");
+    .overlay {
+    margin-top: 500px;
+  }
 }
 
 div.slide .timed {
@@ -195,4 +264,21 @@ div.slide .timed {
 div.slide.active .timed {
     opacity: 1;
     transition: opacity 5s ease 5s;
+}
+
+.rotated-warning {
+
+  /* Safari */
+  -webkit-transform: rotate(-45deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-45deg);
+
+  /* IE */
+  -ms-transform: rotate(-45deg);
+
+  /* Opera */
+  -o-transform: rotate(-45deg);
+
+  color: #FF0000;
 }

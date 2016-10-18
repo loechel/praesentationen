@@ -64,21 +64,21 @@ Security in Context
 
 :id: security-basics
 :class: slide level-1
-:data-x: r-4500
+:data-x: r-5000
 :data-y: r+1000
 
 
 What is Security?
 =================
 
-Security vs Safty
+Security vs Safety
 
 IT-Security (InfoSec triad)
 ---------------------------
 
 * Confidentiality
 * Integrity / Authenticity
-* Availiablity
+* Availability
 
 |rarr| Attack Vectors
 
@@ -299,7 +299,14 @@ State 2013
 ==========
 
 
-.. container:: 2013-chart
+.. container:: results2013_chart
+
+    .. raw:: html
+
+        &nbsp;
+
+
+.. container:: results2013_chart2
 
     .. raw:: html
 
@@ -311,6 +318,9 @@ State 2013
     :alt: BSI CMS Security Study 2013
 
 
+.. container:: info
+
+    study from 2013 which just does a literature analyzes
 
 .. note::
 
@@ -334,12 +344,21 @@ State 2016
     :class: left
     :alt: BSI CMS Security Study 2016
 
+.. container:: rotated-warning
 
-.. container:: 2016-chart
+    unpublished
+
+.. container:: results2016_chart
 
     .. raw:: html
 
         &nbsp;
+
+
+.. container:: info
+
+    A new study with detailed penetration tests
+
 
 
 .. note::
@@ -387,7 +406,7 @@ Reasons Why Plone is more Secure
 * System Design |br| |rarr| RestrictedPython, AccessControl, ... |br| |rarr| Security and Permisson Checks
 * No SQL Database |rarr| no SQL injection possible
 * Best of Breed Approach |br| |rarr| DRY-Princip or why should we build all tools ourself
-* Code / Addon Skelletons / Templates (ZopeSkel, mr.bob)
+* Code / Addon Skeletons / Templates (ZopeSkel, mr.bob)
 
 
 ----
@@ -405,7 +424,7 @@ Additional Reasons Why Plone is more Secure for most users
 * Zope/Plone is used by several high value targets |br|
   |rarr| Normally those will get attacked first |br|
   |rarr| attacks against them might not get published.
-* Zope/Plone users are normaly more aware of security concepts and web technologies
+* Zope/Plone users are normally more aware of security concepts and web technologies
 
 
 
@@ -451,7 +470,7 @@ IT-Security (InfoSec triad)
 
 * Confidentiality
 * Integrity / Authenticity
-* Availiablity
+* Availability
 
 
 
@@ -528,7 +547,7 @@ IT-Security (InfoSec triad)
 
 * Confidentiality
 * Integrity / Authenticity
-* Availiablity
+* Availability
 
 ----
 
@@ -581,7 +600,7 @@ Integrity / Authenticity
 RestrictedPython & AccessControl
 ================================
 
-all attributes and objects has guared methods for read and write
+all attributes and objects has guarded methods for read and write
 
 |rarr| permission to read and write objects and attributes
 
@@ -603,6 +622,14 @@ All Changes are recorded, you can inspect who did what
 
 Availiablity
 ============
+
+
+.. image:: images/24-7-avaliability.jpg
+    :width: 600px
+    :class: centered
+    :alt: 24/7 Avaliability
+
+
 
 ----
 
@@ -680,12 +707,14 @@ Availiablity
 :data-x: r+0
 :data-y: r+1000
 
-Active Bans
-===========
 
-Misbehaving Clients get automatically banned
+.. container:: overlay centered
 
-|rarr| Fail2Ban
+    **Active Bans**
+
+    *Misbehaving Clients get automatically banned*
+
+    |rarr| **Fail2Ban**
 
 ----
 
@@ -708,8 +737,8 @@ Work of a Security Team
 What do other Security Teams do better?
 =======================================
 
-* More Secure Communication Channels (S/MIME / GPG-Keys for Commmuication are published)
-* More Ussage of Issue Tracker for Communications
+* More Secure Communication Channels (S/MIME / GPG-Keys for Communication are published)
+* More Usage of Issue Tracker for Communications
 * More communication with Hoster of the CMS (Joomla)
 * *Phone Home Function* (Auto-Update, Info in Control-Panels)
 * Better Information on Project Home Page
@@ -739,8 +768,49 @@ What Do other Security Teams do worse?
 
 * Security Team is attached to one large provider and supply patches to customers before official release
 * Only Bugfix-Releases no Hotfixes
-* No Security Information Avaliable
+* No Security Information Available
 * No Security Process on Add-Ons - Communication Process
+
+
+----
+
+:id: recomendations
+:class: slide background-image-slide level-1
+:data-x: r+1000
+:data-y: 1000
+
+
+
+----
+
+:id: asis
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. container:: overlay-b centered
+
+    *never use a system "as is"*
+
+----
+
+:id: min
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. container:: overlay-b centered
+
+    *every system should get at least 15 minutes of care per day*
+
+
+----
+
+:id: survey
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
 
 ----
 
@@ -752,4 +822,115 @@ What Do other Security Teams do worse?
 
 .. raw:: html
 
-    <script type="text/javascript" src="js/charts" />
+    <script type="text/javascript" defer>
+        function results2016 () {
+            $('.results2016-chart').highcharts({
+
+                chart: {
+                    type: 'column',
+                    plotBackgroundColor: null,
+                    plotBorderWidth: null,
+                    plotShadow: false ,
+                    shadow : false,
+                    height: 500,
+                    width: 470,
+                    style: {
+                        fontSize: '30px',
+                    }
+                },
+
+                title: {
+                    text: 'BSI - CMS Security Study 2016'
+                },
+
+                xAxis: {
+                    categories: ['WordPress', 'Joomla!', 'Typo3', 'Plone', 'Liferay'],
+                    title: {
+                        text: 'Core / Plugins / Hardening'
+                    }
+                },
+
+                yAxis: {
+                    allowDecimals: false,
+                    min: 0,
+                    max: 30,
+                    title: {
+                        text: 'Vulnerabilities'
+                    }
+                },
+
+                tooltip: {
+                    formatter: function () {
+                        return '<b>' + this.x + '</b><br/>' +
+                            this.series.name + ': ' + this.y + '<br/>' +
+                            'Total: ' + this.point.stackTotal;
+                    }
+                },
+
+                plotOptions: {
+                    column: {
+                        stacking: 'normal'
+                    }
+                },
+
+                series: [{
+                    name: 'core high',
+                    data: [0, 0, 1, 1, 2],
+                    stack: 'core',
+                    color: '#FF0000',
+                    showInLegend: false
+                }, {
+                    name: 'core medium',
+                    data: [3, 3, 7, 14, 8],
+                    stack: 'core',
+                    color: '#FFFF00',
+                    showInLegend: false
+                }, {
+                    name: 'core low',
+                    data: [11, 2, 6, 14, 7],
+                    stack: 'core',
+                    color: '#00FF00',
+                    showInLegend: false
+                }, {
+                    name: 'very high',
+                    data: [0, 0, 1, 0, 0],
+                    stack: 'plugins',
+                    color: '#CC0000'
+                }, {
+                    name: 'high',
+                    data: [5, 5, 1, 0, 2],
+                    stack: 'plugins',
+                    color: '#FF0000'
+                }, {
+                    name: 'medium',
+                    data: [6, 5, 6, 1, 2],
+                    stack: 'plugins',
+                    color: '#FFFF00'
+                }, {
+                    name: 'low',
+                    data: [8, 4, 3, 0, 1],
+                    stack: 'plugins',
+                    color: '#00FF00',
+                    showInLegend: true
+                }, {
+                    name: 'hardening medium',
+                    data: [1, 0, 1, 0, 1],
+                    stack: 'hardening',
+                    color: '#FFFF00',
+                    showInLegend: false
+                }, {
+                    name: 'hardening low',
+                    data: [0, 0, 8, 0, 4],
+                    stack: 'hardening',
+                    color: '#00FF00',
+                    showInLegend: false
+                },
+                ]
+            });
+        };
+        $(document).ready ( function(){
+            //results2013();
+            results2016();
+
+        });
+    </script>
