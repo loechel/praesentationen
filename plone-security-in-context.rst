@@ -63,47 +63,53 @@ Security in Context
 ----
 
 :id: security-basics
-:class: slide level-1
+:class: slide background-image-slide level-1
 :data-x: r-5000
 :data-y: r+1000
 
 
-What is Security?
-=================
+.. container:: overlay
 
-Security vs Safety
+    **What is Security?**
 
-IT-Security (InfoSec triad)
----------------------------
+    |rarr| Security vs Safety
 
-* Confidentiality
-* Integrity / Authenticity
-* Availability
+    **IT-Security (InfoSec triad)**
 
-|rarr| Attack Vectors
+    * Confidentiality
+    * Integrity / Authenticity
+    * Availability
 
-Safety
-------
+    |rarr| Attack Vectors
 
-* Functional correctness
+    **Safety**
 
-|rarr| Reliability Engineering
+    * Functional correctness
 
+    |rarr| does the software behave like it should
+
+    |rarr| Reliability Engineering
+
+
+.. container:: img-quote
+
+    CC3-BY-SA https://commons.wikimedia.org/wiki/File:Scutum_1.jpg
 
 ----
 
 :id: context
-:class: slide level-1
+:class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-Security in Context
-===================
+.. container:: overlay-b centered
 
-Definition of Context
+    **Security in Context**
 
-* CMS-Market
-* Web-Technologies
+    Definition of Context
+
+    * CMS-Market
+    * Web-Technologies
 
 
 
@@ -131,6 +137,8 @@ Definition of Context
 :data-x: r+0
 :data-y: r+1000
 
+CMS-Garden
+==========
 
 .. image:: images/cms-gartenfibel.png
     :height: 500px
@@ -154,7 +162,7 @@ Definition of Context
 
 
 :id: is-plone-secure
-:class: slide level-1
+:class: slide background-image-slide level-1
 :data-x: r+1000
 :data-y: 1000
 
@@ -164,46 +172,47 @@ Is Plone Secure?
 ----
 
 :id: is-plone-secure-answer1
-:class: slide level-1
+:class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-It Depends
-==========
+.. container:: overlay centered
 
-* Plone Core itself is pretty secure
-* Security of an installation depends on the installation and maintenance
+    **It Depends**
+
+    * Plone Core itself is pretty secure
+    * Security of an installation depends on |br| the installation and maintenance
 
 
-*so basically*
---------------
+    *so basically*
 
-YES Plone is pretty secure
-==========================
+    **YES**
+
+    **Plone is pretty secure**
+
 
 ----
 
 
 :id: is-plone-secure-answer2
-:class: slide level-1
+:class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-But Why is it Secure?
-=====================
 
-And what are good indicators for security?
-------------------------------------------
+.. container:: overlay centered
 
-* Do Number of Published Problems (CVEs and CVE Scores) give a good comparison?
-* Number of Hacked Sites
-* Zero Day Exploides
+    **But Why is it Secure?**
 
-SORRY NO!
-=========
+    *And what are good indicators for security?*
 
-Those are not objective and relevant comparison
-and those do not reflect the current situation
+    * Do Number of Published Problems |br| (CVEs and CVE Scores) give a good comparison?
+    * Number of Hacked Sites?
+    * spotted Zero Day Exploides?
+
+    **SORRY NO!**
+
+    *Those are not objective and relevant comparison and those do not reflect the current situation*
 
 ----
 
@@ -215,16 +224,16 @@ and those do not reflect the current situation
 How to proof Security
 =====================
 
-* Security is a process not a state
+* Security is a **process** not a **state**
 * Real Security could not be tested automatically |br| |rarr| known vulnerability could
-
-Approach
---------
 
 .. image:: images/OWASP-Logo.jpg
     :width: 300px
     :class: right
     :alt: Open Web Application Security Project
+
+Approach
+--------
 
 * Manually test for common Attack Vectors (|rarr| *OWASP Study - Top 10 List of Most Critical Web Application Security Risks*)
 * Analyze Processes of the Developer
@@ -261,7 +270,7 @@ OWASP Top 10 Report
 #. Insecure Direct Object References
 #. Security Misconfiguration
 #. Sensitive Data Exposure
-#. Missing Function Level Access Control
+#. Missing Function Level |br| Access Control
 #. Cross-Site Request Forgery (CSRF)
 #. Using Known Vulnerable Components
 #. Unvalidated Redirects and Forwards
@@ -273,20 +282,16 @@ OWASP Top 10 Report
 :data-x: r+0
 :data-y: r+1000
 
-Compare sources of Vulnerabilities in common CMSs
+Compare sources |br| of Vulnerabilities in |br| common CMSs
+===========================================================
 
 
 .. image:: images/CMS_Darstellung_Durchschnittswerte.jpg
-    :width: 300px
-    :class: right
-    :alt: BSI CMS Security Study 2013
+    :width: 700px
+    :class: centered
+    :alt: BSI CMS Security Study 2013 - sources of vulnerabilities
 
 
-
-.. note::
-
-    BSI CMS-Sicherheitsstudie 2013
-    BSI CMS Studie 2016 (not published)
 
 ----
 
@@ -374,8 +379,8 @@ State 2016
 :data-x: r+1000
 :data-y: 1000
 
-So Plone is more secure in comparison to:
------------------------------------------
+So Plone is more secure |br| in comparison to?
+----------------------------------------------
 
 * Wordpress
 * Joomla
@@ -383,8 +388,32 @@ So Plone is more secure in comparison to:
 * Typo3
 * ...
 
-But Why?
+
+
+----
+
+:id: comparison-answer
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+YES & NO
 ========
+
+NO
+--
+
+* The other CMS's itself are also **secure**
+* Security is a process and depends on the setup and maintenance
+
+YES
+---
+
+* CMS itself are normally not enough |rarr| *Plugins* |rarr| source of most vulnerabilities
+* Empirical Result |rarr| we do see a lot of hacked WordPress, Joomla, Drupal, Typo3 instances around
+
+But why Plone seems to be more Secure?
+======================================
 
 
 ----
@@ -416,11 +445,11 @@ Reasons Why Plone is more Secure
 :data-x: r+0
 :data-y: r+1000
 
-Additional Reasons Why Plone is more Secure for most users
-==========================================================
+Additional Reasons |br| why Plone is more Secure |br| for most users
+====================================================================
 
 * Zope/Plone is very complex |rarr| *Security by obscurity*
-* Zope/Plone has not a large market share |br| |rarr| not interesting for bot networks
+* Zope/Plone has not a large *market share* |br| |rarr| not interesting for bot networks
 * Zope/Plone is used by several high value targets |br|
   |rarr| Normally those will get attacked first |br|
   |rarr| attacks against them might not get published.
@@ -477,13 +506,13 @@ IT-Security (InfoSec triad)
 ----
 
 :id: safety
-:class: slide level-1
+:class: slide background-image-slide level-1
 :data-x: r+1000
 :data-y: 1000
 
-Safety
-======
+.. container:: img-quote
 
+    CC2-BY-SA - Blue Coat Photos - https://www.flickr.com/photos/111692634@N04/11406986464/in/photostream/
 
 ----
 
@@ -537,17 +566,25 @@ Code Conventions and Test Coverage
 ----
 
 :id: it-security
-:class: slide level-1
+:class: slide background-image-slide level-1
 :data-x: r+2000
 :data-y: 1000
 
 
-IT-Security (InfoSec triad)
-===========================
+.. container:: overlay centered
 
-* Confidentiality
-* Integrity / Authenticity
-* Availability
+    **IT-Security**
+    *(InfoSec triad)*
+
+    * Confidentiality
+    * Integrity / Authenticity
+    * Availability
+
+
+
+.. container:: img-quote
+
+    CC3-BY-SA https://en.wikipedia.org/wiki/File:CIAJMK1209.png
 
 ----
 
@@ -593,23 +630,23 @@ Integrity / Authenticity
 ----
 
 :id: RestrictedPython
-:class: slide level-1
+:class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-RestrictedPython & AccessControl
-================================
+.. container:: overlay
 
-all attributes and objects has guarded methods for read and write
+    **RestrictedPython & AccessControl**
 
-|rarr| permission to read and write objects and attributes
+    all attributes and objects has guarded methods for read and write
 
-|rarr| automatically on all objects and the catalog
+    |rarr| permission to read and write objects and attributes
 
-History
-=======
+    |rarr| automatically on all objects and the catalog
 
-All Changes are recorded, you can inspect who did what
+    **History**
+
+    All Changes are recorded, you can inspect who did what
 
 
 
@@ -823,6 +860,119 @@ What Do other Security Teams do worse?
 .. raw:: html
 
     <script type="text/javascript" defer>
+
+        function results2013 () {
+            $('.results2013-chart').highcharts({
+                chart: {
+                    type: 'column',
+                    plotBackgroundColor: null,
+                    plotBorderWidth: null,
+                    plotShadow: false ,
+                    shadow : false,
+                    height: 550,
+                    width: 400,
+                    style: {
+                        fontSize: '20px',
+                    }
+                },
+                title: {
+                    text: 'BSI - CMS Security Study 2013 - Security Vulnerabilities per CMS',
+                    style: {
+                        color: '#000',
+                        fontSize: '20px'
+                    },
+                },
+                credits: {
+                    enabled: false,
+                    text: "Source: metagenerator.info",
+                    href: "http://www.metagenerator.info/top-50.html",
+                    style: {
+                        fontSize: '24px',
+                    }
+                },
+                xAxis: {
+                    categories: ['Drupal', 'Plone', 'WordPress', 'Joomla!','Typo3'],
+                    style: {
+                        fontSize: '40px',
+                    },
+                },
+                yAxis: {
+                    min: 0,
+                    max: 80,
+                    title: {
+                        text: ''
+                    }
+                },
+                legend: {
+                    enabled: false
+                },
+                series: [{
+                    type: 'column',
+                    data: [24, 10, 46, 51, 57 ],
+                    stack: 'abs'
+                }]
+            });
+            $('.results2013-chart2').highcharts({
+                chart: {
+                    type: 'column',
+                    plotBackgroundColor: 'rgba(255, 255, 255, 0.1)',
+                    backgroundColor: 'rgba(255, 255, 255, 0)',
+                    plotBorderWidth: null,
+                    plotShadow: false ,
+                    shadow : false,
+                    height: 200,
+                    width: 260,
+                    style: {
+                        fontSize: '20px',
+                    }
+                },
+                title: {
+                    text: "core vs add'on vunrabilities",
+                    style: {
+                        color: '#000',//#3E576F',
+                        fontSize: '20px'
+                    },
+                },
+                credits: {
+                    enabled: false,
+                    text: "Source: metagenerator.info",
+                    href: "http://www.metagenerator.info/top-50.html",
+                    style: {
+                        fontSize: '24px',
+                    }
+                },
+                xAxis: {
+                    categories: ['Drupal', 'Plone', 'WordPress', 'Joomla!','Typo3'],
+                    style: {
+                        fontSize: '40px',
+                    },
+                },
+                yAxis: {
+                    min: 0,
+                    max: 100,
+                    title: {
+                        text: ''
+                    }
+                },
+                legend: {
+                    enabled: false
+                },
+                plotOptions: {
+                    column: {
+                        stacking: 'percent'
+                    }
+                },
+                series: [ {
+                    type: 'column',
+                    data: [95.83,  30, 80.12, 86.63,  86.25],
+                    color: '#008800'
+                },{
+                    type: 'column',
+                    data: [4.17, 70, 19.88, 13.37, 13.75 ],
+                    color: '#990000'
+                }]
+            });
+        };
         function results2016 () {
             $('.results2016-chart').highcharts({
 
@@ -835,18 +985,49 @@ What Do other Security Teams do worse?
                     height: 500,
                     width: 470,
                     style: {
-                        fontSize: '30px',
+                        fontSize: '20px',
                     }
                 },
 
                 title: {
-                    text: 'BSI - CMS Security Study 2016'
+                    text: 'BSI - CMS Security Study 2016',
+                    style: {
+                        color: '#000',//#3E576F',
+                        fontSize: '20px'
+                    },
+                },
+
+                credits: {
+                    enabled: false,
+                    text: "Source: metagenerator.info",
+                    href: "http://www.metagenerator.info/top-50.html",
+                    style: {
+                        fontSize: '24px',
+                    }
+                },
+
+                legend: {
+                    itemStyle: {
+                        color: '#000',//#3E576F',
+                        fontSize: '16px',
+                        fontWeight: 'normal'
+                    },
                 },
 
                 xAxis: {
+                    style: {
+                        color: '#000',//#3E576F',
+                        fontSize: '20px'
+                    },
+                    labels: {
+                        style: {
+                            color: '#000',//#3E576F',
+                            fontSize: '20px'
+                        },
+                    },
                     categories: ['WordPress', 'Joomla!', 'Typo3', 'Plone', 'Liferay'],
                     title: {
-                        text: 'Core / Plugins / Hardening'
+                        text: 'Core / Plugins / System Hardening'
                     }
                 },
 
@@ -928,9 +1109,8 @@ What Do other Security Teams do worse?
                 ]
             });
         };
-        $(document).ready ( function(){
-            //results2013();
+        $(document).ready( function(){
+            results2013();
             results2016();
-
         });
     </script>
