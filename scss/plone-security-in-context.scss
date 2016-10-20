@@ -36,12 +36,19 @@
 }
 
 .overlay-b {
-    background-color: rgba(0, 0, 0, 0.75);
-    border: 2px solid rgba(0, 0, 0, 1);
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
-    color: #fff;
-    padding: 20px;
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 2px solid rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+  color: #fff;
+  padding: 20px;
+}
+
+.overlay strong,
+.overlay em,
+.overlay-b strong,
+.overlay-b em {
+  display: block;
 }
 
 .overlay ul,
@@ -104,7 +111,6 @@ div#security-basics {
 
   .overlay {
     strong {
-      display: block;
       font-size: 2em;
       margin-top: 25px;
       margin-bottom: 25px;
@@ -124,9 +130,7 @@ div#context {
     strong {
       font-size: 2em;
       margin-bottom: 25px;
-      display: block;
     }
-
   }
 }
 
@@ -191,6 +195,43 @@ div#is-plone-secure {
 
 div#comparison-answer {
   background-image: url("../images/makingright_conclusions.jpg");
+  strong {
+    font-size: 48px;
+    line-height: 1em;
+  }
+  em {
+    font-size: 48px;
+    line-height: 1em;
+    margin-top: 20px;
+  }
+  li strong,
+  li em {
+    display: inline;
+    font-size: inherit;
+  }
+}
+
+div#test {
+  background-image: url("../images/approved.png");
+  background-color: #ffffff;
+  .overlay {
+    margin-top: 300px;
+  }
+}
+
+div#other-security-teams-better {
+  background-image: url("../images/handshake.jpg");
+}
+
+div#joomla-security-teams-better {
+  background-image: url("../images/joomla-security.png");
+}
+
+div#other-security-teams-worse {
+  background-image: url("../images/fireball-422746.jpg");
+  .overlay {
+    margin-top: 200px;
+  }
 }
 
 div#is-plone-secure-answer1 {
@@ -199,13 +240,11 @@ div#is-plone-secure-answer1 {
     font-size: 72px;
     margin-bottom: 50px;
     margin-top: 50px;
-    display: block;
   }
   em {
     font-size: 48px;
     margin-bottom: 25px;
     margin-top: 25px;
-    display: block;
   }
 }
 
@@ -219,13 +258,11 @@ div#is-plone-secure-answer2 {
     font-size: 72px;
     margin-bottom: 50px;
     margin-top: 50px;
-    display: block;
   }
   em {
     font-size: 40px;
     margin-bottom: 25px;
     margin-top: 25px;
-    display: block;
   }
 
   ul {
@@ -270,12 +307,10 @@ div#it-security {
   background-size: 600px 600px;
   background-color: #ffffff;
   strong {
-    display: block;
     font-size: 72px;
     margin-bottom: 30px;
   }
   em {
-    display: block;
     font-size: 40px;
     margin-bottom: 30px;
   }
@@ -287,6 +322,24 @@ div#Confidentiality {
   h1 {
     color: transparent;
   }
+}
+
+div#workflows-permissions {
+  background-image: url("../images/navy-access-control.jpg");
+
+  strong {
+    font-size: 60px;
+    margin-bottom: 30px;
+    line-height: 1em;
+    text-align: center;
+  }
+  .overlay {
+    margin-top: 200px;
+  }
+}
+
+div#skeletons {
+  background-image: url("../images/zopeskel.png");
 }
 
 div#Integrity {
@@ -303,12 +356,27 @@ div#RestrictedPython {
   background-image: url("../images/access-control.jpg");
 
   strong {
-    display: block;
     font-size: 60px;
     margin-bottom: 30px;
     margin-top: 30px;
     line-height: 1em;
     text-align: center;
+  }
+}
+
+div#setup {
+  background-image: url("../images/servers.jpg");
+
+  strong {
+    font-size: 48px;
+    margin-bottom: 30px;
+    line-height: 1em;
+    text-align: center;
+  }
+  em {
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
 
@@ -370,12 +438,51 @@ div#numbers3 {
   }
 }
 
+div#owasp-answer {
+  background-image: url("../images/plone_owasp-2013.png");
+}
+div#security-track {
+  background-image: url("../images/plone.com_secure.png");
+}
+div#sanitized-input {
+  background-image: url("../images/Coffee-filter.jpg");
+  background-color: #ffffff;
+
+  .overlay-b {
+    margin-top: 300px;
+  }
+
+  strong {
+    font-size: 60px;
+  }
+
+  ul {
+    margin-bottom: 50px;
+  }
+}
+
 
 div#recomendations {
   background-image: url("../images/conclusions-recommendations.jpg");
 }
 
+div#work-security-teams {
+  background-image: url("../images/2012_conference.jpeg");
 
+  .overlay-b {
+    margin-top: 200px;
+  }
+
+  strong {
+    margin-top: 20px;
+    font-size: 60px;
+  }
+
+  em {
+    margin-top: 50px;
+  }
+
+}
 
 div#asis {
   background-image: url("../images/box.png");

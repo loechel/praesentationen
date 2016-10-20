@@ -397,24 +397,23 @@ So Plone is more secure |br| in comparison to?
 :data-x: r+0
 :data-y: r+1000
 
-YES & NO
-========
 
-NO
---
+.. container:: overlay centered
 
-* The other CMS's itself are also **secure**
-* Security is a process and depends on the setup and maintenance
+    **YES & NO**
 
-YES
----
+    *NO*
 
-* CMS itself are normally not enough |rarr| *Plugins* |rarr| source of most vulnerabilities
-* Empirical Result |rarr| we do see a lot of hacked WordPress, Joomla, Drupal, Typo3 instances around
+    * The other CMS's itself are also **secure**
+    * Security is a process and depends on the setup and maintenance
 
-But why Plone seems to be more Secure?
-======================================
+    *YES*
 
+    * CMS itself are normally not enough |br| |rarr| *Plugins* |rarr| source of most vulnerabilities
+    * Empirical Result |rarr| we do see a lot of hacked WordPress, Joomla, Drupal, Typo3 instances around
+
+    **But why Plone seems**
+    **to be more Secure?**
 
 ----
 
@@ -550,25 +549,64 @@ IT-Security (InfoSec triad)
 ----
 
 :id: test
-:class: slide level-1
+:class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-Code Conventions and Test Coverage
-==================================
+.. container:: overlay centered
 
-* Enforcement of Code Conventions in the Core
-* Enforcement of Tests (Unit and Functional Test) for Core
-*
+    **Code Conventions and Test Coverage**
 
-|rarr| The Plone Community ensures functional correctness
+
+    * Enforcement of Code Conventions in the Core
+
+    * Enforcement of Tests (Unit and Functional Test) for Core
+
+
+    |rarr| The Plone Community ensures functional correctness
+
+    **Tools**
+
+    * plone.recipe.codeanalysis
+    * mr.docs
+
+----
+
+:id: skeletons
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. container:: overlay centered
+
+    **Skeletons and Code Generators**
+
+    * mr.bob
+    * ZopeSkel / Paster / Templer (old way)
+
+
+
+----
+
+:id: owasp-answer
+:class: slide background-image-slide level-1
+:data-x: r+1500
+:data-y: 1000
+
+
+----
+
+:id: security-track
+:class: slide background-image-slide level-1
+:data-x: r+1000
+:data-y: 1000
 
 ----
 
 :id: it-security
 :class: slide background-image-slide level-1
-:data-x: r+2000
-:data-y: 1000
+:data-x: r-500
+:data-y: 2000
 
 
 .. container:: overlay centered
@@ -580,49 +618,47 @@ Code Conventions and Test Coverage
     * Integrity / Authenticity
     * Availability
 
-
-
 .. container:: img-quote
 
     CC3-BY-SA https://en.wikipedia.org/wiki/File:CIAJMK1209.png
+
 
 ----
 
 :id: Confidentiality
 :class: slide background-image-slide level-1
 :data-x: r-1000
-:data-y: 2000
+:data-y: 3000
 
 
 ----
 
 
 :id: workflows-permissions
-:class: slide level-1
+:class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-Permissions & Workflow
-======================
+.. container:: overlay
 
-* Roles
+    **Permissions & Workflow**
 
-* Permissions
+    * Roles
 
-* Guards
+    * Permissions
 
-|rarr| but standard model is not enough for high confidential content - admins could see everything
+    * Guards
 
-|rarr| but also Custom Workflows could hide content from higher roles like managers
+    |rarr| but standard model is not enough for high confidential content - admins could see everything
+
+    |rarr| but also Custom Workflows could hide content from higher roles like managers
 
 ----
 
 :id: Integrity
 :class: slide background-image-slide level-1
 :data-x: r+1000
-:data-y: 2000
-
-
+:data-y: 3000
 
 Integrity / Authenticity
 ========================
@@ -649,13 +685,60 @@ Integrity / Authenticity
     All Changes are recorded, you can inspect who did what
 
 
+----
+
+:id: setup
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. container:: overlay centered
+
+    **Setup and Plone Deployment**
+
+    * zc.buildout with plone_buildout & plone_deamon users
+
+    * Disallow to change Application by itself
+
+    * Separates application and data
+
+    *The Problem of PHP*
+
+    * PHP did not have an Application server
+    * PHP suffer the "Von Neumann architecture" (code and date share same memory)
+      |rarr| Data or Code could modify the system on the fly
+
+    * PHP Addons is a large problem
+      |rarr| matter of trust and tests
+
+.. container:: img-quote
+
+    CC3-BY-SA https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_Servers-8055_19.jpg
+
+
+----
+
+:id: sanitized-input
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. container:: overlay-b centered
+
+    **Sanitized Input**
+
+    * Cleanup HTML Markup (RichText Fields) |rarr| Filter
+
+    * Escape HTML Entities in other fields (Attention: 'structure' in templates)
+
+    **CSRF-Protection**
 
 ----
 
 :id: Availiablity
 :class: slide level-1
 :data-x: r+1000
-:data-y: 2000
+:data-y: 3000
 
 Availiablity
 ============
@@ -760,8 +843,13 @@ Availiablity
 :data-x: r+1000
 :data-y: 1000
 
-Work of a Security Team
-=======================
+
+.. container:: overlay-b centered
+
+    **Work of a Security Team**
+
+    *de meeste mensen zwijgen, een enkeling stelt een daad*
+    *Most people stay silence, only a few act*
 
 
 ----
@@ -771,42 +859,65 @@ Work of a Security Team
 :data-x: r+0
 :data-y: r+1000
 
-What do other Security Teams do better?
-=======================================
+.. container:: overlay centered
 
-* More Secure Communication Channels (S/MIME / GPG-Keys for Communication are published)
-* More Usage of Issue Tracker for Communications
-* More communication with Hoster of the CMS (Joomla)
-* *Phone Home Function* (Auto-Update, Info in Control-Panels)
-* Better Information on Project Home Page
+    **What do other Security Teams do better?**
 
-  * https://developer.joomla.org/security-centre.html
-  * https://docs.joomla.org/Security
-  * https://extensions.joomla.org/category/access-a-security/site-security
 
-* CSV Reports
-* More People |rarr| active Review and Inspection of CMS-Core Modules
+    * More Secure Communication Channels (S/MIME / GPG-Keys for Communication are published)
+    * More Usage of Issue Tracker for Communications
+    * More communication with Hoster of the CMS (Joomla)
+    * *Phone Home Function*
+
+      * Auto-Update
+      * Info in Control-Panels
+
+    * CSV Reports
+
+    Other Community might have a larger Community
+
+    |rarr| active Review and Inspection of CMS-Core Modules
+
+----
+
+:id: joomla-security-teams-better
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. container:: overlay centered
+
+    **What do other Security Teams do better?**
+
+    **Good Example Joomla! Community**
+
+    * More communication with Hoster of the CMS
+    * Better Information on Project Home Page
+
+      * https://developer.joomla.org/security-centre.html
+      * https://docs.joomla.org/Security
+      * https://extensions.joomla.org/category/access-a-security/site-security
 
 ----
 
 :id: other-security-teams-worse
-:class: slide level-1
+:class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-What Do other Security Teams do worse?
-======================================
+.. container:: overlay centered
 
+    **What Do other Security Teams do worse?**
 
-.. image:: images/SA-CORE-2014-005.png
-    :width: 200px
-    :class: right
-    :alt:
+    .. image:: images/SA-CORE-2014-005.png
+        :width: 200px
+        :class: right
+        :alt:
 
-* Security Team is attached to one large provider and supply patches to customers before official release
-* Only Bugfix-Releases no Hotfixes
-* No Security Information Available
-* No Security Process on Add-Ons - Communication Process
+    * Security Team is attached to one large provider and supply patches to customers before official release
+    * Only Bugfix-Releases no Hotfixes
+    * No Security Information Available
+    * No Security Process on Add-Ons - Communication Process
 
 
 ----
@@ -845,16 +956,16 @@ What Do other Security Teams do worse?
 
 :id: survey
 :class: slide background-image-slide level-1
-:data-x: r+0
-:data-y: r+1000
+:data-x: 0
+:data-y: 10000
 
 
 ----
 
 :id: overview
 :data-x: 0
-:data-y: 3000
-:data-scale: 8
+:data-y: 3500
+:data-scale: 10
 
 
 .. raw:: html
