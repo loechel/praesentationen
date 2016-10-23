@@ -1,0 +1,143 @@
+
+.title-slide {
+
+  * {
+    color: #0083BE;
+  }
+
+  h1 {
+    font-size: 80px;
+    font-weight: bolder;
+    line-height: 1.2em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+  }
+  h2 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 60px;
+  }
+
+  div.title > p {
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    left: 430px;
+    font-size: 72px;
+  }
+
+  img {
+    margin-top: 3em;
+    margin-bottom: 1em;
+  }
+}
+
+.subtitle-slide h1 {
+  margin-top: 280px;
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.75);
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.overlay-b {
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 2px solid rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+  color: #fff;
+  padding: 20px;
+}
+
+.overlay strong,
+.overlay em,
+.overlay-b strong,
+.overlay-b em {
+  display: block;
+}
+
+.overlay ul,
+.overlay-b ul,
+.overlay ol,
+.overlay-b ol {
+  text-align: left;
+}
+
+blockquote {
+  font-size: 2em;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+div.cite {
+  font-size: 0.6em;
+  text-align: right;
+}
+
+.code {
+  text-align: left;
+  background-color: transparent;
+}
+
+.img-quote {
+  background-color: rgba(255, 255, 255, 0.75);
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 5px;
+  font-size: 10px;
+  line-height: 1.2em;
+}
+
+
+
+
+
+div#zen {
+  background-image: url("../images/zen.jpg");
+
+  .overlay {
+    margin-top: 220px;
+  }
+}
+
+div#community {
+  background-image: url("../images/2012_conference.jpeg");
+}
+
+div#complex-systems {
+  background-image: url("../images/Tokyo_by_night_2011.jpg");
+
+  blockquote {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding: 20px;
+    font-size: 36px;
+    margin-top: 90px;
+  }
+  cite {
+    color: #fff;
+  }
+}
+
+
+
+
+
+div.slide .timed {
+  opacity: 0;
+}
+
+div.slide.active .timed {
+    opacity: 1;
+    transition: opacity 5s ease 5s;
+}
