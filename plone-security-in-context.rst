@@ -33,10 +33,6 @@
    :class: highlight code python
    :language: python
 
-.. role:: tcl(code)
-   :class: highlight code tcl
-   :language: tcl
-
 ----
 
 :id: title

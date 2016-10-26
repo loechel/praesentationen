@@ -24,13 +24,14 @@
 
     <hr/>
 
+.. |rarr| raw:: html
+
+    &rarr;
+
+
 .. role:: python(code)
    :class: highlight code python
    :language: python
-
-.. role:: tcl(code)
-   :class: highlight code tcl
-   :language: tcl
 
 ----
 
@@ -63,7 +64,7 @@ A History of Community, Technology and the Web
 
 .. container:: centered
 
-    Alexander Loechel
+    Alexander Loechel & Philip Bauer
 
 
 ----
@@ -92,7 +93,7 @@ Ancient History
 
 20. February 1991
 
-.. image:: images/python-logo.png
+.. image:: images/logos/python-logo.png
     :height: 100px
     :class: left
 
