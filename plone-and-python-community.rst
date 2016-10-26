@@ -60,9 +60,10 @@ Community
 A Long Journey
 --------------
 
-A History of Community, Technology and the Web
 
 .. container:: centered
+
+    A History of Community, Technology and the Web
 
     Alexander Loechel & Philip Bauer
 
@@ -78,6 +79,8 @@ Ancient History
 ===============
 
 .. note::
+
+    Alexander / Philip
 
 ----
 
@@ -98,6 +101,8 @@ Ancient History
     :class: left
 
 .. note::
+
+    Alexander
 
     The Beginning: Python
 
@@ -191,11 +196,11 @@ The Idea of Zope and ZODB are from 1996
 :data-x: r+0
 :data-y: r+1000
 
-.. image:: images/zope-disk.jpg
-    :width:
-    :class:
+.. image:: images/zope-floppy.jpg
+    :width: 500px
+    :class: centered
 
-|rarr| Zope become Open Sourced
+|rarr| Zope became later Open Sourced
 
 
 .. note::
@@ -207,26 +212,30 @@ The Idea of Zope and ZODB are from 1996
 
 ----
 
-:id:
+:id: zope-corp
 :class: slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-Zope Corporation
+.. container:: overlay
 
-Employees
+    **Digital Creations, L.C.** - later become **Zope Corporation**
 
-* Jim Fulton
-* Paul Everitt
-* Tres Seaver
-* Chris McDonough
-* Guido van Rossum
-* ...
+    Employees
+
+    * Jim Fulton
+    * Paul Everitt
+    * Tres Seaver
+    * Chris McDonough
+    * Guido van Rossum
+    * ...
 
 .. note::
 
 
+    Alexander
 
+    Background-image zope-corp
 
 
 ----
@@ -253,6 +262,8 @@ Employees
 
 .. note::
 
+    Alexander
+
     In 1999 Two People (Alex Limi & Alan Runyan) met on IRC and talk about Music and Web Programming
 
 ----
@@ -271,6 +282,8 @@ Employees
 
 .. note::
 
+    Alexander
+
     Plone was releaser on Oct. 04 2001 |rarr| Plone is now 15 years old.
 
     And while Zope was the killer app on Python, Plone became the killer app on Zope.
@@ -284,9 +297,24 @@ Employees
 :data-y: r+1000
 
 
+#.. image:: images/plone-birthday-sticker.png
+#    :width: 200px
+#    :class: left
 
+#.. image:: images/plone-birthday-sticker.png
+#    :width: 200px
+#    :class: right
+
+.. container:: overlay centered
+
+
+    **Happy Birthday Plone**
+
+    **15th Anniversary**
 
 .. note::
+
+    Alexander
 
     Plone Classic Theme
 
@@ -301,6 +329,8 @@ Employees
 
 .. note::
 
+    Philip
+
     Plone Sunburst Theme
 
 
@@ -314,6 +344,8 @@ Employees
 
 .. note::
 
+    Philip
+
     Plone Barcoloneta Theme
 
 ----
@@ -325,6 +357,7 @@ Employees
 
 .. note::
 
+    Alexander / Philip
 
 ----
 
@@ -337,6 +370,9 @@ We are standing on the shoulder of giants
 
 .. note::
 
+    Alexander / Philip
+
+    Background-image Giants
 
 ----
 
@@ -347,6 +383,7 @@ We are standing on the shoulder of giants
 
 .. note::
 
+    Alexander / Philip
 
 ----
 
@@ -357,6 +394,7 @@ We are standing on the shoulder of giants
 
 .. note::
 
+    Alexander / Philip
 
 
 
@@ -378,7 +416,7 @@ Lightning Talks
 
 .. note::
 
-.. note::
+    Philip
 
     background image Lightning-Talk List
 
@@ -394,6 +432,8 @@ Sprints
 
 
 .. note::
+
+    Philip
 
     background image Sprint boston
 
@@ -420,6 +460,7 @@ Some Officers and Board Members:
 
 .. note::
 
+    Alexander
 
 
 
@@ -438,6 +479,7 @@ Bootstraped by
 
 .. note::
 
+    Alexander
 
 ----
 
@@ -448,6 +490,7 @@ Bootstraped by
 
 .. note::
 
+    Alexander / Philip
 
 ----
 
@@ -458,6 +501,7 @@ Bootstraped by
 
 .. note::
 
+    Alexander / Philip
 
 ----
 
@@ -468,6 +512,7 @@ Bootstraped by
 
 .. note::
 
+    Alexander / Philip
 
 ----
 
@@ -478,6 +523,7 @@ Bootstraped by
 
 .. note::
 
+    Alexander / Philip
 
 ----
 
@@ -488,6 +534,7 @@ Bootstraped by
 
 .. note::
 
+    Alexander / Philip
 
 ----
 
@@ -498,6 +545,7 @@ Bootstraped by
 
 .. note::
 
+    Alexander / Philip
 
 ----
 
@@ -508,6 +556,7 @@ Bootstraped by
 
 .. note::
 
+    Alexander / Philip
 
 ----
 
@@ -518,6 +567,7 @@ Bootstraped by
 
 .. note::
 
+    Alexander / Philip
 
 ----
 
@@ -531,6 +581,7 @@ Bootstraped by
 
 .. note::
 
+    Alexander / Philip
 
 ----
 
@@ -541,6 +592,7 @@ Bootstraped by
 
 .. note::
 
+    Alexander / Philip
 
 ----
 
@@ -551,6 +603,7 @@ Bootstraped by
 
 .. note::
 
+    Alexander / Philip
 
 ----
 
@@ -564,6 +617,7 @@ Plone is not hip, anymore
 
 .. note::
 
+    Alexander
 
 ----
 
@@ -574,6 +628,9 @@ Plone is not hip, anymore
 
 Plone is boring
 
+.. note::
+
+    Alexander
 
 ----
 
@@ -593,6 +650,9 @@ Plone is boring
 * Varnish is boring
 * Cron is boring
 
+.. note::
+
+    Alexander
 
 ----
 
@@ -609,6 +669,8 @@ Plone is boring
 
 
 .. note::
+
+    Alexander
 
     **Embrace Boredom.**
 
@@ -638,6 +700,11 @@ Plone is boring
 
 * Boring pays your bills
 
+.. note::
+
+    Alexander
+
+
 
 ----
 
@@ -652,6 +719,8 @@ Plone is boring
 
 
 .. note::
+
+    Philip
 
     Plone model of introducing features
 
@@ -671,12 +740,6 @@ Plone is boring
 
 
 
-----
-
-:id:
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
 
 
 
@@ -689,14 +752,8 @@ Plone is boring
 
 .. note::
 
-----
+    Alexander / Philip
 
-:id:
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. note::
 
 ----
 
@@ -707,14 +764,8 @@ Plone is boring
 
 .. note::
 
-----
+    Alexander / Philip
 
-:id:
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. note::
 
 ----
 
@@ -725,6 +776,9 @@ Plone is boring
 
 .. note::
 
+    Alexander / Philip
+
+
 ----
 
 :id:
@@ -733,6 +787,32 @@ Plone is boring
 :data-y: r+1000
 
 .. note::
+
+    Alexander / Philip
+
+
+----
+
+:id:
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. note::
+
+    Alexander / Philip
+
+
+----
+
+:id:
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. note::
+
+    Alexander / Philip
 
 ----
 
@@ -743,6 +823,8 @@ Plone is boring
 
 .. note::
 
+    Alexander / Philip
+
 ----
 
 #:id:
@@ -751,6 +833,8 @@ Plone is boring
 :data-y: r+1000
 
 .. note::
+
+    Alexander / Philip
 
 ----
 
@@ -766,7 +850,7 @@ Plone is boring
 
 .. note::
 
-
+    Philip
 
 
 ----
@@ -795,6 +879,10 @@ Plone is boring
         Readability counts.
         Special cases aren't special enough to break the rules.
         ...
+
+.. note::
+
+    Alexander
 
 ----
 
@@ -825,6 +913,8 @@ Plone is boring
 
     de meeste mensen zwijgen, een enkeling stelt een daad. - Die meisten Menschen schwiegen, ein paar wenige handeln.
 
+    Alexander
+
 ----
 
 :id: success
@@ -842,6 +932,10 @@ Plone is boring
     * People that want you to get ahead
     * People that get you out of your comfort zone
     * People that make you smile
+
+.. note::
+
+    Alexander
 
 ----
 
@@ -863,6 +957,8 @@ Plone is boring
 
     *Use the right tool for the job*
 
+    Alexander
+
 ----
 
 :id: turnaround
@@ -879,6 +975,10 @@ Plone is boring
     -- Sean Kelly - Better Web-Application Development |br| https://www.youtube.com/watch?v=DWODIO6aCUE
 
 
+.. note::
+
+    Alexander
+
 ----
 
 :id: diazo
@@ -893,6 +993,10 @@ Diazo
     :width: 600px
     :class: centered
     :alt: Diazo
+
+.. note::
+
+    Philip
 
 
 ----
@@ -915,6 +1019,10 @@ Diazo
 
     CC3-BY-SA https://en.wikipedia.org/wiki/File:Tokyo_by_night_2011.jpg
 
+.. note::
+
+    Alexander
+
 
 ----
 
@@ -929,6 +1037,10 @@ Diazo
 
     You can move fast and break things, |br| if you know the procedure to repair it quickly
 
+
+.. note::
+
+    Alexander
 
 
 
@@ -948,7 +1060,7 @@ Plone is the First Class Citizen of Content Management and Python Web
 
 .. note::
 
-
+    Alexander
 
 ----
 
@@ -969,7 +1081,7 @@ Plone Roadmap 2020
 
 .. note::
 
-
+    Philip
 
 
 ----
@@ -988,6 +1100,8 @@ See you at
 * or any Sprint or Event, ...
 
 .. note::
+
+    Philip
 
 ----
 
