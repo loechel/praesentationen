@@ -86,7 +86,7 @@ Ancient History
 :data-y: r+1000
 
 
-.. image:: images/monty-python-flighing-circus.jpg
+.. image:: images/flying_circus.jpg
     :width: 300px
     :class: right
 
@@ -110,8 +110,6 @@ Ancient History
 1996
 
 
-.. image:: flight-seat.jpg
-
 
 Bobo
 ====
@@ -122,6 +120,8 @@ Bobo
     Zope was Born
 
     Zope == Z Object Publishing Environment
+
+    background-image: images/flight-seat.jpg
 
 ----
 
@@ -961,7 +961,7 @@ The Journey Continues
 Plone Roadmap 2020
 ==================
 
-* 
+*
 *
 *
 
