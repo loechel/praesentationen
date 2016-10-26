@@ -1,5 +1,5 @@
 :title: Plone & Python Community - A Long Journey
-:author: Alexander Loechel
+:author: Alexander Loechel & Philip Bauer
 :event: PyCon.DE 2016
 :keywords: Plone, Zope, Python, Community, History, Keynote
 :data-transition-duration: 1500
@@ -72,7 +72,7 @@ A Long Journey
 
 :id: history
 :class: slide level-1
-:data-x: r+0
+:data-x: r-3000
 :data-y: r+1000
 
 Ancient History
@@ -236,25 +236,26 @@ Ancient History
 
 ----
 
-:id:
+:id: irc
 :class: slide level-1
 :data-x: r+0
 :data-y: r+1000
-
-
 
 .. image:: images/logos/irc-logo.png
     :height: 100px
     :class: centered
 
 .. image:: images/limi.jpg
-    :width: 400px
+    :height: 330px
     :class: left
 
 .. image:: images/runyan.jpg
-    :width: 400px
+    :height: 330px
     :class: right
 
+.. container:: centered
+
+    Alex Limi   *1999*   Alan Runyan
 
 .. note::
 
@@ -264,17 +265,18 @@ Ancient History
 
 ----
 
-:id:
+:id: plone
 :class: slide level-1
 :data-x: r+0
 :data-y: r+1000
 
+.. container:: centered
 
-04. October 2001
+    .. image:: images/logos/plone-logo.png
+        :width: 600px
+        :class: centered
 
-.. image:: images/plone-logo.png
-    :width: 400px
-    :class: centered
+    *First Released Version 0.1 on 4. October 2001*
 
 .. note::
 
@@ -287,19 +289,19 @@ Ancient History
 
 ----
 
-:id:
-:class: slide level-1
+:id: birthday
+:class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
 
-#.. image:: images/plone-birthday-sticker.png
-#    :width: 200px
-#    :class: left
+.. image:: images/icons/plone-icon.png
+    :width: 150px
+    :class: left
 
-#.. image:: images/plone-birthday-sticker.png
-#    :width: 200px
-#    :class: right
+.. image:: images/icons/plone-icon.png
+    :width: 150px
+    :class: right
 
 .. container:: overlay centered
 
@@ -310,7 +312,57 @@ Ancient History
 
 .. note::
 
+    icons should be plone-birthday-sticker.png
+
     Alexander
+
+
+----
+
+:id: what
+:class: slide level-1
+:data-x: r+1000
+:data-y: 1000
+
+But what is Plone?
+==================
+
+.. note::
+
+    Philip
+
+----
+
+:id: wikipedia-theme
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. note::
+
+    Wikipedia Theme
+    MediaWiki's "Monobook" layout is based partially on the Plone style sheets.
+
+    Mediawiki 'monobook' style sheet for CSS2-capable browsers.
+    Copyright Gabriel Wicke - http://wikidev.net/
+    License: GPL
+
+    Loosely based on http://www.positioniseverything.net/ordered-floats.html by Big John
+    and the Plone 2.0 styles, see http://plone.org/ (Alexander Limi, Joe Geldart & Tom Croucher,
+    Michael Zeltner and Geir Bækholt)
+    All you guys rock :)
+
+----
+
+:id: classic-theme
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+
+
+
+.. note::
 
     Plone Classic Theme
 
@@ -318,8 +370,8 @@ Ancient History
 
 ----
 
-:id:
-:class: slide level-1
+:id: sunburst-theme
+:class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
@@ -333,8 +385,8 @@ Ancient History
 
 ----
 
-:id:
-:class: slide level-1
+:id: barceloneta-theme
+:class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
@@ -342,23 +394,61 @@ Ancient History
 
     Philip
 
-    Plone Barcoloneta Theme
+    Plone barceloneta Theme
 
 ----
 
-:id:
+:id: tech
 :class: slide level-1
 :data-x: r+0
 :data-y: r+1000
 
+Technology
+==========
+
 .. note::
 
-    Alexander / Philip
+    Philip
 
 ----
 
-:id:
+:id: traversal
 :class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+
+
+----
+
+:id: traversal-explained
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+Technology
+==========
+
+.. note::
+
+    Philip
+
+
+
+
+
+
+
+
+
+
+
+
+
+----
+
+:id: giants
+:class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
@@ -369,29 +459,6 @@ We are standing on the shoulder of giants
     Alexander / Philip
 
     Background-image Giants
-
-----
-
-:id:
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. note::
-
-    Alexander / Philip
-
-----
-
-:id:
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. note::
-
-    Alexander / Philip
-
 
 
 
@@ -521,89 +588,34 @@ Bootstraped by
 
     Alexander / Philip
 
+
+
+
+
+    Ideen Pool Complains
+
+
+
 ----
 
-:id:
+:id: complains
 :class: slide level-1
-:data-x: r+0
-:data-y: r+1000
+:data-x: r+1000
+:data-y: 1000
+
+Complains
+=========
 
 .. note::
 
-    Alexander / Philip
+    Alexander
+
+    We do hear and get a lot of complains about Plone
+
 
 ----
 
-:id:
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. note::
-
-    Alexander / Philip
-
-----
-
-:id:
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. note::
-
-    Alexander / Philip
-
-----
-
-:id:
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. note::
-
-    Alexander / Philip
-
-----
-
-:id:
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-
-
-
-.. note::
-
-    Alexander / Philip
-
-----
-
-:id:
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. note::
-
-    Alexander / Philip
-
-----
-
-:id:
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. note::
-
-    Alexander / Philip
-
-----
-
-:id:
+:id: hip
 :class: slide level-1
 :data-x: r+0
 :data-y: r+1000
@@ -617,7 +629,7 @@ Plone is not hip, anymore
 
 ----
 
-:id:
+:id: boring1
 :class: slide level-1
 :data-x: r+0
 :data-y: r+1000
@@ -630,7 +642,7 @@ Plone is boring
 
 ----
 
-:id:
+:id: boring2
 :class: slide level-1
 :data-x: r+0
 :data-y: r+1000
@@ -652,7 +664,7 @@ Plone is boring
 
 ----
 
-:id:
+:id: boring3
 :class: slide level-1
 :data-x: r+0
 :data-y: r+1000
@@ -685,22 +697,101 @@ Plone is boring
 
 ----
 
-:id:
+:id: boring4
 :class: slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-* Boring is good
+"Boring" should not be conflated with "bad."
 
-* Boring let you get things done
+.. note::
 
-* Boring pays your bills
+    Alexander
+
+----
+
+:id: boring5
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+Boring let you get things done
 
 .. note::
 
     Alexander
 
 
+----
+
+:id: boring6
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+Boring pays your bills
+
+.. note::
+
+    Alexander
+
+----
+
+:id: step-learning-curve
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. container:: overlay centered
+
+    Plone is very complex
+
+    step learning curve
+
+
+.. note::
+
+    Alexander / Philip
+
+
+
+----
+
+:id: complex-systems
+:class: slide background-image-slide level-1
+:data-x: r+1000
+:data-y: 1000
+
+.
+
+    A complex system that works is invariably found to have envolved from a simple system that worked.
+    A complex system designed from scratch never works and cannot be patched up to make it work.
+    You have to start over with a working simple system.
+
+    -- Jon Gall
+
+
+.. container:: img-quote
+
+    CC3-BY-SA https://en.wikipedia.org/wiki/File:Tokyo_by_night_2011.jpg
+
+.. note::
+
+    Alexander
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ideen Pool Future / Roadmap
 
 ----
 
@@ -733,104 +824,29 @@ Plone is boring
 
 
 
-
-
-
-
-
-
 ----
 
-:id:
+:id: diazo
 :class: slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-.. note::
+Diazo
+=====
 
-    Alexander / Philip
-
-
-----
-
-:id:
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
+.. image:: images/diazo-concept.png
+    :width: 600px
+    :class: centered
+    :alt: Diazo
 
 .. note::
 
-    Alexander / Philip
+    Philip
 
 
-----
-
-:id:
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. note::
-
-    Alexander / Philip
 
 
-----
 
-:id:
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. note::
-
-    Alexander / Philip
-
-
-----
-
-:id:
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. note::
-
-    Alexander / Philip
-
-
-----
-
-:id:
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. note::
-
-    Alexander / Philip
-
-----
-
-#:id:
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. note::
-
-    Alexander / Philip
-
-----
-
-#:id:
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. note::
-
-    Alexander / Philip
 
 ----
 
@@ -975,52 +991,6 @@ Plone is boring
 
     Alexander
 
-----
-
-:id: diazo
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-Diazo
-=====
-
-.. image:: images/diazo-concept.png
-    :width: 600px
-    :class: centered
-    :alt: Diazo
-
-.. note::
-
-    Philip
-
-
-----
-
-:id: complex-systems
-:class: slide background-image-slide level-1
-:data-x: r+1000
-:data-y: 1000
-
-.
-
-    A complex system that works is invariably found to have envolved from a simple system that worked.
-    A complex system designed from scratch never works and cannot be patched up to make it work.
-    You have to start over with a working simple system.
-
-    -- Jon Gall
-
-
-.. container:: img-quote
-
-    CC3-BY-SA https://en.wikipedia.org/wiki/File:Tokyo_by_night_2011.jpg
-
-.. note::
-
-    Alexander
-
-
-----
 
 :id: master
 :class: slide background-image-slide level-1
@@ -1046,11 +1016,6 @@ Diazo
 :class: slide level-1
 :data-x: r+0
 :data-y: r+1000
-
-
-
-
-
 
 Plone is the First Class Citizen of Content Management and Python Web
 
@@ -1084,8 +1049,8 @@ Plone Roadmap 2020
 
 :id: cu
 :class: slide level-1
-:data-x: r+0
-:data-y: r+1000
+:data-x: r+1000
+:data-y: 1000
 
 Onboard the Plone Community and join the journey
 
@@ -1103,5 +1068,5 @@ See you at
 
 :id: overview
 :data-x: 0
-:data-y: 3250
-:data-scale: 10
+:data-y: 5000
+:data-scale: 13

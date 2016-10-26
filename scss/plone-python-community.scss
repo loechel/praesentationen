@@ -183,6 +183,52 @@ div#zope-corp {
   }
 }
 
+div#irc {
+  img {
+    margin-top: 50px;
+  }
+  div.centered {
+    padding-top: 30px;
+    clear: both;
+    em {
+      margin-right: 120px;
+      margin-left: 120px;
+      font-size: 40px;
+    }
+  }
+}
+
+div#plone {
+  img {
+    margin-top: 230px;
+    margin-bottom: 60px;
+  }
+}
+
+div#birthday {
+  background-image: url("../images/plone-birthday-15.jpg");
+  .overlay {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 2px;
+  }
+}
+
+div#wikipedia-theme {
+  background-image: url("../images/wikipedia-theme-plone.png");
+}
+
+// Second Section What is Plone and waht makes it so awesome
+
+div#what {
+  h1 {
+    margin-top: 300px;
+    font-size: 72px;
+  }
+}
+
+
+
 
 
 div#zen {
