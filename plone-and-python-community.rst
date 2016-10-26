@@ -46,11 +46,11 @@
 
     &
 
-    .. image:: images/plone-logo.png
+    .. image:: images/logos/plone-logo.png
         :height: 90px
         :class: left
 
-    .. image:: images/python-logo.png
+    .. image:: images/logos/python-logo.png
         :height: 90px
         :class: right
 
@@ -131,7 +131,7 @@ Bobo
 :data-x: r+0
 :data-y: r+1000
 
-.. image:: images/zope-logo.png
+.. image:: images/logos/zope-logo.png
     :width: 300px
     :class: centered
 
@@ -152,11 +152,11 @@ The Idea of Zope and ZODB are from 1996
 :data-x: r+0
 :data-y: r+1000
 
-.. image:: image/www.w3.org_TR_WD-ilu-requestor.png
+.. image:: images/www.w3.org_TR_WD-ilu-requestor.png
     :width: 100px
     :class: right
 
-.. image:: image/www.w3.org_OOP_9606_Workshop_.png
+.. image:: images/www.w3.org_OOP_9606_Workshop_.png
     :width: 100px
     :class: right
 
@@ -218,7 +218,7 @@ Employees
 
 * Jim Fulton
 * Paul Everitt
-* Tres Searver
+* Tres Seaver
 * Chris McDonough
 * Guido van Rossum
 * ...
@@ -238,7 +238,7 @@ Employees
 
 
 
-.. image:: images/irc-logo.png
+.. image:: images/logos/irc-logo.png
     :height: 100px
     :class: centered
 
@@ -246,14 +246,14 @@ Employees
     :height: 400px
     :class: left
 
-.. image:: runyan.jpg
+.. image:: images/runyan.jpg
     :height: 400px
     :class: right
 
 
 .. note::
 
-    In 1999 Two People met on IRC and talk about Music and Web Programming
+    In 1999 Two People (Alex Limi & Alan Runyan) met on IRC and talk about Music and Web Programming
 
 ----
 
