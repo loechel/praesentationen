@@ -20,8 +20,5 @@ to build a slide deck in an hovercraft server:
 to build a slide deck as an generated HTML Directory:
 
 .. code:: bash
+
     hovercraft  -t templates/pyladies slide.rst output
-
-
-
-
