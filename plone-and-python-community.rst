@@ -84,21 +84,17 @@ Ancient History
 
 ----
 
-:id:
-:class: slide level-1
+:id: python
+:class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
+.. container:: overlay centered
 
-.. image:: images/flying_circus.jpg
-    :width: 300px
-    :class: right
+    .. image:: images/logos/python-logo.png
+        :height: 180px
 
-20. February 1991
-
-.. image:: images/logos/python-logo.png
-    :height: 100px
-    :class: left
+    *20. February 1991*
 
 .. note::
 
@@ -108,17 +104,20 @@ Ancient History
 
 ----
 
-:id:
-:class: slide level-1
+:id: bobo
+:class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-1996
+.. container:: overlay centered
 
+    .. image:: images/Jim-Fulton.jpg
+        :width: 350px
+        :class: right
 
+    **BOBO**
 
-Bobo
-====
+    *1996*
 
 
 .. note::
@@ -131,17 +130,19 @@ Bobo
 
 ----
 
-:id:
+:id: zope
 :class: slide level-1
 :data-x: r+0
 :data-y: r+1000
 
 .. image:: images/logos/zope-logo.png
-    :width: 300px
+    :width: 500px
     :class: centered
 
 
-The Idea of Zope and ZODB are from 1996
+.. container:: centered
+
+    The Idea of Zope and ZODB are from 1996
 
 .. note::
 
@@ -152,25 +153,25 @@ The Idea of Zope and ZODB are from 1996
 
 ----
 
-:id:
-:class: slide level-1
+:id: ILU
+:class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-.. image:: images/www.w3.org_TR_WD-ilu-requestor.png
-    :width: 100px
-    :class: right
+.. container:: overlay
 
-.. image:: images/www.w3.org_OOP_9606_Workshop_.png
-    :width: 100px
-    :class: right
 
-.
-    Joint W3C/OMG Workshop on Distributed Objects and Mobile Code
-    June 24-25, 1996
-    Boston, Massachusetts
+    .. image:: images/www.w3.org_TR_WD-ilu-requestor.png
+        :width: 100px
+        :class: right
 
-    Program Committee
+    **Joint W3C/OMG Workshop on**
+    **Distributed Objects and Mobile Code**
+
+    *June 24-25, 1996*
+    *Boston, Massachusetts*
+
+    **Program Committee**
 
     * Tim Berners-Lee, W3C
     * Dan Connolly, W3C
@@ -191,17 +192,14 @@ The Idea of Zope and ZODB are from 1996
 
 ----
 
-:id:
+:id: floppy
 :class: slide level-1
 :data-x: r+0
 :data-y: r+1000
 
 .. image:: images/zope-floppy.jpg
-    :width: 500px
+    :height: 600px
     :class: centered
-
-|rarr| Zope became later Open Sourced
-
 
 .. note::
 
@@ -209,17 +207,16 @@ The Idea of Zope and ZODB are from 1996
 
     Sell for 20.000 US$ each
 
-
 ----
 
 :id: zope-corp
-:class: slide level-1
+:class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
 .. container:: overlay
 
-    **Digital Creations, L.C.** - later become **Zope Corporation**
+    **Digital Creations, L.C.** *later become* **Zope Corporation**
 
     Employees
 
@@ -231,7 +228,6 @@ The Idea of Zope and ZODB are from 1996
     * ...
 
 .. note::
-
 
     Alexander
 
@@ -252,11 +248,11 @@ The Idea of Zope and ZODB are from 1996
     :class: centered
 
 .. image:: images/limi.jpg
-    :height: 400px
+    :width: 400px
     :class: left
 
 .. image:: images/runyan.jpg
-    :height: 400px
+    :width: 400px
     :class: right
 
 

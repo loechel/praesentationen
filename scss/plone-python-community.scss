@@ -18,13 +18,18 @@
     margin-bottom: 60px;
   }
 
-  div.title > p {
-    position: absolute;
+  p {
     text-align: center;
-    top: 150px;
     margin-right: auto;
     margin-left: auto;
-    left: 430px;
+    margin-bottom: 20px;
+    font-size: 32px;
+  }
+
+  .title p {
+    position: absolute;
+    top: 150px;
+    left: 425px;
     font-size: 72px;
   }
 
@@ -95,7 +100,88 @@ div.cite {
   line-height: 1.2em;
 }
 
+// Section History
 
+div#history {
+  h1 {
+    margin-top: 260px;
+    font-size: 90px;
+  }
+}
+
+div#python {
+  background-image: url("../images/flying_circus.jpg");
+  div.overlay {
+    margin-top: 385px;
+  }
+}
+
+div#bobo {
+  background-image: url("../images/flight-seat.jpg");
+  div.overlay {
+    height: 265px;
+    margin-top: 150px;
+    strong {
+      margin-top: 50px;
+      margin-bottom: 100px;
+      font-size: 72px;
+    }
+  }
+}
+
+div#zope {
+  img {
+    margin-top: 200px;
+    margin-bottom: 100px;
+  }
+}
+
+div#ILU {
+  background-image: url("../images/www.w3.org_OOP_9606_Workshop_.png");
+  background-color: #ffffff;
+  background-size: 70% 70%;
+  div.overlay {
+    p:nth-of-type(1) {
+      font-size: 36px;
+      line-height: 1.2em;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    p:nth-of-type(3) {
+      margin-top: 30px;
+    }
+    p:nth-of-type(4) {
+      font-size: 12px;
+    }
+    ul {
+      margin-bottom: 50px;
+    }
+  }
+}
+
+div#floppy {
+  img {
+    margin-top: 20px;
+  }
+}
+
+div#zope-corp {
+  background-image: url("../images/zope-corp.jpg");
+  div.overlay {
+    margin-top: 160px;
+    p:nth-of-type(1) {
+      font-size: 36px;
+      line-height: 1.2em;
+      text-align: center;
+      margin-bottom: 30px;
+
+      em {
+        font-size: 20px;
+      }
+    }
+
+  }
+}
 
 
 
