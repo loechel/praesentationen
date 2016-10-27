@@ -252,6 +252,11 @@ Ancient History
 :data-x: r+0
 :data-y: r+1000
 
+.. image:: images/philip/presentation_guido_python_regrets.png
+    :height: 600px
+    :class: centered
+
+
 .. note::
 
     Philip
@@ -315,10 +320,13 @@ Ancient History
 
     Alexander
 
-    Plone was releaser on Oct. 04 2001 |rarr| Plone is now 15 years old.
+    Plone was releaser on Oct. 04 2001 |rarr|
 
     And while Zope was the killer app on Python, Plone became the killer app on Zope.
 
+    And Plone 5 was released last autumn.
+
+    Plone is now 15 years old.
 
 ----
 
@@ -431,6 +439,7 @@ ZODB
 :data-y: r+1000
 
 {‘site’: {‘folder’: {‘page’: page_object}}}
+-------------------------------------------
 
 .. note::
 
@@ -497,6 +506,12 @@ Security
 TTW
 ---
 
+.. image:: images/philip/ttw.png
+    :width: 700px
+    :class: centered
+    :alt: ttw
+
+
 .. note::
 
     Let me as ask you a question: Who of you knows what "Through the web" means? I was told noone outside of Plone knows it's meaning.
@@ -510,17 +525,42 @@ TTW
 :data-x: r+0
 :data-y: r+1000
 
-* python
-* Perl
-* php
+.. image:: images/philip/perl.png
+    :width: 700px
+    :class: centered
+    :alt: perl
 
 .. note::
 
     Python was not really that big at that time so Digital Creations paid 100.000$ to build a perl-runtime into Zope. And 2 people actually used it. In Zope you were even able to run perl *and* php-scrips.
 
-    And Zope became very popular.
+    And Zope became very popular - not because of perl and php - but because it allowed new developers to build powerful applications with only a browser.
 
-    slide: Zope.org   Serve PHP Perl within Zope.png
+    It lowered the bar to get started in web development.
+
+----
+
+:id: ttw-3
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. image:: images/philip/ttw1.png
+    :width: 400px
+    :class: left
+    :alt: ZMI
+
+.. image:: images/philip/ttw2.png
+    :width: 400px
+    :class: right
+    :alt: ZMI
+
+.. note::
+
+    The Zope and the CMF provided all sorts of great tools to create content, control its publication, set its display, add interactivity via user input and theme the resulting web application.
+
+    And it looked terrible!!!
+
 
 ----
 
@@ -530,12 +570,23 @@ TTW
 :data-y: r+1000
 
 
-
 .. note::
+
+    Plone took these features idea and wrapped it in a nice user-interface.
+
+    After Plone first public release in October of 2001, it quickly gained users and mindshare.
+    It’s most distinguishing feature was in-place content creation.
+    Users could navigate with their browser to the place they wanted an item, and then
+    * add it
+    * edit it
+    * change how it looked
+    * allow access to it
+    * and publish it right there.
 
     Plone Classic Theme
 
     Side-Kick: Wikipedia Theme
+
 
 ----
 
@@ -546,10 +597,18 @@ TTW
 
 .. note::
 
-    Philip
+    There was no “backend” to learn, which made it easy for the average person to learn. The strong security model Plone inherited from Zope allowed websites to mix private and public content. This allowed organizations to combine their separate intranet and extranet into a single seamless website.
+
+    I built my first Plone-Website without knowing any python.
+    I built it completely in the browser.
+    On a Windows PC.
+
+    At least until learned way of the filesystem, version-control and python.
+    Then I started to look down on those who wrote templates in the browser. And Plone kind of did the same starting with Plone 3. We'll get to that story soon...
+
+    The user-interface and the default design of Plone changed with time. But the idea of empowering the users stayed the same.
 
     Plone Sunburst Theme
-
 
 
 ----
@@ -561,11 +620,26 @@ TTW
 
 .. note::
 
-    Philip
+    Like Zope, Plone benefitted from a mix of being easy to pick up but powerful enough for serious work.
+
+    Attracted by its simplicity, flexibility and above all unparalleled security, companies, schools, governments and non-profits adopted Plone. And the Plone-Community grew quickly.
+
+    But! There has to be a but, right? Here is the story of the "but":
+
+    The PyCon of 2000 in Arlington nearly doubled the number of attendees from the year before. That happened because Zope ran a separate track in a different room that attracted non-developers. And yes: they were very successful in that but that also created the idea that *Zope was not Python*. This notion has hurt Zope and Plone (and probably also python) a lot and there are still python-developers who think that way.
+
+    From the very beginning the Plone community was separate from the python-community and the fact that many python-developers thought that Plone and Zope were not *really* Python has hurt us.
+
+    But it's not all bad:
+    One reason for that was that Plone did not only attract programmers but also regular humans. You call them "users", "admins" or even "clients".
+
+    Plone attracted them because it empowered people - same as it did me - to create powerful websites and applications.
+
+    The Plone-Community is special since it always had those who developed the software and those who used it and people in all the different stages in between.
+
+    The inclusive way that the conferences and sprints were run created a very strong bond among the participants and a sense of community that is often regarded as a model for open source communities.
 
     Plone barceloneta Theme
-
-
 
 
 ----
@@ -580,8 +654,6 @@ Lightning Talks
 
 
 .. note::
-
-    Philip
 
     background image Lightning-Talk List
 
@@ -598,11 +670,15 @@ Sprints
 
 .. note::
 
-    Philip
+    Development often happened in Sprints. In 2003 there even was a sprint in a real Castle in Austria. Hosted by a real prince. And a austrian tv-crew was there reporting about the sprint.
+
+    Remember: Back then is was still a weird thing that people spent their free time and their own money to travel and work on something that they then give away for free to people they don't know.
+
+    Nowadays when you read bug-report on github it sometimes feels like everybody expects you to work for free to do their job.
+
+    And a couple of weeks ago we held a anniversary sprint in the same castle.
 
     background image Sprint boston
-
-
 
 
 
