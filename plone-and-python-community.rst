@@ -2,7 +2,7 @@
 :author: Alexander Loechel & Philip Bauer
 :event: PyCon.DE 2016
 :keywords: Plone, Zope, Python, Community, History, Keynote
-:data-transition-duration: 1500
+:data-transition-duration: 400
 :css-all: css/plone-python-community.css
 :auto-console: Yes
 
@@ -86,6 +86,7 @@ Ancient History
 
     Alexander / Philip
 
+
 ----
 
 :id: python
@@ -126,34 +127,11 @@ Ancient History
 
 .. note::
 
-    Zope was Born
-
-    Zope == Z Object Publishing Environment
+    The year is 1996.  This man, the CTO of Digital Creations in Fredericksburg, VA is on a plane to the International Python Conference in California.
+    Jim is scheduled to give a tutorial about CGI programming and so he spends the flight learning the specification.
+    He’s got some ideas about how to improve it, and on the flight home he designs what would become Bobo, the first Web Object Publishing System.
 
     background-image: images/flight-seat.jpg
-
-----
-
-:id: zope
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. image:: images/logos/zope-logo.png
-    :width: 500px
-    :class: centered
-
-
-.. container:: centered
-
-    The Idea of Zope and ZODB are from 1996
-
-.. note::
-
-    Zope was Born
-
-    Zope == Z Object Publishing Environment
-    ZODB == Z Object Database
 
 ----
 
@@ -209,7 +187,29 @@ Ancient History
 
     Venture Capital $14M in late 90's
 
-    Sell for 20.000 US$ each
+    When Digital Creations sold Principia to the US Navy for 20.000 US$ they
+
+    The floppy looked too cheap so they decided to burn it on a CD.
+
+
+----
+
+:id: zope
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. image:: images/logos/zope-logo.png
+    :width: 500px
+    :class: centered
+
+
+.. note::
+
+    In 1998, the largest investor in Digital Creations convinced the CEO Paul Everitt to release the Principia software as Open Source Software.
+
+    Principia and Bobo became the Z Object Publishing Environment. in 1999 Zope was born.
+
 
 ----
 
@@ -235,7 +235,30 @@ Ancient History
 
     Alexander
 
+    Digital Creations was later renamed Zope Corporation.
+
+    Zope Corp hired PythonLabs when the Startup that hosted them went under.
+
     Background-image zope-corp
+
+----
+
+:id: zope-corp2
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. note::
+
+    That was Guido van Rossum, Barry Warsaw, Jeremy Hylton, Fred Drake and Tim Peters.
+
+    And this is how Guidos Slides looked at that time.
+
+    They paid their salary for 3 years to have them working on Python.
+    I'd say that was a solid contribution to the python community.
+    No regrets there.
+
+    Background-image: presentation_guido_python_regrets
 
 
 ----
@@ -316,6 +339,8 @@ Ancient History
 
 .. note::
 
+    Now Plone is 15 years old. A teenager, almost grown up.
+
     icons should be plone-birthday-sticker.png
 
     Alexander
@@ -328,33 +353,168 @@ Ancient History
 :data-x: r+1000
 :data-y: 1000
 
-But what is Plone?
-==================
+Why is that?
+============
 
 .. note::
 
-    Philip
+    The question you might ask yourself: Why is Plone still around?
+    While there may be many answers to this question we will focus on two of them:
+
+    Technology and Community
+
+    Let's first talk a little about technology.
+
+    Zope introduced a couple of very powerful concepts. The most important of those were traversal and object publishing
+
 
 ----
 
-:id: wikipedia-theme
-:class: slide background-image-slide level-1
+:id: traversal-1
+:class: slide level-1
 :data-x: r+0
 :data-y: r+1000
 
+Traversal
+=========
+
+.. container:: overlay centered
+
+
+    /site/folder/page
+
+
 .. note::
 
-    Wikipedia Theme
-    MediaWiki's "Monobook" layout is based partially on the Plone style sheets.
+    Look at this simple URL
 
-    Mediawiki 'monobook' style sheet for CSS2-capable browsers.
-    Copyright Gabriel Wicke - http://wikidev.net/
-    License: GPL
+    * This part of the URL is called the “path”. You can see that it looks a lot like a filesystem path.
+    * Static Web servers like Apache or Nginx serve static content by walking the filesystem, following these paths and returning the item at the end of the path as an HTTP response.
+    * CGI, the dominant dynamic web technology of the early days works the same way, except that the path ends in an executable script that generates HTTP headers and a response body.
 
-    Loosely based on http://www.positioniseverything.net/ordered-floats.html by Big John
-    and the Plone 2.0 styles, see http://plone.org/ (Alexander Limi, Joe Geldart & Tom Croucher,
-    Michael Zeltner and Geir Bækholt)
-    All you guys rock :)
+
+----
+
+:id: traversal-2
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+ZODB
+----
+
+.. image:: images/philip/zodb_sample.png
+    :width: 700px
+    :class: centered
+    :alt: ZODB
+
+.. note::
+
+    Jim Fulton, on that airplane ride back in ’96, asked himself a question: “Could we treat Python objects the same way?
+
+    If we have a database that allows us to store Python objects (the ZODB),
+
+    And we combine that with objects that can behave like Python dicts,
+
+
+----
+
+:id: traversal-explained-3
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+{‘site’: {‘folder’: {‘page’: page_object}}}
+
+.. note::
+
+    ... Could we not, then, transform this filesystem hierarchy into a series of nested objects?
+
+    Treating path segments like keys, would allow us to walk the chain of contained objects just like walking a filesystem.
+
+    The the right object is found what should we do with it?
+
+
+----
+
+:id: object-publishing
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. container:: overlay centered
+
+    Object Publishing
+
+
+.. image:: images/philip/publish.png
+    :width: 700px
+    :class: centered
+    :alt: Object publishing
+
+
+.. note::
+
+    Enter "Object Publishing". The part that remains is to let objects publish themselves.
+
+    * We find the objects using traversal.
+    * Then we *call* the object, passing in the request (which contains environmental information) to generate a publishable representation of itself.
+    * Finally, we use that representation as the response we send back to the client.
+
+
+----
+
+:id: security
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+Security
+--------
+
+.. note::
+
+    Security was baked directly into the objects of Zope, not added as an extra layer. Before an object is published it checks if the current user actually has the permission to see it.
+
+    This combined with object containment allows for flexible and fine-grained access controls.
+
+    Using a persistent graph of Python objects made building sites with mixed content easy.
+
+
+----
+
+:id: ttw-1
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+TTW
+---
+
+.. note::
+
+    Let me as ask you a question: Who of you knows what "Through the web" means? I was told noone outside of Plone knows it's meaning.
+
+    The killer-feature of Zope was that it allowed you to "progamm in the browser", you were able to write code.
+
+----
+
+:id: ttw-2
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+* python
+* Perl
+* php
+
+.. note::
+
+    Python was not really that big at that time so Digital Creations paid 100.000$ to build a perl-runtime into Zope. And 2 people actually used it. In Zope you were even able to run perl *and* php-scrips.
+
+    And Zope became very popular.
+
+    slide: Zope.org   Serve PHP Perl within Zope.png
 
 ----
 
@@ -362,7 +522,6 @@ But what is Plone?
 :class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
-
 
 
 
@@ -399,74 +558,6 @@ But what is Plone?
     Philip
 
     Plone barceloneta Theme
-
-----
-
-:id: tech
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-Technology
-==========
-
-.. note::
-
-    Philip
-
-----
-
-:id: traversal
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-Traversal
-=========
-
-----
-
-:id: traversal-explained
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-Technology
-==========
-
-.. note::
-
-    Philip
-
-
-
-
-
-
-
-
-
-
-
-
-
-----
-
-:id: giants
-:class: slide background-image-slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-We are standing on the shoulder of giants
-
-.. note::
-
-    Alexander / Philip
-
-    Background-image Giants
-
-
-
 
 
 
@@ -1162,9 +1253,9 @@ The Journey Continues
 Plone Roadmap 2020
 ==================
 
-*
-*
-*
+* asdad
+* asdasd
+* sdadf
 
 
 .. note::
