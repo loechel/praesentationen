@@ -187,8 +187,15 @@ div#zope-corp {
         font-size: 20px;
       }
     }
-
+    li {
+      font-size: 20px;
+      line-height: 1.1em;
+    }
   }
+}
+
+div#zope-corp2 {
+  background-image: url("../images/philip/presentation_guido_python_regrets.png");
 }
 
 div#irc {
@@ -350,11 +357,32 @@ div#complex-systems {
 
 
 
-div.slide .timed {
+div.slide .timed,
+div.slide .timed1,
+div.slide .timed3,
+div.slide .timed5,
+div.slide .timed10 {
   opacity: 0;
 }
 
-div.slide.active .timed {
+div.slide.active .timed1 {
+    opacity: 1;
+    transition: opacity 1s ease 1s;
+}
+
+div.slide.active .timed3 {
+    opacity: 1;
+    transition: opacity 3s ease 3s;
+}
+
+div.slide.active .timed5 {
     opacity: 1;
     transition: opacity 5s ease 5s;
 }
+
+div.slide.active .timed10 {
+    opacity: 1;
+    transition: opacity 10s ease 10s;
+}
+
+

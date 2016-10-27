@@ -105,7 +105,8 @@ Ancient History
 
     Alexander
 
-    The Beginning: Python
+    The History began with Python, a chrismas project 1990
+    Guido van Rossum played around and tried to define a new teaching language inspiered by ABC
 
 ----
 
@@ -127,11 +128,11 @@ Ancient History
 
 .. note::
 
-    The year is 1996.  This man, the CTO of Digital Creations in Fredericksburg, VA is on a plane to the International Python Conference in California.
+    The year is 1996.
+    This man, the CTO of Digital Creations in Fredericksburg, VA is on a plane to the International Python Conference in California.
     Jim is scheduled to give a tutorial about CGI programming and so he spends the flight learning the specification.
-    He’s got some ideas about how to improve it, and on the flight home he designs what would become Bobo, the first Web Object Publishing System.
-
-    background-image: images/flight-seat.jpg
+    He’s got some ideas about how to improve it, and on the flight home he designs what would become Bobo,
+    the first Web Object Publishing System.
 
 ----
 
@@ -141,7 +142,6 @@ Ancient History
 :data-y: r+1000
 
 .. container:: overlay
-
 
     .. image:: images/www.w3.org_TR_WD-ilu-requestor.png
         :width: 100px
@@ -229,6 +229,10 @@ Ancient History
     * Tres Seaver
     * Chris McDonough
     * Guido van Rossum
+    * Barry Warsaw
+    * Jeremy Hylton
+    * Fred Drake
+    * Tim Peters
     * ...
 
 .. note::
@@ -249,6 +253,8 @@ Ancient History
 :data-y: r+1000
 
 .. note::
+
+    Philip
 
     That was Guido van Rossum, Barry Warsaw, Jeremy Hylton, Fred Drake and Tim Peters.
 
