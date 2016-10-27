@@ -283,11 +283,37 @@ div#boring4 {
   background-image: url("../images/boring.jpg");
 }
 
+div#boring-question {
+  background-image: url("../images/question-mark-gold.png");
+  background-color: #ffffff;
+  background-size: 400px 600px;
 
+  div.overlay {
+    margin-top: 250px;
+  }
 
+}
 
+div#innovations,
+div#innovations2{
+  background-image: url("../images/Innovation-Adoption-Lifecycle.jpg");
+  background-color: #ffffff;
+  background-size: 900px 500px;
+  div.overlay-b {
+    margin-top: 250px;
+  }
+}
 
-
+div#old-style {
+  table {
+    td {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    text-align: center;
+    width: 100%;
+  }
+}
 
 
 div#zen {

@@ -743,10 +743,41 @@ Boring pays your bills
 
 ----
 
-:id: complex-systems
+:id: boring-question
 :class: slide background-image-slide level-1
 :data-x: r+1000
-:data-y: 1000
+:data-y: 2000
+
+.. container:: overlay centered
+
+    But is a boring System interesting?
+
+.. note::
+
+    Alexander
+
+
+----
+
+:id: boring-answer
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. container:: overlay centered
+
+    YES
+
+.. note::
+
+    Alexander
+
+----
+
+:id: complex-systems
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
 
 .
 
@@ -781,8 +812,17 @@ Boring pays your bills
 
 
 
+----
+
+:id: innovations
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
 
 
+.. container:: overlay-b centered
+
+    Innovation Driver
 
 
 
@@ -793,8 +833,8 @@ Boring pays your bills
 
 :id: step-learning-curve
 :class: slide background-image-slide level-1
-:data-x: r+0
-:data-y: r+1000
+:data-x: r+1000
+:data-y: 2000
 
 .. container:: overlay centered
 
@@ -810,12 +850,70 @@ Boring pays your bills
 
 
 
+----
+
+:id: hard
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
 
 
+.. container:: overlay-b centered
+
+    Plone is:
+
+    * Hard
+
+    * complex
+
+    * Complicated
 
 
+.. note::
+
+    Alexander
+
+    Complains about Plone is Hard, Complex and Complicated and not very Pythonic
+
+----
+
+:id: innovations2
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
 
 
+.. container:: overlay-b centered
+
+    Innovation Driver
+
+.. note::
+
+    Alexander
+
+    Repeat - Plone is an Innovation Driver
+
+    Plone has been there long before the current Practices become Standard
+
+
+----
+
+:id: old-style
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+Old-Style Code
+==============
+
+
+=======================   ==================
+Zope/Plone                Python Standard
+=======================   ==================
+:python:`zope.DateTime`   :python:`datetime`
+=======================   ==================
+
+----
 
 
 Ideen Pool Future / Roadmap
