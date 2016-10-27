@@ -33,6 +33,10 @@
    :class: highlight code python
    :language: python
 
+.. role:: red
+
+.. role:: green
+
 ----
 
 :id: title
@@ -653,7 +657,7 @@ Plone is boring
 * PHP is boring
 * Apache httpd is boring
 * LDAP is boring
-* Python is boring
+* :red:`Python` is boring
 * Memcached is boring
 * Squid is boring
 * Varnish is boring
@@ -666,7 +670,7 @@ Plone is boring
 ----
 
 :id: boring3
-:class: slide level-1
+:class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
@@ -674,14 +678,14 @@ Plone is boring
 
     Every company gets about three innovation tokens.
 
-    -- Dan McKinley, "Choose Boring Technology" |br| http://mcfunley.com/choose-boring-technology
+    -- Dan McKinley, "Choose Boring Technology" http://mcfunley.com/choose-boring-technology
 
 
 .. note::
 
     Alexander
 
-    **Embrace Boredom.**
+    **Embrace Boredom.** -- Dan McKinley, "Choose Boring Technology"
 
     Let's say every company gets about three innovation tokens.
     You can spend these however you want, but the supply is fixed for a long while.
@@ -699,7 +703,7 @@ Plone is boring
 ----
 
 :id: boring4
-:class: slide level-1
+:class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
@@ -712,7 +716,7 @@ Plone is boring
 ----
 
 :id: boring5
-:class: slide level-1
+:class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
@@ -726,7 +730,7 @@ Boring let you get things done
 ----
 
 :id: boring6
-:class: slide level-1
+:class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
@@ -735,25 +739,6 @@ Boring pays your bills
 .. note::
 
     Alexander
-
-----
-
-:id: step-learning-curve
-:class: slide background-image-slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. container:: overlay centered
-
-    Plone is very complex
-
-    step learning curve
-
-
-.. note::
-
-    Alexander / Philip
-
 
 
 ----
@@ -780,6 +765,47 @@ Boring pays your bills
 
     Alexander
 
+    A complex system that works is invariably found to have envolved from a simple system that worked.
+    A complex system designed from scratch never works and cannot be patched up to make it work.
+    You have to start over with a working simple system.
+
+    -- Jon Gall
+
+    “All software becomes legacy as soon as it's written.”
+
+    -- Andrew Hunt & David Thomas, The Pragmatic Programmer
+
+    "Inside every well-written large program is a well-written small program."
+
+    -- Charles Antony Richard Hoare
+
+
+
+
+
+
+
+
+
+
+
+----
+
+:id: step-learning-curve
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. container:: overlay centered
+
+    Plone is very complex
+
+    step learning curve
+
+
+.. note::
+
+    Alexander / Philip
 
 
 
@@ -796,7 +822,7 @@ Ideen Pool Future / Roadmap
 
 ----
 
-#:id:
+:id:
 :class: slide level-1
 :data-x: r+0
 :data-y: r+1000

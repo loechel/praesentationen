@@ -100,6 +100,14 @@ div.cite {
   line-height: 1.2em;
 }
 
+.red {
+  color: #fd0000;
+}
+
+.green {
+  color: #00fd00;
+}
+
 // Section History
 
 div#history {
@@ -226,6 +234,57 @@ div#what {
     font-size: 72px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+// Story about beeing Boring
+
+div#boring1 {
+  p {
+    margin-top: 300px;
+    text-align: center;
+    font-size: 90px;
+  }
+}
+
+div#boring2 {
+  ul {
+    margin-top: 120px;
+    margin-left: 180px;
+  }
+}
+
+div#boring3 {
+  background-image: url("../images/boring.jpg");
+  blockquote {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding: 20px;
+    font-size: 54px;
+    margin-top: 350px;
+      margin-bottom: 10px;
+  }
+  cite {
+    color: #fff;
+  }
+}
+
+div#boring4 {
+  background-image: url("../images/boring.jpg");
+}
+
+
+
 
 
 
