@@ -70,11 +70,23 @@ A Long Journey
 
 .. note::
 
-    I started to prepare this Keynote, as I was requested to speak about
+    First of all I want to thanks for the honour to speak as the opening Keynote at PyCon.DE 2016 in Munich
+
+    Welcome to the LMU
+
+    I have worried about giving the Keynote - I am neigther the president of the Plone Foundation
+    nor the Release Manager. I even don't belong to the smartest persons in the the Plone Community
+
+    A lot of other fabulous Community Members now sitting infront of me and might would give a better and
+    even more technical adequate talk than me
+
+    I am just a server for the community and I was asked to talk about our awesome community.
+
+    So I started to prepare this Keynote, as I was requested to speak about
     Plone and the general Python community
 
     But I realized that, due to a large overlap and a lots of joined efforts
-    it must be about the joined community and history of both Communities Zope and Plone
+    it must be about the joined community and history of both Zope and Plone
     in conjunction to the general Python community
 
     **Questions to Auditorium:**
@@ -97,8 +109,6 @@ Ancient History
 ===============
 
 .. note::
-
-    Alexander / Philip
 
     So we want to speak about the History first to see the origins of Plone and our Community today
 
@@ -214,8 +224,6 @@ Ancient History
 
 .. note::
 
-    Alexander
-
     Bobo had a commercial twin Principia.
 
     Digital Creations was asked to sell Principia to the US Navy for 20.000 US$
@@ -236,8 +244,6 @@ Ancient History
 
 
 .. note::
-
-    Philip
 
     Digital Creations received a large Venture Capital grant of $750K in late 90's
 
@@ -271,8 +277,6 @@ Ancient History
     * ...
 
 .. note::
-
-    Philip
 
     Digital Creations was later renamed Zope Corporation.
 
@@ -320,9 +324,9 @@ Ancient History
 
 .. note::
 
-    Alexander
-
     In 1999 Two People (Alex Limi & Alan Runyan) met on IRC and talk about Music and Web Programming
+
+    They look around and found Zope and started to build on top of this a CMS
 
 ----
 
@@ -341,17 +345,7 @@ Ancient History
 
 .. note::
 
-    Alexander
-
-    Plone was releaser on Oct. 04 2001 |rarr|
-
-    IPC8 (international Python Conference January 2000)
-
-    "IPC8 groth more than twice - with around 250 attendees.
-    Much of this growth came from the increasing populatrity of the Zope Application Server,
-    which had its own conference track for the first time, with some 90 people attended talks on Zope"
-
-    By that time Zope was the killer app on Python, Plone became the killer app on Zope.
+    Plone First Public Release was on Oct. 04 2001
 
 ----
 
@@ -378,13 +372,9 @@ Ancient History
 
 .. note::
 
-    Alexander
-
     And Plone 5 was released last autumn.
 
     Now Plone is 15 years old. A teenager, almost grown up.
-
-    Icons should be plone-birthday-sticker.png
 
 ----
 
@@ -460,7 +450,7 @@ Technology
 
     Plone is a Content Management System
 
-    Focus Management System - most CMS are Web-Publishing Systems
+    Focus **Management** System - most CMS are Web-Publishing Systems
 
 ----
 
@@ -520,9 +510,6 @@ Technology
     :width: 500px
     :class: centered
 
-
-
-
 ----
 
 :id: traversal-1
@@ -536,7 +523,6 @@ Traversal
 .. container:: centered
 
     /site/folder/page
-
 
 .. note::
 
@@ -1746,13 +1732,15 @@ Experiment with new approaches
 Old-Style Code
 ==============
 
-
-=======================   ==================
-Zope/Plone                Python Standard
-=======================   ==================
-:python:`zope.DateTime`   :python:`datetime`
-=======================   ==================
-
+====================================================   ==================
+Zope/Plone                                             Python Standard
+====================================================   ==================
+:python:`zope.DateTime`                                :python:`datetime`
+----------------------------------------------------   ------------------
+:python:`def manage_afterAdd(self, item, container)`
+----------------------------------------------------   ------------------
+:python:`...`
+====================================================   ==================
 
 Zope started with Python 1.x - Plone with 1.5
 
@@ -1782,6 +1770,8 @@ Zope started with Python 1.x - Plone with 1.5
 
     Every piece of Zope that not got adopted by the Plone Community is litterly dead
 
+    -- Anonymous Zope Release Manager
+
 ----
 
 :id: learned
@@ -1789,7 +1779,7 @@ Zope started with Python 1.x - Plone with 1.5
 :data-x: r+0
 :data-y: r+1000
 
-We have learned from our Mistakes, and we keep our User in Mind
+We have learned from our Mistakes, and we keep our User and Developers in Mind
 
 ----
 
@@ -1803,9 +1793,6 @@ We have learned from our Mistakes, and we keep our User in Mind
     *The difference between a master and a novice is, that the master has failed more often than the novice has tried*
 
     You can move fast and break things, |br| if you know the procedure to repair it quickly
-
-
-
 
 ----
 
@@ -1846,17 +1833,15 @@ Plone stays the First Class Citizen of Content Management and Python Web
 :data-x: r+0
 :data-y: r+1000
 
-Onboard the Plone Community and join the journey
+.. container:: overlay centered
 
-See you at
+    **Onboard the Plone Community and join the journey**
 
-* Plone Open Garden 2017 - Sorrento - Italiy - Date
-* PloneConf 2017 Barcelona - Catalunia - Date
-* or any Sprint or Event, ...
+    See you at
 
-.. note::
-
-    Philip
+    * Plone Open Garden 2017 - Sorrento - Italiy - 18-22. April 2017
+    * PloneConf 2017 Barcelona - Catalonia - 16-22.  October 2017
+    * or any Sprint or Event, ...
 
 ----
 

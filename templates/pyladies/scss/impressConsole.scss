@@ -34,6 +34,7 @@ div#notes {
     overflow-x: hidden;
     overflow-y: auto;
     height: 95%;
+    font-size: 20px;
 }
 
 div#notes p {
@@ -41,8 +42,8 @@ div#notes p {
 }
 
 iframe#slideView {
-    width: 25em;
-    height: 20em;
+    width: 20em;
+    height: 14em;
 }
 
 iframe#preView {

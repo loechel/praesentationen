@@ -650,7 +650,19 @@ div#complex-systems {
   }
 }
 
-
+div#cu {
+  background-image: url("../images/plone-boat.jpg");
+  .overlay {
+    margin-top: 360px;
+    strong {
+      margin-bottom: 15px;
+    }
+    li {
+      font-size: 26px;
+      text-align: left;
+    }
+  }
+}
 
 
 

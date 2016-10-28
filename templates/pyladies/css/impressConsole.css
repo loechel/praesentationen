@@ -28,14 +28,15 @@ div#blocker {
 div#notes {
   overflow-x: hidden;
   overflow-y: auto;
-  height: 95%; }
+  height: 95%;
+  font-size: 20px; }
 
 div#notes p {
   margin-top: 0; }
 
 iframe#slideView {
-  width: 25em;
-  height: 20em; }
+  width: 20em;
+  height: 14em; }
 
 iframe#preView {
   width: 12em;
