@@ -139,7 +139,8 @@ div#bobo {
   }
 }
 
-div#zope {
+div#zope,
+div#zope2 {
   img {
     margin-top: 200px;
     margin-bottom: 100px;
@@ -232,6 +233,66 @@ div#birthday {
   }
 }
 
+
+// Second part What is Plone
+
+
+div#not-framework {
+  background-image: url("../images/Framework.jpg");
+  .overlay-b {
+    font-size: 48px;
+    margin-top: 260px;
+    line-height: 1.2em;
+  }
+}
+
+
+div#cms {
+  background-image: url("../images/Katalog_Karteikarten.jpg");
+  .overlay {
+    strong {
+      font-size: 90px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+    }
+    em {
+      display: inline;
+      ::first-letter {
+        font-weight: bold;
+        font-size: 120%;
+      }
+    }
+  }
+}
+
+div#adaptation {
+  background-image: url("../images/Oscar_Pistorius.jpg");
+  .overlay-b {
+    font-size: 40px;
+    margin-top: 80px;
+    line-height: 1.2em;
+
+    strong {
+      font-size: 60px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    em {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 40px;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+
+
+
+
+
+
 div#wikipedia-theme {
   background-image: url("../images/wikipedia-theme-plone.png");
 }
@@ -245,6 +306,16 @@ div#what {
   }
 }
 
+
+div#traversal-1 {
+  h1 {
+    margin-top: 260px;
+    margin-bottom: 80px;
+  }
+  div.centered {
+    font-size: 80px;
+  }
+}
 
 div#traversal-explained-3 {
   pre {
@@ -366,8 +437,36 @@ div#boring3 {
   }
 }
 
+
 div#boring4 {
-  background-image: url("../images/boring.jpg");
+  background-image: url("../images/not-equal.png");
+  background-color: #ffffff;
+  background-size: 400px 400px;
+  p {
+    text-align: center;
+    font-size: 38px;
+    margin-top: 290px;
+  };
+}
+
+div#boring5 {
+  background-image: url("../images/checklist.jpg");
+  background-color: #ffffff;
+  p {
+    font-size: 38px;
+  };
+}
+
+div#boring6 {
+  background-image: url("../images/Bills-to-Pay.jpg");
+  background-color: #ffffff;
+  .overlay {
+    font-size: 38px;
+    margin-top: 260px;
+    strong {
+      display: inline-block;
+    }
+  };
 }
 
 div#boring-question {
@@ -378,7 +477,6 @@ div#boring-question {
   div.overlay {
     margin-top: 250px;
   }
-
 }
 
 div#innovations,
@@ -435,7 +533,6 @@ div#diazo {
   text-align: center;
   h2 {
     font-size: 36px;
-
   }
   ul li {
     text-align: left;
@@ -492,5 +589,3 @@ div.slide.active .timed10 {
     opacity: 1;
     transition: opacity 10s ease 10s;
 }
-
-

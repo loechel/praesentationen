@@ -1,5 +1,5 @@
 :title: Plone & Python Community - A Long Journey
-:author: Alexander Loechel & Philip Bauer
+:author: Alexander Loechel
 :event: PyCon.DE 2016
 :keywords: Plone, Zope, Python, Community, History, Keynote
 :data-transition-duration: 400
@@ -66,24 +66,25 @@ A Long Journey
 
     A History of Community, Technology and the Web
 
-    Alexander Loechel & Philip Bauer
+    Alexander Loechel
 
 .. note::
 
-    Alexander
-
     I started to prepare this Keynote, as I was requested to speak about
-     Plone and the general Python community
+    Plone and the general Python community
 
     But I realized that, due to a large overlap and a lots of joined efforts
     it must be about the joined community and history of both Communities Zope and Plone
+    in conjunction to the general Python community
 
-    Questions to Auditorium:
+    **Questions to Auditorium:**
 
+    * Whom of you know Zope & Plone
     * How Many People from one of both communities is here today
     * How many of you have every contributed to both
-    * To Plone
-    * To Zope
+
+      * To Plone
+      * To Zope
 
 ----
 
@@ -117,8 +118,6 @@ Ancient History
 
 .. note::
 
-    Alexander
-
     The History began with Python, a chrismas project 1990 by
     Guido van Rossum playing around and trying to define a new teaching language inspired by ABC
 
@@ -143,8 +142,6 @@ Ancient History
 
 
 .. note::
-
-    Alexander
 
     The year is 1996.
 
@@ -193,13 +190,10 @@ Ancient History
 
 .. note::
 
-    Alexander
-
     Also 1996 another Person from Digital Creations worked on a joined
     W3C/OMG Working Group specifying modern Object publishing on the Web
 
     Paul Everitt
-
 
     https://www.youtube.com/watch?v=EgWb9z6i0dc
 
@@ -292,8 +286,6 @@ Ancient History
 :data-y: r+1000
 
 .. note::
-
-    Philip
 
     That was Guido van Rossum, Barry Warsaw, Jeremy Hylton, Fred Drake and Tim Peters.
 
@@ -401,29 +393,128 @@ Ancient History
 :data-x: r+1500
 :data-y: 1000
 
-Why is that?
-============
+
+What is
+=======
+
+.. image:: images/logos/plone-logo.png
+    :width: 600px
+    :class: centered
+
+and why is it still around?
+---------------------------
 
 .. note::
 
-    Philip
-
     The question you might ask yourself: Why is Plone still around?
-    While there may be many answers to this question we will focus on two of them:
+    While there may be many answers to this question I will focus on two of them:
 
     Technology and Community
 
     Let's first talk a little about technology.
 
-    Zope introduced a couple of very powerful concepts.
-    The most important of those were traversal and object publishing
+    But start with what is Plone not.
+
+----
+
+:id: not-framework
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. container:: overlay-b centered
+
+    **Plone is not a Web-Framework**
+
+.. note::
+
+    I see quite often the perception that Plone is a Web-Framework
+
+    No it is not a Web-Framework
+
+
+----
+
+:id: cms
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. container:: overlay centered
+
+    **CMS**
+
+    *Content* *Management* *System*
+
+.. note::
+
+    Plone is a Content Management System
+
+    Focus Management System - most CMS are Web-Publishing Systems
+
+----
+
+:id: intergration-framework
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. container:: overlay-b centered
+
+    Plone is a |br| **Content Integration Framework**
+
+
+.. container:: img-quote
+
+    CC2-BY-SA https://en.wikipedia.org/wiki/File:Puzzle_Krypt-2.jpg
+
+.. note::
+
+    *Use the right tool for the job*
+
+
+----
+
+:id: adaptation
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+
+.. container:: overlay-b centered
+
+    **Adaptation**
+
+    *Best of Breed*
+
+.. note::
+
+    It is a question of Adaptation
+
+    in Business often called the Selection of Best of Breed
+
+    You choose a technology or modification to optimize your needs / requirements
+
+
+----
+
+:id: zope2
+:class: slide level-1
+:data-x: r+1000
+:data-y: 2000
+
+.. image:: images/logos/zope-logo.png
+    :width: 500px
+    :class: centered
+
+
 
 
 ----
 
 :id: traversal-1
 :class: slide level-1
-:data-x: r-500
+:data-x: r+0
 :data-y: r+1000
 
 Traversal
@@ -453,10 +544,26 @@ Traversal
 ZODB
 ----
 
-.. image:: images/philip/zodb_sample.png
-    :width: 700px
-    :class: centered
-    :alt: ZODB
+.. code:: python
+
+    import transaction
+
+    from ZODB import DB
+    from ZODB import FileStorage
+
+    connection = DB(FileStorage.FileStorage('./Data.fs')).open()
+    root = connection.root()
+
+    root['a_number'] = 3
+    root['a_string'] = 'Conference'
+    root['a_dict'] = {
+        '09:45': 'Plone & Python Community - Keynote',
+        '10:45': 'Break',
+        ...
+    }
+
+    transaction.commit()
+    connection.close()
 
 .. note::
 
@@ -498,11 +605,30 @@ ZODB
 Object Publishing
 =================
 
-.. image:: images/philip/publish.png
-    :width: 700px
-    :class: centered
-    :alt: Object publishing
+.. code:: python
 
+    def publish(request, module_name, after_list, debug=0
+                # Optimize:
+                call_object=call_object,
+                missing_name=missing_name,
+                dont_publish_class=dont_publish_class,
+                mapply=mapply,
+                ):
+
+        try:
+            ...
+            object = request.traverse(path,
+                                      validated_hook=validated_hook)
+            ...
+            result = mapply(object, request.args, request, call_object,
+                            1, missing_name, dont_publish_class,
+                            request, bind=1)
+            ...
+            if result is not response: response.setBody(result)
+            ...
+            return response
+        except:
+            ...
 
 .. note::
 
@@ -520,8 +646,8 @@ Object Publishing
 :data-x: r+0
 :data-y: r+1000
 
-Security
-========
+Method / Attribute |br| Level Security
+======================================
 
 .. note::
 
@@ -540,8 +666,8 @@ Security
 :data-x: r+0
 :data-y: r+1000
 
-TTW
-===
+TTW - Through The Web
+=====================
 
 .. image:: images/philip/ttw.png
     :width: 700px
@@ -551,10 +677,8 @@ TTW
 
 .. note::
 
-    Philip
-
     Let me as ask you a question: Who of you knows what "Through the web" means?
-    I was told none outside of Plone knows it's meaning.
+    I was told almost none outside of Plone knows it's meaning.
 
     The killer-feature of Zope was that it allowed you to "program in the browser",
     you were able to write code.
@@ -568,6 +692,9 @@ TTW
 :data-x: r+0
 :data-y: r+1000
 
+Zope2 - The Python Web Application Server
+=========================================
+
 .. image:: images/philip/perl.png
     :width: 700px
     :class: centered
@@ -575,7 +702,7 @@ TTW
 
 .. note::
 
-    Philip
+    Side Story:
 
     Python was not really that big at that time
     so Digital Creations paid 100.000$ to build a perl-runtime into Zope.
@@ -1172,7 +1299,7 @@ Plone is boring
 :data-x: r+0
 :data-y: r+1000
 
-"Boring" should not be conflated with "bad."
+**"Boring"** should not be conflated with **"bad"**.
 
 .. note::
 
@@ -1185,7 +1312,7 @@ Plone is boring
 :data-x: r+0
 :data-y: r+1000
 
-Boring let you get things done
+**"Boring"** let you get things *done*
 
 .. note::
 
@@ -1199,12 +1326,9 @@ Boring let you get things done
 :data-x: r+0
 :data-y: r+1000
 
-Boring pays your bills
+.. container:: overlay centered
 
-.. note::
-
-    Alexander
-
+    **"Boring"** pays your bills
 
 ----
 
@@ -1219,7 +1343,9 @@ Boring pays your bills
 
 .. note::
 
-    Alexander
+    But is a boring System interesting?
+
+    Essentially is it attractive to be involved and to attract new users and developers
 
 
 ----
@@ -1498,27 +1624,6 @@ Diazo
 
     Alexander
 
-----
-
-:id: intergration-framework
-:class: slide background-image-slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. container:: overlay-b centered
-
-    Plone is a |br| **Content Integration Framework**
-
-
-.. container:: img-quote
-
-    CC2-BY-SA https://en.wikipedia.org/wiki/File:Puzzle_Krypt-2.jpg
-
-.. note::
-
-    *Use the right tool for the job*
-
-    Alexander
 
 ----
 
