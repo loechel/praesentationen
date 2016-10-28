@@ -102,7 +102,7 @@ A Long Journey
 
 :id: history
 :class: slide level-1
-:data-x: r-5000
+:data-x: r-5500
 :data-y: r+1000
 
 Ancient History
