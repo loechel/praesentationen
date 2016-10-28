@@ -462,6 +462,14 @@ div#success {
 
 // Story about beeing Boring
 
+div#hip {
+  p {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 280px;
+  }
+}
+
 div#boring1 {
   p {
     margin-top: 300px;
@@ -537,6 +545,13 @@ div#boring-question {
   }
 }
 
+
+div#boring-answer {
+  background-image: url("../images/cruise-ship.jpg");
+  .overlay {
+    margin-top: 450px;
+  }
+}
 div#innovations,
 div#innovations2{
   background-image: url("../images/Innovation-Adoption-Lifecycle.jpg");
@@ -546,6 +561,20 @@ div#innovations2{
     margin-top: 250px;
   }
 }
+
+
+
+div#step-learning-curve {
+  background-image: url("../images/stairs.jpg");
+  strong {
+    margin-bottom: 30px;
+  }
+}
+
+div#hard {
+  background-image: url("../images/mud.jpg");
+}
+
 
 div#old-style {
   table {

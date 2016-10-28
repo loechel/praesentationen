@@ -90,7 +90,7 @@ A Long Journey
 
 :id: history
 :class: slide level-1
-:data-x: r-4000
+:data-x: r-5000
 :data-y: r+1000
 
 Ancient History
@@ -964,16 +964,12 @@ Community
 
         -- Laurence Rowe - Plone Open Garden 2015 - Sorrento
 
-
 .. note::
-
-    Alexander
 
     Laurence did phrase it right, even if community members leave
 
     * they might do other things but they still belong to the family
     * they still do the things the Plone way - reliable, approachable
-
 
 ----
 
@@ -992,8 +988,6 @@ Community
 
 .. note::
 
-    Alexander
-
     No Beloved Dictator for Life
 
     Remember Plone is already 15 years old
@@ -1006,7 +1000,6 @@ Community
     So but Why?
 
     Who leads the community and directs the Product Plone?
-
 
 ----
 
@@ -1314,7 +1307,6 @@ You need an independent entity that holds and protects the intellectual property
 
     "Plone Solutions" the company of Alex Limi and Geir Bækholt renamed themself Jarn AS.
 
-
 ----
 
 :id: back-into-python
@@ -1338,6 +1330,8 @@ Back into Python
     Zope / Plone Community bootstraped several institutions and organisations
 
     * PySV is one example
+
+    They mentor other groups
 
 ----
 
@@ -1363,28 +1357,25 @@ Back into Python
 
 ----
 
-:id:
+:id: for-me
 :class: slide level-1
 :data-x: r+0
 :data-y: r+1000
 
+So is Plone for me
+
 .. note::
 
-    Alexander / Philip
-
-
-
-
-
-    Ideen Pool Complains
-
+    * The community has so much smarter persons like me
+    * They share knowlegde
+    * They make me smile
 
 
 ----
 
 :id: complains
 :class: slide level-1
-:data-x: r+1500
+:data-x: r+2000
 :data-y: 1000
 
 Complains
@@ -1401,7 +1392,7 @@ Complains
 
 :id: hip
 :class: slide level-1
-:data-x: r-500
+:data-x: r-1000
 :data-y: 2000
 
 Plone is not hip, anymore
@@ -1439,6 +1430,23 @@ Plone is boring
 
 ----
 
+:id: boring4
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+**"Boring"** should not be conflated with **"bad"**.
+
+.. note::
+
+    Boring means not bad, but boring also did not mean good
+
+    Python is a fantastic boring technology
+
+    PHP is not that fantastic / or as bad as once
+
+----
+
 :id: boring3
 :class: slide background-image-slide level-1
 :data-x: r+0
@@ -1452,8 +1460,6 @@ Plone is boring
 
 
 .. note::
-
-    Alexander
 
     **Embrace Boredom.** -- Dan McKinley, "Choose Boring Technology"
 
@@ -1469,23 +1475,6 @@ Plone is boring
     If you choose to use service discovery tech that's existed for a year or less,
     you just spent one of your innovation tokens.
     If you choose to write your own database, oh god, you're in trouble.
-
-----
-
-:id: boring4
-:class: slide background-image-slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-**"Boring"** should not be conflated with **"bad"**.
-
-.. note::
-
-    Boring means not bad, but boring also did not mean good
-
-    Python is a fantastic boring technology
-
-    PHP is not that fantastic / or as bad as once
 
 ----
 
@@ -1596,12 +1585,66 @@ Plone is boring
 
 .. note::
 
-    Alexander
-
     Geoffrey Moore, in his book,
     "Crossing the Chasm: Marketing and Selling High-tech Products to Mainstream Customers,"
 
 
+----
+
+:id: feature
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. code:: Python
+
+    from __future__ import feature
+
+
+.. note::
+
+    Plone model of introducing features
+
+    New major Features will be developed as add-ons first and mature for a while before they go into core
+
+    Examples:
+
+    * Dexterity
+    * Dizao
+    * Mosaic
+
+    * plone.restapi
+
+
+----
+
+:id: be-innovative
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+**"Boring"** let's you be innovative
+
+You could try new technologies
+
+Experiment with new approaches
+
+*But the System itself stays very conversative*
+
+----
+
+:id: turnaround
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. pull-quote::
+
+    rapid turnaround:
+
+    VITAL
+
+    -- Sean Kelly - Better Web-Application Development https://www.youtube.com/watch?v=DWODIO6aCUE
 
 ----
 
@@ -1612,17 +1655,9 @@ Plone is boring
 
 .. container:: overlay centered
 
-    Plone is very complex
+    Plone is **very complex**
 
-    step learning curve
-
-
-.. note::
-
-    Alexander / Philip
-
-
-
+    It has a *Step Learning Curve*
 
 ----
 
@@ -1638,14 +1673,13 @@ Plone is boring
 
     * Hard
 
-    * complex
+    * Complex
 
     * Complicated
 
 
 .. note::
 
-    Alexander
 
     Complains about Plone is Hard, Complex and Complicated and not very Pythonic
 
@@ -1663,92 +1697,12 @@ Plone is boring
 
 .. note::
 
-    Alexander
-
     Repeat - Plone is an Innovation Driver
 
-    Plone has been there long before the current Practices become Standard
+    Zope & Plone has been there long before the current Practices become Standard
 
-
-----
-
-:id: old-style
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-Old-Style Code
-==============
-
-
-=======================   ==================
-Zope/Plone                Python Standard
-=======================   ==================
-:python:`zope.DateTime`   :python:`datetime`
-=======================   ==================
-
-----
-
-:id: master
-:class: slide background-image-slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. container:: overlay centered
-
-    *The difference between a master and a novice is, that the master has failed more often than the novice has tried*
-
-    You can move fast and break things, |br| if you know the procedure to repair it quickly
-
-
-.. note::
-
-    Alexander
-
-
-----
-
-:id:
-:class: slide level-1
-:data-x: r+2000
-:data-y: 1000
-
-
-Ideen Pool Future / Roadmap
-
-----
-
-:id:
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. code:: Python
-
-    from __future__ import feature
-
-
-.. note::
-
-    Philip
-
-    Plone model of introducing features
-
-    New major Features will be developed as add-ons first and mature for a while before they go into core
-
-    Examples:
-
-    * Dexterity
-    * Dizao
-    * Mosaic
-
-    * plone.restapi
-
-
-
-
-
-
+    * Before PEP8
+    * Before PEP20 - Zen of Python
 
 ----
 
@@ -1779,71 +1733,118 @@ Ideen Pool Future / Roadmap
 
 .. note::
 
-    Alexander
+    PEP20 was also writen with Zope in Mind - Python should learn from the Mistakes of Zope
 
 
 ----
 
-:id: turnaround
+:id: old-style
 :class: slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-.
-
-    rapid turnaround:
-
-    VITAL
-
-    -- Sean Kelly - Better Web-Application Development |br| https://www.youtube.com/watch?v=DWODIO6aCUE
+Old-Style Code
+==============
 
 
-.. note::
+=======================   ==================
+Zope/Plone                Python Standard
+=======================   ==================
+:python:`zope.DateTime`   :python:`datetime`
+=======================   ==================
 
-    Alexander
+
+Zope started with Python 1.x - Plone with 1.5
 
 
 ----
 
-:id:
+:id: zope-leads
 :class: slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-Plone is the First Class Citizen of Content Management and Python Web
 
-.. note::
+.. pull-quote::
 
-    Alexander
+    Where Zope leads, Python follows
+
+    -- Python Community - around 2000
+
+----
+
+:id: zope-zombi
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. pull-quote::
+
+    Every piece of Zope that not got adopted by the Plone Community is litterly dead
+
+----
+
+:id: learned
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+We have learned from our Mistakes, and we keep our User in Mind
+
+----
+
+:id: master
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. container:: overlay centered
+
+    *The difference between a master and a novice is, that the master has failed more often than the novice has tried*
+
+    You can move fast and break things, |br| if you know the procedure to repair it quickly
+
+
+
 
 ----
 
 :id: continue
 :class: slide level-1
-:data-x: r+0
-:data-y: r+1000
+:data-x: r+1000
+:data-y: 1000
+
+
+.. code:: Python
+
+    from __future__ import feature
+
 
 The Journey Continues
 
 Plone Roadmap 2020
 ==================
 
-* asdad
-* asdasd
-* sdadf
-
-
-.. note::
-
-    Philip
+* 100% Python 3 compatibility
+* Mosaic
+* ...
 
 
 ----
 
-:id: cu
+:id: stay
 :class: slide level-1
-:data-x: r+1000
-:data-y: 1000
+:data-x: r+0
+:data-y: r+1000
+
+Plone stays the First Class Citizen of Content Management and Python Web
+
+----
+
+:id: cu
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
 
 Onboard the Plone Community and join the journey
 
@@ -1861,5 +1862,5 @@ See you at
 
 :id: overview
 :data-x: 0
-:data-y: 5000
-:data-scale: 13
+:data-y: 6000
+:data-scale: 16
