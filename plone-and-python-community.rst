@@ -934,6 +934,8 @@ Diazo
 
 .. note::
 
+    The new Folder Contents - Users could now easilier manage their content
+
 
 ----
 
@@ -1273,10 +1275,20 @@ It is not the |br| Release Manager
 
 ----
 
-:id: first-board
+:id: lessons-learned
 :class: slide level-1
 :data-x: r+1000
 :data-y: 3000
+
+Lessons Learned
+===============
+
+----
+
+:id: first-board
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
 
 2003
 ====
@@ -1288,13 +1300,11 @@ You need an independent entity that holds and protects the intellectual property
 
 |rarr| Paul Everitt: *perfect distance*
 
-|rarr| No company that has Plone in its name
+|rarr| No company should have Plone in its name
 
 |rarr| Founding of the **Plone Foundation** in 2003
 
 .. note::
-
-    Alexander
 
     Problem
 
@@ -1303,6 +1313,31 @@ You need an independent entity that holds and protects the intellectual property
     Digital Creations renamed to Zope Corp
 
     "Plone Solutions" the company of Alex Limi and Geir Bækholt renamed themself Jarn AS.
+
+
+----
+
+:id: back-into-python
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+Back into Python
+================
+
+* Code
+
+* Community
+
+.. note::
+
+    Plone Developer become more Programmers again
+
+    Plone Community learned and teach other
+
+    Zope / Plone Community bootstraped several institutions and organisations
+
+    * PySV is one example
 
 ----
 
