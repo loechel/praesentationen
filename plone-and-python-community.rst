@@ -648,6 +648,13 @@ Object Publishing
 Method / Attribute |br| Level Security
 ======================================
 
+
+.. image:: images/zmi-security.png
+    :width: 750px
+    :class: centered
+    :alt: ttw
+
+
 .. note::
 
     Security was baked directly into the objects of Zope, not added as an extra layer.
@@ -1085,8 +1092,6 @@ It is not the |br| Release Manager
 
 .. note::
 
-    Alexander
-
     It is a funny story that during the conference 2013 in Brasil
 
     while several officials of the Brasil government where doing the opening of the PoneConf
@@ -1337,10 +1342,6 @@ Back into Python
     * People that get you out of your comfort zone
     * People that make you smile
 
-.. note::
-
-    Alexander
-
 ----
 
 :id: for-me
@@ -1368,8 +1369,6 @@ Complains
 =========
 
 .. note::
-
-    Alexander
 
     We do hear and get a lot of complains about Plone
 
@@ -1409,10 +1408,6 @@ Plone is boring
 * Squid is boring
 * Varnish is boring
 * Cron is boring
-
-.. note::
-
-    Alexander
 
 ----
 
@@ -1512,10 +1507,6 @@ Plone is boring
 
     YES
 
-.. note::
-
-    Alexander
-
 ----
 
 :id: complex-systems
@@ -1537,8 +1528,6 @@ Plone is boring
     CC3-BY-SA https://en.wikipedia.org/wiki/File:Tokyo_by_night_2011.jpg
 
 .. note::
-
-    Alexander
 
     A complex system that works is invariably found to have envolved from a simple system that worked.
     A complex system designed from scratch never works and cannot be patched up to make it work.
@@ -1605,17 +1594,19 @@ Plone is boring
 ----
 
 :id: be-innovative
-:class: slide level-1
+:class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-**"Boring"** let's you be innovative
+.. container:: overlay centered
 
-You could try new technologies
+    **"Boring"** let's you be innovative
 
-Experiment with new approaches
+    You could try new technologies
 
-*But the System itself stays very conversative*
+    Experiment with new approaches
+
+    *But the System itself stays very conservative*
 
 ----
 
@@ -1779,7 +1770,9 @@ Zope started with Python 1.x - Plone with 1.5
 :data-x: r+0
 :data-y: r+1000
 
-We have learned from our Mistakes, and we keep our User and Developers in Mind
+.. pull-quote::
+
+    We have learned from our Mistakes, and we keep our User and Developers in Mind
 
 ----
 
@@ -1824,7 +1817,9 @@ Plone Roadmap 2020
 :data-x: r+0
 :data-y: r+1000
 
-Plone stays the First Class Citizen of Content Management and Python Web
+.. pull-quote::
+
+    Plone stays the |br| First Class Citizen of |br| Content Management |br| and Python Web
 
 ----
 
