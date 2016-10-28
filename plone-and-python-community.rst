@@ -105,7 +105,7 @@ Ancient History
 
 :id: python
 :class: slide background-image-slide level-1
-:data-x: r+0
+:data-x: r-500
 :data-y: r+1000
 
 .. container:: overlay centered
@@ -307,8 +307,8 @@ Ancient History
 
 :id: irc
 :class: slide level-1
-:data-x: r+0
-:data-y: r+1000
+:data-x: r+1000
+:data-y: 2000
 
 .. image:: images/logos/irc-logo.png
     :height: 100px
@@ -398,7 +398,7 @@ Ancient History
 
 :id: what
 :class: slide level-1
-:data-x: r+1000
+:data-x: r+1500
 :data-y: 1000
 
 Why is that?
@@ -423,7 +423,7 @@ Why is that?
 
 :id: traversal-1
 :class: slide level-1
-:data-x: r+0
+:data-x: r-500
 :data-y: r+1000
 
 Traversal
@@ -618,8 +618,8 @@ TTW
 
 :id: classic-theme
 :class: slide background-image-slide level-1
-:data-x: r+0
-:data-y: r+1000
+:data-x: r+1000
+:data-y: 2000
 
 
 .. note::
@@ -802,10 +802,20 @@ You need an independent entity that holds and protects the intellectual property
 
 ----
 
+:id: what-community
+:class: slide level-1
+:data-x: r+1500
+:data-y: 1000
+
+Community
+=========
+
+----
+
 :id: out-of-men
 :class: slide background-image-slide level-1
-:data-x: r+1000
-:data-y: 1000
+:data-x: r-500
+:data-y: 2000
 
 .. container:: overlay centered
 
@@ -907,8 +917,8 @@ It is not the |br| Release Manager
 
 :id: spirit1
 :class: slide background-image-slide level-1
-:data-x: r+0
-:data-y: r+1000
+:data-x: r+1000
+:data-y: 2000
 
 .. container:: overlay timed10
 
@@ -1375,6 +1385,30 @@ Zope/Plone                Python Standard
 
 ----
 
+:id: master
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. container:: overlay centered
+
+    *The difference between a master and a novice is, that the master has failed more often than the novice has tried*
+
+    You can move fast and break things, |br| if you know the procedure to repair it quickly
+
+
+.. note::
+
+    Alexander
+
+
+----
+
+:id:
+:class: slide level-1
+:data-x: r+2000
+:data-y: 1000
+
 
 Ideen Pool Future / Roadmap
 
@@ -1420,7 +1454,7 @@ Diazo
 =====
 
 .. image:: images/diazo-concept.png
-    :width: 600px
+    :height: 500px
     :class: centered
     :alt: Diazo
 
@@ -1505,26 +1539,6 @@ Diazo
 .. note::
 
     Alexander
-
-
-----
-
-:id: master
-:class: slide background-image-slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. container:: overlay centered
-
-    *The difference between a master and a novice is, that the master has failed more often than the novice has tried*
-
-    You can move fast and break things, |br| if you know the procedure to repair it quickly
-
-
-.. note::
-
-    Alexander
-
 
 
 ----

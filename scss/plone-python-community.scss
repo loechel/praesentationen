@@ -402,6 +402,25 @@ div#old-style {
   }
 }
 
+div#master {
+  background-image: url("../images/karate-kid.jpg");
+
+  .overlay {
+    margin-top: 350px;
+    p {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+div#intergration-framework {
+  background-image: url("../images/puzzle_krypt.jpg");
+  .overlay-b {
+    font-size: 56px;
+    line-height: 1.5em;
+    margin-top: 180px
+  }
+}
 
 div#zen {
   background-image: url("../images/zen.jpg");
@@ -411,6 +430,18 @@ div#zen {
   }
 }
 
+
+div#diazo {
+  text-align: center;
+  h2 {
+    font-size: 36px;
+
+  }
+  ul li {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+}
 
 div#complex-systems {
   background-image: url("../images/Tokyo_by_night_2011.jpg");
