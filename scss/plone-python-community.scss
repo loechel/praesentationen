@@ -236,6 +236,14 @@ div#birthday {
 
 // Second part What is Plone
 
+div#technology,
+div#what-community{
+  h1 {
+    margin-top: 280px;
+    font-size: 60px;
+  }
+}
+
 
 div#not-framework {
   background-image: url("../images/Framework.jpg");
@@ -288,21 +296,45 @@ div#adaptation {
 }
 
 
+div#classic-theme {
+  background-image: url("../images/classic-theme.png");
+}
 
+div#classic-theme-edit {
+  background-image: url("../images/classic-theme-edit.png");
+}
 
+div#sunburst-theme {
+  background-image: url("../images/sunburst-theme.png");
+}
 
+div#barceloneta-theme {
+  background-image: url("../images/barceloneta-theme.png");
+}
 
+div#barceloneta-theme-dexterity {
+  background-image: url("../images/barceloneta-theme-dexterity.png");
+}
 
-div#wikipedia-theme {
-  background-image: url("../images/wikipedia-theme-plone.png");
+div#barceloneta-theme-ttw-diazo {
+  background-image: url("../images/barceloneta-theme-ttw-diazo.png");
+}
+
+div#barceloneta-theme-folder-contents {
+  background-image: url("../images/barceloneta-theme-folder-contents.png");
 }
 
 // Second Section What is Plone and waht makes it so awesome
 
 div#what {
   h1 {
-    margin-top: 300px;
-    font-size: 72px;
+    margin-top: 50px;
+    font-size: 115px;
+  }
+  h2 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 60px;
   }
 }
 
@@ -323,6 +355,16 @@ div#traversal-explained-3 {
     padding: 50px;
     margin-top: 260px;
     font-size: 26px;
+  }
+}
+
+div#start-of-plone {
+  .centered {
+    padding-top: 30px;
+    em, strong {
+      font-size: 60px;
+      line-height: 1.2em;
+    }
   }
 }
 
@@ -392,6 +434,22 @@ div#rockstars {
     margin-top: 550px;
   }
 }
+
+div#conferences {
+  text-align: center;
+  img {
+    display: inline-block;
+    margin: 2px;
+  }
+  .overlay {
+    margin-top: -390px;
+    strong {
+      font-size: 60px;
+      line-height: 1em;
+    }
+  }
+}
+
 
 div#success {
   background-image: url("../images/success.jpg");
@@ -516,7 +574,12 @@ div#intergration-framework {
   .overlay-b {
     font-size: 56px;
     line-height: 1.5em;
-    margin-top: 180px
+    margin-top: 20px
+  }
+  img {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 

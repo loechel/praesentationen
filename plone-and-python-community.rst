@@ -90,7 +90,7 @@ A Long Journey
 
 :id: history
 :class: slide level-1
-:data-x: r-3000
+:data-x: r-4000
 :data-y: r+1000
 
 Ancient History
@@ -361,12 +361,12 @@ Ancient History
 :data-y: r+1000
 
 
-.. image:: images/icons/plone-icon.png
-    :width: 150px
+.. image:: images/icons/anniversary-sticker.png
+    :width: 200px
     :class: left
 
-.. image:: images/icons/plone-icon.png
-    :width: 150px
+.. image:: images/icons/anniversary-sticker.png
+    :width: 200px
     :class: right
 
 .. container:: overlay centered
@@ -390,7 +390,7 @@ Ancient History
 
 :id: what
 :class: slide level-1
-:data-x: r+1500
+:data-x: r+3500
 :data-y: 1000
 
 
@@ -417,10 +417,20 @@ and why is it still around?
 
 ----
 
+:id: technology
+:class: slide level-1
+:data-x: r-1500
+:data-y: 2000
+
+Technology
+==========
+
+----
+
 :id: not-framework
 :class: slide background-image-slide level-1
-:data-x: r+0
-:data-y: r+1000
+:data-x: r-1000
+:data-y: 3000
 
 .. container:: overlay-b centered
 
@@ -464,6 +474,9 @@ and why is it still around?
     Plone is a |br| **Content Integration Framework**
 
 
+    .. image:: images/multi-tool.png
+        :width: 500px
+
 .. container:: img-quote
 
     CC2-BY-SA https://en.wikipedia.org/wiki/File:Puzzle_Krypt-2.jpg
@@ -501,7 +514,7 @@ and why is it still around?
 :id: zope2
 :class: slide level-1
 :data-x: r+1000
-:data-y: 2000
+:data-y: 3000
 
 .. image:: images/logos/zope-logo.png
     :width: 500px
@@ -669,7 +682,7 @@ Method / Attribute |br| Level Security
 TTW - Through The Web
 =====================
 
-.. image:: images/philip/ttw.png
+.. image:: images/philip/ttw1.png
     :width: 700px
     :class: centered
     :alt: ttw
@@ -721,7 +734,7 @@ Zope2 - The Python Web Application Server
 :data-x: r+0
 :data-y: r+1000
 
-.. image:: images/philip/ttw1.png
+.. image:: images/philip/ttw.png
     :width: 400px
     :class: left
     :alt: ZMI
@@ -743,17 +756,45 @@ Zope2 - The Python Web Application Server
 
 ----
 
+:id: start-of-plone
+:class: slide level-1
+:data-x: r+1000
+:data-y: 3000
+
+
+.. image:: images/logos/plone-logo.png
+    :width: 600px
+    :class: centered
+    :alt: Plone
+
+.. container:: centered
+
+    is about
+
+    *User Experience*
+
+    *User Interface*
+
+    *Accessibility*
+
+    **Empowering of Users**
+
+.. note::
+
+    Plone wrappes the cool technical features of Zope and provides a nice user interface.
+
+    After Plone first public release in October of 2001, it quickly gained users and mindshare.
+
+----
+
 :id: classic-theme
 :class: slide background-image-slide level-1
-:data-x: r+1000
-:data-y: 2000
+:data-x: r+0
+:data-y: r+1000
 
 
 .. note::
 
-    Plone took these features idea and wrapped it in a nice user-interface.
-
-    After Plone first public release in October of 2001, it quickly gained users and mindshare.
     It’s most distinguishing feature was in-place content creation.
     Users could navigate with their browser to the place they wanted an item, and then
     * add it
@@ -766,6 +807,20 @@ Zope2 - The Python Web Application Server
 
     Side-Kick: Wikipedia Theme
 
+----
+
+:id: classic-theme-edit
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+
+.. note::
+
+    There was no “backend” to learn, which made it easy for the average person to learn.
+    The strong security model Plone inherited from Zope allowed websites to mix private
+    and public content. This allowed organizations to combine their separate intranet
+    and extranet into a single seamless website.
 
 ----
 
@@ -776,27 +831,8 @@ Zope2 - The Python Web Application Server
 
 .. note::
 
-    Philip
-
-    There was no “backend” to learn, which made it easy for the average person to learn.
-    The strong security model Plone inherited from Zope allowed websites to mix private
-    and public content. This allowed organizations to combine their separate intranet
-    and extranet into a single seamless website.
-
-    * I built my first Plone-Website without knowing any python.
-    * I built it completely in the browser.
-    * On a Windows PC.
-
-    At least until learned way of the filesystem, version-control and python.
-    Then I started to look down on those who wrote templates in the browser.
-    And Plone kind of did the same starting with Plone 3.
-    We'll get to that story soon...
-
     The user-interface and the default design of Plone changed with time.
     But the idea of empowering the users stayed the same.
-
-    Plone Sunburst Theme
-
 
 ----
 
@@ -845,94 +881,66 @@ Zope2 - The Python Web Application Server
     Plone barceloneta Theme
 
 
-
-
-
-
-
-
-
-
-
-
 ----
 
-:id: sprint
+:id: barceloneta-theme-dexterity
 :class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-.. container:: overlay centered
-
-    **Sprints**
-
-
 .. note::
 
-    Philip
+    Defining Content-Types Through the Web
 
-    Development often happened in Sprints. The term sprint was coined by the Zope people.
 
-    In 2003 there even was a sprint in a real Castle in Austria.
-    Hosted by a real prince. And a austrian tv-crew was there reporting about the sprint.
-
-    Remember: Back then is was still a weird thing that people spent their free time
-    and their own money to travel and work on something that they then give away for
-    free to people they don't know.
-
-    Nowadays when you read bug-report on github it sometimes feels like everybody
-    expects you to work for free to do their job.
-
-    And a couple of weeks ago we held a anniversary sprint in the same castle.
 
 ----
 
-:id: first-board
+:id: diazo
 :class: slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-2003
-====
+Diazo
+=====
 
-lessons learned from Zope
--------------------------
-
-You need an independent entity that holds and protects the intellectual property and copyright.
-
-|rarr| Paul Everitt: *perfect distance*
-
-|rarr| No company that has Plone in its name
-
-|rarr| Founding of the **Plone Foundation**
-
-**Some Officers and Board Members:**
-
-* Paul Everitt
-* Alex Limi
-* Alan Runyan
-* Matt Hamilton
-* Joel Burton
+.. image:: images/diazo-concept.png
+    :height: 500px
+    :class: centered
+    :alt: Diazo
 
 .. note::
 
-    Alexander
+    Diazo - Separate Theming from Layout and Templates
 
-    Problem
 
-    Paul Everitt
+----
 
-    Digital Creations renamed to Zope Corp
+:id: barceloneta-theme-ttw-diazo
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
 
-    "Plone Solutions" the company of Alex Limi and Geir Bækholt renamed themself Jarn AS.
+.. note::
+
+    Diazo-Integration in Plone make it again possible to define the whole Look and Feel Throug The Web
+
+----
+
+:id: barceloneta-theme-folder-contents
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. note::
 
 
 ----
 
 :id: what-community
 :class: slide level-1
-:data-x: r+1500
-:data-y: 1000
+:data-x: r+2000
+:data-y: 2000
 
 Community
 =========
@@ -941,8 +949,8 @@ Community
 
 :id: out-of-men
 :class: slide background-image-slide level-1
-:data-x: r-500
-:data-y: 2000
+:data-x: r-1000
+:data-y: 3000
 
 .. container:: overlay centered
 
@@ -1045,7 +1053,7 @@ It is not the |br| Release Manager
 :id: spirit1
 :class: slide background-image-slide level-1
 :data-x: r+1000
-:data-y: 2000
+:data-y: 3000
 
 .. container:: overlay timed10
 
@@ -1055,8 +1063,6 @@ It is not the |br| Release Manager
         -- Stranger at PloneConf 2012 - Arnhem, NL
 
 .. note::
-
-    Alexander
 
     We wre sitting on dinner with all the other Plone Folks in Arnhem after a day of trainings
 
@@ -1122,11 +1128,7 @@ It is not the |br| Release Manager
 
     Approachability of the Community
 
-
-
 .. note::
-
-    Alexander
 
     This is Rikupekka - A Community member from Finnland - he joined 2014 for the first time
     This Picture he twetted after meeting Alex Limi at the Boston Plone Conf last week:
@@ -1151,6 +1153,156 @@ It is not the |br| Release Manager
     he sit down with us there sharing a few beers and talked for
     almost two hours.
 
+
+----
+
+:id: conferences
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+
+.. image:: images/logos/2003.jpg
+    :height: 150px
+
+.. image:: images/logos/2004.jpg
+    :height: 150px
+
+.. image:: images/logos/2005.jpg
+    :height: 150px
+
+.. image:: images/logos/2006.jpg
+    :height: 150px
+
+.. image:: images/logos/2007.jpg
+    :height: 150px
+
+.. image:: images/logos/2008.jpg
+    :height: 150px
+
+.. image:: images/logos/2009.jpg
+    :height: 150px
+
+.. image:: images/logos/2010.jpg
+    :height: 150px
+
+.. image:: images/logos/2011.jpg
+    :height: 150px
+
+.. image:: images/logos/2012.jpg
+    :height: 150px
+
+.. image:: images/logos/2013.jpg
+    :height: 150px
+
+.. image:: images/logos/2014.jpg
+    :height: 150px
+
+.. image:: images/logos/2015.jpg
+    :height: 150px
+
+.. image:: images/logos/2016.jpg
+    :height: 150px
+
+.. container:: overlay centered
+
+    **Plone Conferences**
+
+.. note::
+
+    On The IPC8 (International Python Conference 8 2000 in Arlington, VA
+    Zope did has a seperate track that attracts more than 90 additional Persons
+
+    IPC went up from 100 attends to more than 250
+    Zope has that much attraction that the split up and organize their own conferences
+
+    From 2003 on that become the anual Plone Conf
+
+    * 2003 - New Orleans
+    * 2004/2005 - Vienna
+    * 2006 - Seattle
+    * 2007 - Naples
+    * 2008 - Washington D.C.
+    * 2009 - Budapest
+    * 2010 - Bistol, UK
+    * 2011 - San Francisco / Bay Area
+    * 2012 - Arnhem / B'Arnhem
+    * 2013 - Brasilia
+    * 2014 - Bistol 2.0
+    * 2015 - Bucharest
+    * 2016 - Boston
+
+    And 2017 will be Barcelona
+
+----
+
+:id: sprint
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. container:: overlay centered
+
+    **Sprints**
+
+    more than one sprint per month in average
+
+    **Symposiums**
+
+    specific subgroups or areas
+
+    * Plone Symposium East / Midwest (US University focus)
+    * Plone Symposium Tokyo
+    * Plone Open Gardens
+
+.. note::
+
+    Development often happened in Sprints. The term sprint was coined by the Zope people.
+
+    In 2003 there even was a sprint in a real Castle in Austria.
+    Hosted by a real prince. And a austrian tv-crew was there reporting about the sprint.
+
+    Remember: Back then is was still a weird thing that people spent their free time
+    and their own money to travel and work on something that they then give away for
+    free to people they don't know.
+
+    Nowadays when you read bug-report on github it sometimes feels like everybody
+    expects you to work for free to do their job.
+
+    And a couple of weeks ago we held a anniversary sprint in the same castle.
+
+----
+
+:id: first-board
+:class: slide level-1
+:data-x: r+1000
+:data-y: 3000
+
+2003
+====
+
+lessons learned from Zope
+-------------------------
+
+You need an independent entity that holds and protects the intellectual property and copyright.
+
+|rarr| Paul Everitt: *perfect distance*
+
+|rarr| No company that has Plone in its name
+
+|rarr| Founding of the **Plone Foundation** in 2003
+
+.. note::
+
+    Alexander
+
+    Problem
+
+    Paul Everitt
+
+    Digital Creations renamed to Zope Corp
+
+    "Plone Solutions" the company of Alex Limi and Geir Bækholt renamed themself Jarn AS.
 
 ----
 
@@ -1197,7 +1349,7 @@ It is not the |br| Release Manager
 
 :id: complains
 :class: slide level-1
-:data-x: r+1000
+:data-x: r+1500
 :data-y: 1000
 
 Complains
@@ -1214,15 +1366,10 @@ Complains
 
 :id: hip
 :class: slide level-1
-:data-x: r+0
-:data-y: r+1000
+:data-x: r-500
+:data-y: 2000
 
 Plone is not hip, anymore
-
-
-.. note::
-
-    Alexander
 
 ----
 
@@ -1232,10 +1379,6 @@ Plone is not hip, anymore
 :data-y: r+1000
 
 Plone is boring
-
-.. note::
-
-    Alexander
 
 ----
 
@@ -1303,7 +1446,11 @@ Plone is boring
 
 .. note::
 
-    Alexander
+    Boring means not bad, but boring also did not mean good
+
+    Python is a fantastic boring technology
+
+    PHP is not that fantastic / or as bad as once
 
 ----
 
@@ -1313,10 +1460,6 @@ Plone is boring
 :data-y: r+1000
 
 **"Boring"** let you get things *done*
-
-.. note::
-
-    Alexander
 
 
 ----
@@ -1566,27 +1709,6 @@ Ideen Pool Future / Roadmap
 
     * plone.restapi
 
-
-
-
-----
-
-:id: diazo
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-Diazo
-=====
-
-.. image:: images/diazo-concept.png
-    :height: 500px
-    :class: centered
-    :alt: Diazo
-
-.. note::
-
-    Philip
 
 
 
