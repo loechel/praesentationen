@@ -6,7 +6,6 @@
 :css-all: css/plone-python-community.css
 :auto-console: Yes
 
-
 .. role:: slide-title-line1
     :class: line1
 
@@ -28,7 +27,6 @@
 
     &rarr;
 
-
 .. role:: python(code)
    :class: highlight code python
    :language: python
@@ -48,15 +46,14 @@
 
 .. container:: centered
 
-    &
+    .. image:: images/logos/zope-logo.png
+        :height: 70px
 
     .. image:: images/logos/plone-logo.png
-        :height: 90px
-        :class: left
+        :height: 70px
 
     .. image:: images/logos/python-logo.png
-        :height: 90px
-        :class: right
+        :height: 70px
 
 Community
 =========
@@ -71,6 +68,22 @@ A Long Journey
 
     Alexander Loechel & Philip Bauer
 
+.. note::
+
+    Alexander
+
+    I started to prepare this Keynote, as I was requested to speak about
+     Plone and the general Python community
+
+    But I realized that, due to a large overlap and a lots of joined efforts
+    it must be about the joined community and history of both Communities Zope and Plone
+
+    Questions to Auditorium:
+
+    * How Many People from one of both communities is here today
+    * How many of you have every contributed to both
+    * To Plone
+    * To Zope
 
 ----
 
@@ -86,6 +99,7 @@ Ancient History
 
     Alexander / Philip
 
+    So we want to speak about the History first to see the origins of Plone and our Community today
 
 ----
 
@@ -105,8 +119,10 @@ Ancient History
 
     Alexander
 
-    The History began with Python, a chrismas project 1990
-    Guido van Rossum played around and tried to define a new teaching language inspiered by ABC
+    The History began with Python, a chrismas project 1990 by
+    Guido van Rossum playing around and trying to define a new teaching language inspired by ABC
+
+    Fast Forward
 
 ----
 
@@ -128,11 +144,18 @@ Ancient History
 
 .. note::
 
+    Alexander
+
     The year is 1996.
-    This man, the CTO of Digital Creations in Fredericksburg, VA is on a plane to the International Python Conference in California.
-    Jim is scheduled to give a tutorial about CGI programming and so he spends the flight learning the specification.
-    He’s got some ideas about how to improve it, and on the flight home he designs what would become Bobo,
-    the first Web Object Publishing System.
+
+    This man, the CTO of Digital Creations in Fredericksburg, VA
+    is on a plane to the International Python Conference in California.
+    Jim is scheduled to give a tutorial about CGI programming
+    and so he spends the flight learning the specification.
+
+    He’s got some ideas about how to improve it,
+    and on the flight home he designs what would become Bobo,
+    the first Python / Web Object Publishing System.
 
 ----
 
@@ -155,6 +178,10 @@ Ancient History
 
     **Program Committee**
 
+    .. image:: images/PaulEveritt.gif
+        :width: 200px
+        :class: right
+
     * Tim Berners-Lee, W3C
     * Dan Connolly, W3C
     * Paul Everitt, Digital Creations
@@ -165,6 +192,14 @@ Ancient History
     |rarr| The ILU Requester: Object Services in HTTP Servers
 
 .. note::
+
+    Alexander
+
+    Also 1996 another Person from Digital Creations worked on a joined
+    W3C/OMG Working Group specifying modern Object publishing on the Web
+
+    Paul Everitt
+
 
     https://www.youtube.com/watch?v=EgWb9z6i0dc
 
@@ -185,12 +220,14 @@ Ancient History
 
 .. note::
 
-    Venture Capital $14M in late 90's
+    Alexander
 
-    When Digital Creations sold Principia to the US Navy for 20.000 US$ they
+    Bobo had a commercial twin Principia.
 
-    The floppy looked too cheap so they decided to burn it on a CD.
+    Digital Creations was asked to sell Principia to the US Navy for 20.000 US$
 
+    so the put it on a floppy, but that looked too cheap so they decided to burn it on a CD.
+    Even as the floppy was more than enough space and even contain the python interpreter.
 
 ----
 
@@ -206,10 +243,14 @@ Ancient History
 
 .. note::
 
-    In 1998, the largest investor in Digital Creations convinced the CEO Paul Everitt to release the Principia software as Open Source Software.
+    Philip
+
+    Digital Creations received a large Venture Capital grant of $750K in late 90's
+
+    In 1998, the largest investor in Digital Creations convinced the CEO Paul Everitt
+    to release the Principia software as Open Source Software.
 
     Principia and Bobo became the Z Object Publishing Environment. in 1999 Zope was born.
-
 
 ----
 
@@ -237,13 +278,11 @@ Ancient History
 
 .. note::
 
-    Alexander
+    Philip
 
     Digital Creations was later renamed Zope Corporation.
 
     Zope Corp hired PythonLabs when the Startup that hosted them went under.
-
-    Background-image zope-corp
 
 ----
 
@@ -251,11 +290,6 @@ Ancient History
 :class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
-
-.. image:: images/philip/presentation_guido_python_regrets.png
-    :height: 600px
-    :class: centered
-
 
 .. note::
 
@@ -268,9 +302,6 @@ Ancient History
     They paid their salary for 3 years to have them working on Python.
     I'd say that was a solid contribution to the python community.
     No regrets there.
-
-    Background-image: presentation_guido_python_regrets
-
 
 ----
 
@@ -322,11 +353,13 @@ Ancient History
 
     Plone was releaser on Oct. 04 2001 |rarr|
 
-    And while Zope was the killer app on Python, Plone became the killer app on Zope.
+    IPC8 (international Python Conference January 2000)
 
-    And Plone 5 was released last autumn.
+    "IPC8 groth more than twice - with around 250 attendees.
+    Much of this growth came from the increasing populatrity of the Zope Application Server,
+    which had its own conference track for the first time, with some 90 people attended talks on Zope"
 
-    Plone is now 15 years old.
+    By that time Zope was the killer app on Python, Plone became the killer app on Zope.
 
 ----
 
@@ -353,12 +386,13 @@ Ancient History
 
 .. note::
 
-    Now Plone is 15 years old. A teenager, almost grown up.
-
-    icons should be plone-birthday-sticker.png
-
     Alexander
 
+    And Plone 5 was released last autumn.
+
+    Now Plone is 15 years old. A teenager, almost grown up.
+
+    Icons should be plone-birthday-sticker.png
 
 ----
 
@@ -372,6 +406,8 @@ Why is that?
 
 .. note::
 
+    Philip
+
     The question you might ask yourself: Why is Plone still around?
     While there may be many answers to this question we will focus on two of them:
 
@@ -379,7 +415,8 @@ Why is that?
 
     Let's first talk a little about technology.
 
-    Zope introduced a couple of very powerful concepts. The most important of those were traversal and object publishing
+    Zope introduced a couple of very powerful concepts.
+    The most important of those were traversal and object publishing
 
 
 ----
@@ -392,8 +429,7 @@ Why is that?
 Traversal
 =========
 
-.. container:: overlay centered
-
+.. container:: centered
 
     /site/folder/page
 
@@ -424,12 +460,12 @@ ZODB
 
 .. note::
 
-    Jim Fulton, on that airplane ride back in ’96, asked himself a question: “Could we treat Python objects the same way?
+    Jim Fulton, on that airplane ride back in ’96, asked himself a question:
+    “Could we treat Python objects the same way?"
 
     If we have a database that allows us to store Python objects (the ZODB),
 
     And we combine that with objects that can behave like Python dicts,
-
 
 ----
 
@@ -438,16 +474,18 @@ ZODB
 :data-x: r+0
 :data-y: r+1000
 
-{‘site’: {‘folder’: {‘page’: page_object}}}
--------------------------------------------
+.. code:: python
+
+    {'site': {'folder': {'page': page_object}}}
 
 .. note::
 
     ... Could we not, then, transform this filesystem hierarchy into a series of nested objects?
 
-    Treating path segments like keys, would allow us to walk the chain of contained objects just like walking a filesystem.
+    Treating path segments like keys, would allow us to walk the chain of contained objects just
+    like walking a filesystem.
 
-    The the right object is found what should we do with it?
+    Then the right object is found what should we do with it?
 
 
 ----
@@ -457,10 +495,8 @@ ZODB
 :data-x: r+0
 :data-y: r+1000
 
-.. container:: overlay centered
-
-    Object Publishing
-
+Object Publishing
+=================
 
 .. image:: images/philip/publish.png
     :width: 700px
@@ -485,11 +521,12 @@ ZODB
 :data-y: r+1000
 
 Security
---------
+========
 
 .. note::
 
-    Security was baked directly into the objects of Zope, not added as an extra layer. Before an object is published it checks if the current user actually has the permission to see it.
+    Security was baked directly into the objects of Zope, not added as an extra layer.
+    Before an object is published it checks if the current user actually has the permission to see it.
 
     This combined with object containment allows for flexible and fine-grained access controls.
 
@@ -504,7 +541,7 @@ Security
 :data-y: r+1000
 
 TTW
----
+===
 
 .. image:: images/philip/ttw.png
     :width: 700px
@@ -514,9 +551,15 @@ TTW
 
 .. note::
 
-    Let me as ask you a question: Who of you knows what "Through the web" means? I was told noone outside of Plone knows it's meaning.
+    Philip
 
-    The killer-feature of Zope was that it allowed you to "progamm in the browser", you were able to write code.
+    Let me as ask you a question: Who of you knows what "Through the web" means?
+    I was told none outside of Plone knows it's meaning.
+
+    The killer-feature of Zope was that it allowed you to "program in the browser",
+    you were able to write code.
+
+    Today that is the core feature of Jupyter Notebook - but without security
 
 ----
 
@@ -532,9 +575,15 @@ TTW
 
 .. note::
 
-    Python was not really that big at that time so Digital Creations paid 100.000$ to build a perl-runtime into Zope. And 2 people actually used it. In Zope you were even able to run perl *and* php-scrips.
+    Philip
 
-    And Zope became very popular - not because of perl and php - but because it allowed new developers to build powerful applications with only a browser.
+    Python was not really that big at that time
+    so Digital Creations paid 100.000$ to build a perl-runtime into Zope.
+    And 2 people actually used it.
+    In Zope you were even able to run perl *and* php-scrips.
+
+    And Zope became very popular - not because of perl and php - but because
+     it allowed new developers to build powerful applications with only a browser.
 
     It lowered the bar to get started in web development.
 
@@ -557,10 +606,13 @@ TTW
 
 .. note::
 
-    The Zope and the CMF provided all sorts of great tools to create content, control its publication, set its display, add interactivity via user input and theme the resulting web application.
+    Philip
+
+    The Zope and the CMF provided all sorts of great tools to create content,
+    control its publication, set its display, add interactivity via user input
+    and theme the resulting web application.
 
     And it looked terrible!!!
-
 
 ----
 
@@ -597,16 +649,24 @@ TTW
 
 .. note::
 
-    There was no “backend” to learn, which made it easy for the average person to learn. The strong security model Plone inherited from Zope allowed websites to mix private and public content. This allowed organizations to combine their separate intranet and extranet into a single seamless website.
+    Philip
 
-    I built my first Plone-Website without knowing any python.
-    I built it completely in the browser.
-    On a Windows PC.
+    There was no “backend” to learn, which made it easy for the average person to learn.
+    The strong security model Plone inherited from Zope allowed websites to mix private
+    and public content. This allowed organizations to combine their separate intranet
+    and extranet into a single seamless website.
+
+    * I built my first Plone-Website without knowing any python.
+    * I built it completely in the browser.
+    * On a Windows PC.
 
     At least until learned way of the filesystem, version-control and python.
-    Then I started to look down on those who wrote templates in the browser. And Plone kind of did the same starting with Plone 3. We'll get to that story soon...
+    Then I started to look down on those who wrote templates in the browser.
+    And Plone kind of did the same starting with Plone 3.
+    We'll get to that story soon...
 
-    The user-interface and the default design of Plone changed with time. But the idea of empowering the users stayed the same.
+    The user-interface and the default design of Plone changed with time.
+    But the idea of empowering the users stayed the same.
 
     Plone Sunburst Theme
 
@@ -620,140 +680,362 @@ TTW
 
 .. note::
 
-    Like Zope, Plone benefitted from a mix of being easy to pick up but powerful enough for serious work.
+    Like Zope, Plone benefited from a mix of being easy to pick up but powerful enough for serious work.
 
-    Attracted by its simplicity, flexibility and above all unparalleled security, companies, schools, governments and non-profits adopted Plone. And the Plone-Community grew quickly.
+    Attracted by its simplicity, flexibility and above all unparalleled security,
+    companies, schools, governments and non-profits adopted Plone.
+    And the Plone-Community grew quickly.
 
     But! There has to be a but, right? Here is the story of the "but":
 
-    The PyCon of 2000 in Arlington nearly doubled the number of attendees from the year before. That happened because Zope ran a separate track in a different room that attracted non-developers. And yes: they were very successful in that but that also created the idea that *Zope was not Python*. This notion has hurt Zope and Plone (and probably also python) a lot and there are still python-developers who think that way.
+    The PyCon of 2000 in Arlington nearly doubled the number of attendees
+    from the year before. That happened because Zope ran a separate track
+    in a different room that attracted non-developers.
+    And yes: they were very successful in that but that also created the idea
+    that *Zope was not Python*.
 
-    From the very beginning the Plone community was separate from the python-community and the fact that many python-developers thought that Plone and Zope were not *really* Python has hurt us.
+    This notion has hurt Zope and Plone (and probably also python) a lot and
+    there are still python-developers who think that way.
+
+    Almost from the very beginning the Plone community was separate from the
+    python-community and the fact that many python-developers thought that Plone and Zope
+    were not *really* Python has hurt us.
 
     But it's not all bad:
-    One reason for that was that Plone did not only attract programmers but also regular humans. You call them "users", "admins" or even "clients".
+    One reason for that was that Plone did not only attract programmers but also regular humans.
+    You call them "users", "admins" or even "clients".
 
-    Plone attracted them because it empowered people - same as it did me - to create powerful websites and applications.
+    Plone attracted them because it empowered people - same as it did me - to create
+    powerful websites and applications.
 
-    The Plone-Community is special since it always had those who developed the software and those who used it and people in all the different stages in between.
+    The Plone-Community is special since it always had those who developed
+    the software and those who used it and people in all the different stages in between.
 
-    The inclusive way that the conferences and sprints were run created a very strong bond among the participants and a sense of community that is often regarded as a model for open source communities.
+    The inclusive way that the conferences and sprints were run created a very strong
+    bond among the participants and a sense of community that is often regarded as a
+    model for open source communities.
 
     Plone barceloneta Theme
 
 
+
+
+
+
+
+
+
+
+
+
 ----
 
-:id:
-:class: slide level-1
+:id: sprint
+:class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-Lightning Talks
-===============
+.. container:: overlay centered
+
+    **Sprints**
 
 
 .. note::
 
-    background image Lightning-Talk List
+    Philip
 
-----
+    Development often happened in Sprints. The term sprint was coined by the Zope people.
 
-:id:
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
+    In 2003 there even was a sprint in a real Castle in Austria.
+    Hosted by a real prince. And a austrian tv-crew was there reporting about the sprint.
 
-Sprints
-=======
+    Remember: Back then is was still a weird thing that people spent their free time
+    and their own money to travel and work on something that they then give away for
+    free to people they don't know.
 
-
-.. note::
-
-    Development often happened in Sprints. In 2003 there even was a sprint in a real Castle in Austria. Hosted by a real prince. And a austrian tv-crew was there reporting about the sprint.
-
-    Remember: Back then is was still a weird thing that people spent their free time and their own money to travel and work on something that they then give away for free to people they don't know.
-
-    Nowadays when you read bug-report on github it sometimes feels like everybody expects you to work for free to do their job.
+    Nowadays when you read bug-report on github it sometimes feels like everybody
+    expects you to work for free to do their job.
 
     And a couple of weeks ago we held a anniversary sprint in the same castle.
 
-    background image Sprint boston
-
-
-
 ----
 
-:id:
+:id: first-board
 :class: slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-2003 founding of Plone Foundation
+2003
+====
 
-Some Officers and Board Members:
+lessons learned from Zope
+-------------------------
+
+You need an independent entity that holds and protects the intellectual property and copyright.
+
+|rarr| Paul Everitt: *perfect distance*
+
+|rarr| No company that has Plone in its name
+
+|rarr| Founding of the **Plone Foundation**
+
+**Some Officers and Board Members:**
+
 * Paul Everitt
 * Alex Limi
 * Alan Runyan
 * Matt Hamilton
 * Joel Burton
 
+.. note::
+
+    Alexander
+
+    Problem
+
+    Paul Everitt
+
+    Digital Creations renamed to Zope Corp
+
+    "Plone Solutions" the company of Alex Limi and Geir Bækholt renamed themself Jarn AS.
+
+
+----
+
+:id: out-of-men
+:class: slide background-image-slide level-1
+:data-x: r+1000
+:data-y: 1000
+
+.. container:: overlay centered
+
+    .. pull-quote::
+
+        You can take the man out of Plone
+
+        But you could not take the Plone out of the man
+
+        -- Laurence Rowe - Plone Open Garden 2015 - Sorrento
+
 
 .. note::
 
     Alexander
 
+    Laurence did phrase it right, even if community members leave
+
+    * they might do other things but they still belong to the family
+    * they still do the things the Plone way - reliable, approachable
 
 
 ----
 
-:id:
-:class: slide level-1
+:id: bdfl
+:class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-Founding of the Python Software Foundation
+.. container:: overlay centered
 
-Bootstraped by
+    **NO BDFL**
 
-* Paul Everitt
+    *15 Years old*
+
+    *The Founders left almost 5 years ago*
 
 .. note::
 
     Alexander
 
+    No Beloved Dictator for Life
+
+    Remember Plone is already 15 years old
+
+    Plone has survived the leave of its founders,
+    of lot of its first generation
+
+    rarely 0.01 % of all Open Source Communities / Projects last that long
+
+    So but Why?
+
+    Who leads the community and directs the Product Plone?
+
+
 ----
 
-:id:
+:id: board
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+It is not the board
+===================
+
+----
+
+:id: release-managers
 :class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+
+It is not the |br| Release Manager
+==================================
+
+
+.. image:: images/release-manager-3.jpg
+    :height: 300px
+    :class: left
+
+.. image:: images/release-manager-4-5.jpg
+    :height: 300px
+    :class: right
+
+
+----
+
+:id: community
+:class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
 .. note::
 
-    Alexander / Philip
+    It is the community
 
 ----
 
-:id:
-:class: slide level-1
+:id: spirit1
+:class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
+.. container:: overlay timed10
+
+    .. pull-quote::
+        I don't know what you folks are doing - but I want to be a part of it.
+
+        -- Stranger at PloneConf 2012 - Arnhem, NL
+
 .. note::
 
-    Alexander / Philip
+    Alexander
+
+    We wre sitting on dinner with all the other Plone Folks in Arnhem after a day of trainings
+
+    Some friends of an attende joined and meet the community
+
+    Her statement after this evening:
+    "I don't know what you folks are doing - but I want to be a part of it." remains.
+
+    Two interesting side stories:
+
+    This is **Plone Conference 2012 Arnheim**
+    Arnhem was a city with a major bridge over the river Rhein and
+    therefor a major battleground in the second world war
+
+    The Words there:
+
+    de meeste mensen zwijgen, een enkeling stelt een daad.
+    Die meisten Menschen schwiegen, ein paar wenige handeln.
+    The most people stay silence, only a few act
+
+    Plone Conferences goes by proposals or organisators, and got voted if more than one is up
+
+    2011 The Plone Foundation recieved two proposals: Arnhem and Paris, well Arnhem won because of an
+    destinguished and active community
 
 ----
 
-:id:
-:class: slide level-1
+:id: spirit2
+:class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
+.. container:: overlay centered
+
+    **Spirit of Plone**
+
+    .. image:: images/logos/2013.jpg
+        :width: 200px
+
 .. note::
 
-    Alexander / Philip
+    Alexander
+
+    It is a funny story that during the conference 2013 in Brasil
+
+    while several officials of the Brasil government where doing the opening of the PoneConf
+
+    at the evenings this parking lot beyond the trainers hotel
+    with a grill and meat on a stick become the most attractive meeting spot during the whole conference
+
+    an old joke:
+
+    Plone is a drinking game with a software problem
+
+----
+
+:id: rockstars
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. container:: overlay centered
+
+    Approachability of the Community
+
+
+
+.. note::
+
+    Alexander
+
+    This is Rikupekka - A Community member from Finnland - he joined 2014 for the first time
+    This Picture he twetted after meeting Alex Limi at the Boston Plone Conf last week:
+
+    "Now I know how a teenage Justin Bieber fan feels when meeting his idol ;-)"
+
+    In the Plone Community every Member is approachable by others
+
+    There is no Rockstar behaviour by leading community members,
+    actually Alex Limi and Alan Runyan where the best example:
+
+    Side Story:
+
+    PloneConf Brasil 2013 - Max and me arrived early in Brazilia,
+    on the first evening we went to a gas station next to our hotel.
+
+    From the point of the community and our own perception we both were
+    still newbe's - we did attend several confs before, but weren't
+    code contributors nor known members of the community
+
+    We met Alan Runyan at this gas stations - he remembered us,
+    he sit down with us there sharing a few beers and talked for
+    almost two hours.
+
+
+----
+
+:id: success
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. container:: overlay centered
+
+    **Surround yourself with the right people**
+
+    * People smarter than you
+    * People that you look up to
+    * People that help you
+    * People that want you to get ahead
+    * People that get you out of your comfort zone
+    * People that make you smile
+
+.. note::
+
+    Alexander
 
 ----
 
@@ -998,7 +1280,12 @@ Boring pays your bills
     Innovation Driver
 
 
+.. note::
 
+    Alexander
+
+    Geoffrey Moore, in his book,
+    "Crossing the Chasm: Marketing and Selling High-tech Products to Mainstream Customers,"
 
 
 
@@ -1148,23 +1435,6 @@ Diazo
 
 ----
 
-#:id:
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. code:: Python
-
-    from __future__ import feature
-
-
-.. note::
-
-    Philip
-
-
-----
-
 :id: zen
 :class: slide background-image-slide level-1
 :data-x: r+0
@@ -1189,59 +1459,6 @@ Diazo
         Readability counts.
         Special cases aren't special enough to break the rules.
         ...
-
-.. note::
-
-    Alexander
-
-----
-
-:id: community
-:class: slide background-image-slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. container:: overlay centered timed
-
-    *It is about how you act*
-
-    **Every contribution counts**
-
-    * Code
-    * Bug Reports
-    * Documentation
-    * Translations
-    * Marketing
-    * ...
-
-    *Welcoming new Persons to the Community*
-
-
-.. note::
-
-    **Plone Conference 2012 Arnheim**
-
-    de meeste mensen zwijgen, een enkeling stelt een daad. - Die meisten Menschen schwiegen, ein paar wenige handeln.
-
-    Alexander
-
-----
-
-:id: success
-:class: slide background-image-slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. container:: overlay centered
-
-    **Surround yourself with the right people**
-
-    * People smarter than you
-    * People that you look up to
-    * People that help you
-    * People that want you to get ahead
-    * People that get you out of your comfort zone
-    * People that make you smile
 
 .. note::
 

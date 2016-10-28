@@ -36,6 +36,8 @@
   img {
     margin-top: 3em;
     margin-bottom: 1em;
+    margin-left: 15px;
+    display: inline-block;
   }
 }
 
@@ -159,10 +161,11 @@ div#ILU {
       margin-top: 30px;
     }
     p:nth-of-type(4) {
-      font-size: 12px;
+      font-size: 26px;
     }
     ul {
       margin-bottom: 50px;
+      font-size: 26px;
     }
   }
 }
@@ -243,11 +246,88 @@ div#what {
 }
 
 
+div#traversal-explained-3 {
+  pre {
+    text-align: center;
+    padding: 50px;
+    margin-top: 260px;
+    font-size: 26px;
+  }
+}
+
+div#sprint {
+  background-image: url("../images/castle-sprint-2003.jpg");
+  strong {
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+div#first-board {
+  p {
+    margin-bottom: 10px;
+  }
+  h2 {
+    text-align: center;
+  }
+}
 
 
+div#out-of-men {
+  background-image: url("../images/Laurence_Rowe.png");
+  .overlay {
+    margin-top: 490px;
+    blockquote {
+      margin: 0;
+      line-height: 1.2em;
+      font-size: 34px;
+    }
+  }
+}
 
+div#bdfl {
+  background-image: url("../images/limi+runyan.jpg");
+  .overlay {
+    margin-top: -10px;
+  }
+}
 
+div#board {
+  background-image: url("../images/board2016.jpeg");
+}
 
+div#community {
+  background-image: url("../images/2016_conference.jpg");
+}
+div#spirit1 {
+  background-image: url("../images/2012_conference.jpeg");
+  .overlay {
+    margin-top: 150px;
+    blockquote {
+      margin: 0;
+      line-height: 1.2em;
+    }
+  }
+}
+
+div#spirit2 {
+  background-image: url("../images/brasil-dinner.jpg");
+}
+
+div#rockstars {
+  background-image: url("../images/rockstar.jpg");
+  .overlay {
+    margin-top: 550px;
+  }
+}
+
+div#success {
+  background-image: url("../images/success.jpg");
+  .overlay {
+    margin-top: 300px;
+  }
+}
 
 
 
@@ -331,9 +411,6 @@ div#zen {
   }
 }
 
-div#community {
-  background-image: url("../images/2012_conference.jpeg");
-}
 
 div#complex-systems {
   background-image: url("../images/Tokyo_by_night_2011.jpg");
