@@ -986,9 +986,9 @@ Community
     Remember Plone is 15 years old
 
     Plone has survived the departure of its founders,
-    of lot of its first generation
+    and of a lot of its first generation.
 
-    Rarely do 0.01 % of all open source communities or projects last that long
+    Very rarely do open source communities or projects last that long.
 
     So why?
 
@@ -1065,11 +1065,11 @@ It is not the |br| Release Manager
     Arnhem was a city with a major bridge over the river Rhein and
     therefore a major battleground in the second world war
 
-    The Words there:
+    The words there:
 
     de meeste mensen zwijgen, een enkeling stelt een daad.
     Die meisten Menschen schwiegen, ein paar wenige handeln.
-    Most people stay silent; only a few act
+    Most people stay silent; only a few act.
 
     Plone Conferences are proposed by organizers, and proposals get voted on if there is more than one that year.
 
@@ -1092,9 +1092,9 @@ It is not the |br| Release Manager
 
 .. note::
 
-    A funny story from Plone Conference 2013 in Brasil
+    A funny story from Plone Conference 2013 in Brazil
 
-    Several officials of the Brasilian government attended the opening of the conference.
+    Several officials of the Brazilian government attended the opening of the conference.
 
     In the evenings, in the parking lot of the trainers' hotel
     a grill and meat on a stick became the most attractive meeting spot of the whole conference
@@ -1128,15 +1128,15 @@ It is not the |br| Release Manager
 
     Side Story:
 
-    PloneConf Brasil 2013 - Max and I arrived early in Brasilia.
+    PloneConf Brazil 2013 - Max and I arrived early in Brasilia.
     On the first evening we went to a gas station next to our hotel.
 
     From the point of the community and in our own minds we both were
     still newbies - we did attend several PloneConfs before, but weren't
     code contributors nor known members of the community
 
-    We met Alan Runyan at this gas stations - he remembered us,
-    he sat down with us there sharing a few beers and talked for
+    We met Alan Runyan at this gas station - he remembered us,
+    he sat down with us there sharing a few beers and talking for
     almost two hours.
 
 
@@ -1196,10 +1196,10 @@ It is not the |br| Release Manager
 
 .. note::
 
-    On The IPC8 (International Python Conference 8 2000 in Arlington, VA
-    Zope did had a separate track that attracted more than 90 additional people
+    At the IPC8 (International Python Conference 8) 2000 in Arlington, VA,
+    Zope had a separate track that attracted more than 90 additional people.
 
-    IPC went up from 100 attendees to more than 250
+    The IPC went from 100 attendees to more than 250.
     Zope attracted so much attention that they organized their own conferences
 
     From 2003 on that became the annual PloneConf
@@ -1319,7 +1319,7 @@ Back into Python
 
     The Plone community learned and mentored others
 
-    The Zope and Plone communities bootstraped several institutions and organisations
+    The Zope and Plone communities bootstrapped several other institutions and organisations.
 
     * PySV is one example
 
@@ -1584,7 +1584,7 @@ Plone is boring
     Examples:
 
     * Dexterity
-    * Dizao
+    * Diazo
     * Mosaic
 
     * plone.restapi
