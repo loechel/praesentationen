@@ -1244,19 +1244,19 @@ It is not the |br| Release Manager
 
 .. note::
 
-    Development often happened in Sprints. The term sprint was coined by the Zope people.
+    Development usually happens in sprints. The term "sprint" was coined by the Zope community.
 
-    In 2003 there even was a sprint in a real Castle in Austria.
-    Hosted by a real prince. And a austrian tv-crew was there reporting about the sprint.
+    In 2003 there was a sprint in a real castle in Austria,
+    hosted by a real life prince. An Austrian TV crew was there reporting about the sprint.
 
-    Remember: Back then is was still a weird thing that people spent their free time
-    and their own money to travel and work on something that they then give away for
-    free to people they don't know.
+    Back then it was still a weird thing that people would spend their free time
+    and their own money to travel and work on something that they would then give away for
+    free to people they didn't know.
 
-    Nowadays when you read bug-report on github it sometimes feels like everybody
+    Nowadays when you read a bug report on GitHub it sometimes feels like everybody
     expects you to work for free to do their job.
 
-    And a couple of weeks ago we held a anniversary sprint in the same castle.
+    Last month we held a 15th anniversary sprint in the very same castle, with the very same prince.
 
 ----
 
@@ -1278,7 +1278,7 @@ Lessons Learned
 2003
 ====
 
-lessons learned from Zope
+Lessons learned from Zope
 -------------------------
 
 You need an independent entity that holds and protects the intellectual property and copyright.
@@ -1297,7 +1297,7 @@ You need an independent entity that holds and protects the intellectual property
 
     Digital Creations renamed to Zope Corp
 
-    "Plone Solutions" the company of Alex Limi and Geir Bækholt renamed themself Jarn AS.
+    "Plone Solutions" the company of Alex Limi and Geir Bækholt renamed itself "Jarn AS".
 
 ----
 
@@ -1315,15 +1315,13 @@ Back into Python
 
 .. note::
 
-    Plone Developer become more Programmers again
+    Plone developers become more programmers again
 
-    Plone Community learned and teach other
+    The Plone community learned and mentored others
 
-    Zope / Plone Community bootstraped several institutions and organisations
+    The Zope and Plone communities bootstraped several institutions and organisations
 
     * PySV is one example
-
-    They mentor other groups
 
 ----
 
@@ -1350,12 +1348,12 @@ Back into Python
 :data-x: r+0
 :data-y: r+1000
 
-So is Plone for me
+So Plone is for me
 
 .. note::
 
-    * The community has so much smarter persons like me
-    * They share knowlegde
+    * The community has so many people smarter than me
+    * They share their knowledge
     * They make me smile
 
 
@@ -1366,12 +1364,12 @@ So is Plone for me
 :data-x: r+2000
 :data-y: 1000
 
-Complains
-=========
+Complaints
+==========
 
 .. note::
 
-    We do hear and get a lot of complains about Plone
+    We do hear and get complaints about Plone
 
 
 ----
@@ -1381,7 +1379,7 @@ Complains
 :data-x: r-1000
 :data-y: 2000
 
-Plone is not hip, anymore
+Plone is not hip anymore
 
 ----
 
@@ -1421,11 +1419,11 @@ Plone is boring
 
 .. note::
 
-    Boring means not bad, but boring also did not mean good
+    Boring does not mean "bad", but boring also does not mean "good"
 
     Python is a fantastic boring technology
 
-    PHP is not that fantastic / or as bad as once
+    PHP is not that fantastic / or as bad as it once was
 
 ----
 
@@ -1465,7 +1463,7 @@ Plone is boring
 :data-x: r+0
 :data-y: r+1000
 
-**"Boring"** let you get things *done*
+**"Boring"** lets you get things *done*
 
 
 ----
@@ -1488,11 +1486,11 @@ Plone is boring
 
 .. container:: overlay centered
 
-    But is a boring System interesting?
+    But is a boring system interesting?
 
 .. note::
 
-    But is a boring System interesting?
+    But is a boring system interesting?
 
     Essentially is it attractive to be involved and to attract new users and developers
 
@@ -1517,7 +1515,7 @@ Plone is boring
 
 .
 
-    A complex system that works is invariably found to have envolved from a simple system that worked.
+    A complex system that works is invariably found to have evolved from a simple system that worked.
     A complex system designed from scratch never works and cannot be patched up to make it work.
     You have to start over with a working simple system.
 
@@ -1530,7 +1528,7 @@ Plone is boring
 
 .. note::
 
-    A complex system that works is invariably found to have envolved from a simple system that worked.
+    A complex system that works is invariably found to have evolved from a simple system that worked.
     A complex system designed from scratch never works and cannot be patched up to make it work.
     You have to start over with a working simple system.
 
@@ -1579,9 +1577,9 @@ Plone is boring
 
 .. note::
 
-    Plone model of introducing features
+    Plone's model of introducing features
 
-    New major Features will be developed as add-ons first and mature for a while before they go into core
+    New major features are developed as add-ons first and allowed to mature for a while before they go into core
 
     Examples:
 
@@ -1601,13 +1599,13 @@ Plone is boring
 
 .. container:: overlay centered
 
-    **"Boring"** let's you be innovative
+    **"Boring"** lets you be innovative
 
     You could try new technologies
 
     Experiment with new approaches
 
-    *But the System itself stays very conservative*
+    *But the system itself stays very conservative*
 
 ----
 
@@ -1635,7 +1633,7 @@ Plone is boring
 
     Plone is **very complex**
 
-    It has a *Step Learning Curve*
+    It has a *steep learning curve*
 
 ----
 
@@ -1659,7 +1657,7 @@ Plone is boring
 .. note::
 
 
-    Complains about Plone is Hard, Complex and Complicated and not very Pythonic
+    Complaints that Plone is hard, complex and complicated and not very Pythonic
 
 ----
 
@@ -1677,7 +1675,7 @@ Plone is boring
 
     Repeat - Plone is an Innovation Driver
 
-    Zope & Plone has been there long before the current Practices become Standard
+    Zope and Plone were around long before current practices become standard
 
     * Before PEP8
     * Before PEP20 - Zen of Python
@@ -1711,7 +1709,7 @@ Plone is boring
 
 .. note::
 
-    PEP20 was also writen with Zope in Mind - Python should learn from the Mistakes of Zope
+    PEP20 was also written with Zope in mind - Python should learn from the Mistakes of Zope
 
 
 ----
@@ -1749,7 +1747,7 @@ Zope started with Python 1.x - Plone with 1.5
 
     Where Zope leads, Python follows
 
-    -- Python Community - around 2000
+    -- Python community - around 2000
 
 ----
 
@@ -1760,7 +1758,7 @@ Zope started with Python 1.x - Plone with 1.5
 
 .. pull-quote::
 
-    Every piece of Zope that not got adopted by the Plone Community is litterly dead
+    Every piece of Zope that was not adopted by Plone is literally dead
 
     -- Anonymous Zope Release Manager
 
@@ -1773,7 +1771,7 @@ Zope started with Python 1.x - Plone with 1.5
 
 .. pull-quote::
 
-    We have learned from our Mistakes, and we keep our User and Developers in Mind
+    We have learned from our mistakes, and we keep our users and developers in mind
 
 ----
 
@@ -1784,7 +1782,7 @@ Zope started with Python 1.x - Plone with 1.5
 
 .. container:: overlay centered
 
-    *The difference between a master and a novice is, that the master has failed more often than the novice has tried*
+    *The difference between a master and a novice is that the master has failed more often than the novice has tried*
 
     You can move fast and break things, |br| if you know the procedure to repair it quickly
 
@@ -1820,7 +1818,7 @@ Plone Roadmap 2020
 
 .. pull-quote::
 
-    Plone stays the |br| First Class Citizen of |br| Content Management |br| and Python Web
+    Plone remains the |br| First Class Citizen of |br| Content Management |br| and Python Web
 
 ----
 
@@ -1831,13 +1829,13 @@ Plone Roadmap 2020
 
 .. container:: overlay centered
 
-    **Onboard the Plone Community and join the journey**
+    **Join the Plone Community and join the journey**
 
     See you at
 
-    * Plone Open Garden 2017 - Sorrento - Italiy - 18-22. April 2017
-    * PloneConf 2017 Barcelona - Catalonia - 16-22.  October 2017
-    * or any Sprint or Event, ...
+    * Plone Open Garden 2017 - Sorrento - Italy - April 18-22, 2017
+    * PloneConf 2017 Barcelona - Catalonia - October 16-22, 2017
+    * or any sprint or event, ... plone.org/events
 
 ----
 
