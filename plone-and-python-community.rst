@@ -70,33 +70,33 @@ A Long Journey
 
 .. note::
 
-    First of all I want to thanks for the honour to speak as the opening Keynote at PyCon.DE 2016 in Munich
+    First of all I want to thank you for the honour to be giving the opening keynote at PyCon.DE 2016 in Munich!
 
     Welcome to the LMU
 
-    I have worried about giving the Keynote - I am neigther the president of the Plone Foundation
-    nor the Release Manager. I even don't belong to the smartest persons in the the Plone Community
+    I have worried about giving the keynote - I am neither the president of the Plone Foundation
+    nor the Release Manager. I am not among the smartest persons in the Plone community.
 
-    A lot of other fabulous Community Members now sitting infront of me and might would give a better and
-    even more technical adequate talk than me
+    A lot of other fabulous community members are now sitting here in front of me and might have given a better and
+    more interesting technical talk.
 
-    I am just a server for the community and I was asked to talk about our awesome community.
+    I am just a messenger who was asked to talk about our awesome community.
 
-    So I started to prepare this Keynote, as I was requested to speak about
-    Plone and the general Python community
+    So I started to prepare this keynote, as I was requested to speak about
+    Plone and the general Python community.
 
-    But I realized that, due to a large overlap and a lots of joined efforts
-    it must be about the joined community and history of both Zope and Plone
-    in conjunction to the general Python community
+    But I realized that, due to a large overlap in our communities and lots of joint efforts between them,
+    this talk must be about the history of Zope and Plone
+    in relation to the general Python community.
 
     **Questions to Auditorium:**
 
-    * Whom of you know Zope & Plone
-    * How Many People from one of both communities is here today
-    * How many of you have every contributed to both
+    * Who among you know Zope and Plone?
+    * How many people from either community are here today?
+    * How many of you have ever contributed to:
 
-      * To Plone
-      * To Zope
+      * Plone?
+      * Zope?
 
 ----
 
@@ -110,7 +110,7 @@ Ancient History
 
 .. note::
 
-    So we want to speak about the History first to see the origins of Plone and our Community today
+    So we want to speak about ancient history first to see the origins of Plone and its community
 
 ----
 
@@ -128,8 +128,8 @@ Ancient History
 
 .. note::
 
-    The History began with Python, a chrismas project 1990 by
-    Guido van Rossum playing around and trying to define a new teaching language inspired by ABC
+    Our history begins with Python, a Christmas project in 1990 by
+    Guido van Rossum, who was playing around and trying to define a new teaching language inspired by ABC
 
     Fast Forward
 
@@ -200,8 +200,8 @@ Ancient History
 
 .. note::
 
-    Also 1996 another Person from Digital Creations worked on a joined
-    W3C/OMG Working Group specifying modern Object publishing on the Web
+    Also in 1996, someone else from Digital Creations participated in a joint
+    W3C/OMG Working Group specifying modern object publishing on the web
 
     Paul Everitt
 
@@ -224,12 +224,12 @@ Ancient History
 
 .. note::
 
-    Bobo had a commercial twin Principia.
+    Bobo had a commercial twin: Principia.
 
     Digital Creations was asked to sell Principia to the US Navy for 20.000 US$
 
-    so the put it on a floppy, but that looked too cheap so they decided to burn it on a CD.
-    Even as the floppy was more than enough space and even contain the python interpreter.
+    So they put it on a floppy, but that looked too cheap, so they decided to burn it onto a CD,
+    even though the floppy had more than enough space despite also containing the Python interpreter!
 
 ----
 
@@ -245,12 +245,12 @@ Ancient History
 
 .. note::
 
-    Digital Creations received a large Venture Capital grant of $750K in late 90's
+    Digital Creations received a large venture capital investment of $750K in the late 90's
 
     In 1998, the largest investor in Digital Creations convinced the CEO Paul Everitt
-    to release the Principia software as Open Source Software.
+    to release the Principia software as open source.
 
-    Principia and Bobo became the Z Object Publishing Environment. in 1999 Zope was born.
+    Principia and Bobo became the Z Object Publishing Environment. In 1999 Zope was born.
 
 ----
 
@@ -261,7 +261,7 @@ Ancient History
 
 .. container:: overlay
 
-    **Digital Creations, L.C.** *later become* **Zope Corporation**
+    **Digital Creations, L.C.** *later became* **Zope Corporation**
 
     Employees
 
@@ -280,7 +280,7 @@ Ancient History
 
     Digital Creations was later renamed Zope Corporation.
 
-    Zope Corp hired PythonLabs when the Startup that hosted them went under.
+    Zope Corp hired PythonLabs when the startup that hosted them went under.
 
 ----
 
@@ -293,10 +293,10 @@ Ancient History
 
     That was Guido van Rossum, Barry Warsaw, Jeremy Hylton, Fred Drake and Tim Peters.
 
-    And this is how Guidos Slides looked at that time.
+    And this is how Guido's slides looked at that time.
 
     They paid their salary for 3 years to have them working on Python.
-    I'd say that was a solid contribution to the python community.
+    I'd say that was a solid contribution to the Python community.
     No regrets there.
 
 ----
@@ -324,9 +324,9 @@ Ancient History
 
 .. note::
 
-    In 1999 Two People (Alex Limi & Alan Runyan) met on IRC and talk about Music and Web Programming
+    In 1999, two people (Alex Limi & Alan Runyan) met on IRC and talked about music and web programming
 
-    They look around and found Zope and started to build on top of this a CMS
+    They looked around, found Zope, and started to build on top of this a CMS.
 
 ----
 
@@ -341,11 +341,11 @@ Ancient History
         :width: 600px
         :class: centered
 
-    *First Released Version 0.1 on 4. October 2001*
+    *First Released Version 0.1 on October 4, 2001*
 
 .. note::
 
-    Plone First Public Release was on Oct. 04 2001
+    Plone's first public release was on Oct. 4, 2001
 
 ----
 
@@ -396,14 +396,14 @@ and why is it still around?
 
 .. note::
 
-    The question you might ask yourself: Why is Plone still around?
+    The question you might ask yourself: why is Plone still around?
     While there may be many answers to this question I will focus on two of them:
 
     Technology and Community
 
     Let's first talk a little about technology.
 
-    But start with what is Plone not.
+    But start with what Plone is not.
 
 ----
 
@@ -424,13 +424,13 @@ Technology
 
 .. container:: overlay-b centered
 
-    **Plone is not a Web-Framework**
+    **Plone is not a web framework**
 
 .. note::
 
-    I see quite often the perception that Plone is a Web-Framework
+    I see quite often the perception that Plone is a web framework
 
-    No it is not a Web-Framework
+    No, it is not a web framework
 
 
 ----
@@ -450,7 +450,7 @@ Technology
 
     Plone is a Content Management System
 
-    Focus **Management** System - most CMS are Web-Publishing Systems
+    Focus on **Management** system - most CMSs are web publishing systems
 
 ----
 
@@ -492,9 +492,9 @@ Technology
 
 .. note::
 
-    It is a question of Adaptation
+    It is a question of adaptation
 
-    in Business often called the Selection of Best of Breed
+    In business this is often called Best of Breed selection
 
     You choose a technology or modification to optimize your needs / requirements
 
@@ -529,8 +529,8 @@ Traversal
     Look at this simple URL
 
     * This part of the URL is called the “path”. You can see that it looks a lot like a filesystem path.
-    * Static Web servers like Apache or Nginx serve static content by walking the filesystem, following these paths and returning the item at the end of the path as an HTTP response.
-    * CGI, the dominant dynamic web technology of the early days works the same way, except that the path ends in an executable script that generates HTTP headers and a response body.
+    * Static web servers like Apache or Nginx serve static content by walking the filesystem, following these paths and returning the item at the end of the path as an HTTP response.
+    * CGI, the dominant dynamic web technology of the early days, works the same way, except that the path ends in an executable script that generates HTTP headers and a response body.
 
 
 ----
@@ -571,7 +571,7 @@ ZODB
 
     If we have a database that allows us to store Python objects (the ZODB),
 
-    And we combine that with objects that can behave like Python dicts,
+    and we combine that with objects that can behave like Python dicts,
 
 ----
 
@@ -586,12 +586,12 @@ ZODB
 
 .. note::
 
-    ... Could we not, then, transform this filesystem hierarchy into a series of nested objects?
+    ... could we not, then, transform this filesystem hierarchy into a series of nested objects?
 
-    Treating path segments like keys, would allow us to walk the chain of contained objects just
+    Treating path segments like keys would allow us to walk the chain of contained objects just
     like walking a filesystem.
 
-    Then the right object is found what should we do with it?
+    Then, when the right object is found, what should we do with it?
 
 
 ----
@@ -631,7 +631,7 @@ Object Publishing
 
 .. note::
 
-    Enter "Object Publishing". The part that remains is to let objects publish themselves.
+    Enter "Object Publishing": the part that remains is to let objects publish themselves.
 
     * We find the objects using traversal.
     * Then we *call* the object, passing in the request (which contains environmental information) to generate a publishable representation of itself.
@@ -662,7 +662,7 @@ Method / Attribute |br| Level Security
 
     This combined with object containment allows for flexible and fine-grained access controls.
 
-    Using a persistent graph of Python objects made building sites with mixed content easy.
+    Using a persistent graph of Python objects made it easy to build sites with mixed content.
 
 
 ----
@@ -683,13 +683,13 @@ TTW - Through The Web
 
 .. note::
 
-    Let me as ask you a question: Who of you knows what "Through the web" means?
-    I was told almost none outside of Plone knows it's meaning.
+    Let me as ask you a question: Who among you knows what "Through the web" means?
+    I was told that almost no one outside of Plone knows its meaning.
 
-    The killer-feature of Zope was that it allowed you to "program in the browser",
-    you were able to write code.
+    The killer-feature of Zope was that it allowed you to "program in the browser":
+    you were able to write code using just your browser.
 
-    Today that is the core feature of Jupyter Notebook - but without security
+    Today, that is the core feature of Jupyter Notebook - but without security.
 
 ----
 
@@ -711,11 +711,11 @@ Zope2 - The Python Web Application Server
     Side Story:
 
     Python was not really that big at that time
-    so Digital Creations paid 100.000$ to build a perl-runtime into Zope.
-    And 2 people actually used it.
-    In Zope you were even able to run perl *and* php-scrips.
+    so Digital Creations paid $100.000 to build a Perl-runtime into Zope.
+    ...and 2 people actually used it.
+    In Zope you were even able to run Perl *and* PHP scripts.
 
-    And Zope became very popular - not because of perl and php - but because
+    And Zope became very popular - not because of Perl and PHP - but because
      it allowed new developers to build powerful applications with only a browser.
 
     It lowered the bar to get started in web development.
@@ -774,9 +774,9 @@ Zope2 - The Python Web Application Server
 
 .. note::
 
-    Plone wrappes the cool technical features of Zope and provides a nice user interface.
+    Plone wraps the cool technical features of Zope and provides a nice user interface.
 
-    After Plone first public release in October of 2001, it quickly gained users and mindshare.
+    After Plone's first public release in October 2001, it quickly gained users and mindshare.
 
 ----
 
@@ -788,7 +788,7 @@ Zope2 - The Python Web Application Server
 
 .. note::
 
-    It’s most distinguishing feature was in-place content creation.
+    Its most distinguishing feature was in-place content creation.
     Users could navigate with their browser to the place they wanted an item, and then
     * add it
     * edit it
@@ -810,7 +810,7 @@ Zope2 - The Python Web Application Server
 
 .. note::
 
-    There was no “backend” to learn, which made it easy for the average person to learn.
+    There was no “backend” to learn, which made it easy for the average person.
     The strong security model Plone inherited from Zope allowed websites to mix private
     and public content. This allowed organizations to combine their separate intranet
     and extranet into a single seamless website.
@@ -824,8 +824,8 @@ Zope2 - The Python Web Application Server
 
 .. note::
 
-    The user-interface and the default design of Plone changed with time.
-    But the idea of empowering the users stayed the same.
+    The user interface and the default design of Plone changed with time.
+    But the idea of empowering users remained constant.
 
 ----
 
@@ -850,11 +850,11 @@ Zope2 - The Python Web Application Server
     And yes: they were very successful in that but that also created the idea
     that *Zope was not Python*.
 
-    This notion has hurt Zope and Plone (and probably also python) a lot and
-    there are still python-developers who think that way.
+    This notion has hurt Zope and Plone (and probably also Python) a lot and
+    there are still Python developers who think that way.
 
     Almost from the very beginning the Plone community was separate from the
-    python-community and the fact that many python-developers thought that Plone and Zope
+    Python community and the fact that many Python developers thought that Plone and Zope
     were not *really* Python has hurt us.
 
     But it's not all bad:
@@ -864,14 +864,14 @@ Zope2 - The Python Web Application Server
     Plone attracted them because it empowered people - same as it did me - to create
     powerful websites and applications.
 
-    The Plone-Community is special since it always had those who developed
+    The Plone community is special since it always had those who developed
     the software and those who used it and people in all the different stages in between.
 
     The inclusive way that the conferences and sprints were run created a very strong
     bond among the participants and a sense of community that is often regarded as a
     model for open source communities.
 
-    Plone barceloneta Theme
+    Plone Barceloneta theme
 
 
 ----
@@ -883,7 +883,7 @@ Zope2 - The Python Web Application Server
 
 .. note::
 
-    Defining Content-Types Through the Web
+    Defining Content Types Through the Web
 
 
 
@@ -916,7 +916,7 @@ Diazo
 
 .. note::
 
-    Diazo-Integration in Plone make it again possible to define the whole Look and Feel Throug The Web
+    Diazo integration in Plone made it again possible to define the whole look and feel Through the Web
 
 ----
 
@@ -927,7 +927,7 @@ Diazo
 
 .. note::
 
-    The new Folder Contents - Users could now easilier manage their content
+    The new folder contents - users can now more easily manage their content
 
 
 ----
@@ -959,7 +959,7 @@ Community
 
 .. note::
 
-    Laurence did phrase it right, even if community members leave
+    Laurence said it right, even if community members leave
 
     * they might do other things but they still belong to the family
     * they still do the things the Plone way - reliable, approachable
@@ -975,24 +975,24 @@ Community
 
     **NO BDFL**
 
-    *15 Years old*
+    *15 years old*
 
-    *The Founders left almost 5 years ago*
+    *The founders left almost 5 years ago*
 
 .. note::
 
     No Beloved Dictator for Life
 
-    Remember Plone is already 15 years old
+    Remember Plone is 15 years old
 
-    Plone has survived the leave of its founders,
-    of lot of its first generation
+    Plone has survived the departure of its founders,
+    and of a lot of its first generation.
 
-    rarely 0.01 % of all Open Source Communities / Projects last that long
+    Very rarely do open source communities or projects last that long.
 
-    So but Why?
+    So why?
 
-    Who leads the community and directs the Product Plone?
+    Who leads the community and directs the Plone product?
 
 ----
 
@@ -1001,7 +1001,7 @@ Community
 :data-x: r+0
 :data-y: r+1000
 
-It is not the board
+It is not the Board
 ===================
 
 ----
@@ -1052,9 +1052,9 @@ It is not the |br| Release Manager
 
 .. note::
 
-    We wre sitting on dinner with all the other Plone Folks in Arnhem after a day of trainings
+    We were at dinner with all the other Plone folks in Arnhem after a day of trainings.
 
-    Some friends of an attende joined and meet the community
+    Some friends of an attendee joined and met the community
 
     Her statement after this evening:
     "I don't know what you folks are doing - but I want to be a part of it." remains.
@@ -1063,18 +1063,18 @@ It is not the |br| Release Manager
 
     This is **Plone Conference 2012 Arnheim**
     Arnhem was a city with a major bridge over the river Rhein and
-    therefor a major battleground in the second world war
+    therefore a major battleground in the second world war
 
-    The Words there:
+    The words there:
 
     de meeste mensen zwijgen, een enkeling stelt een daad.
     Die meisten Menschen schwiegen, ein paar wenige handeln.
-    The most people stay silence, only a few act
+    Most people stay silent; only a few act.
 
-    Plone Conferences goes by proposals or organisators, and got voted if more than one is up
+    Plone Conferences are proposed by organizers, and proposals get voted on if there is more than one that year.
 
-    2011 The Plone Foundation recieved two proposals: Arnhem and Paris, well Arnhem won because of an
-    destinguished and active community
+    In 2011, the Plone Foundation received two proposals: Arnhem and Paris. Arnhem won because of its
+    distinguished and active Plone community.
 
 ----
 
@@ -1092,12 +1092,12 @@ It is not the |br| Release Manager
 
 .. note::
 
-    It is a funny story that during the conference 2013 in Brasil
+    A funny story from Plone Conference 2013 in Brazil
 
-    while several officials of the Brasil government where doing the opening of the PoneConf
+    Several officials of the Brazilian government attended the opening of the conference.
 
-    at the evenings this parking lot beyond the trainers hotel
-    with a grill and meat on a stick become the most attractive meeting spot during the whole conference
+    In the evenings, in the parking lot of the trainers' hotel
+    a grill and meat on a stick became the most attractive meeting spot of the whole conference
 
     an old joke:
 
@@ -1116,27 +1116,27 @@ It is not the |br| Release Manager
 
 .. note::
 
-    This is Rikupekka - A Community member from Finnland - he joined 2014 for the first time
-    This Picture he twetted after meeting Alex Limi at the Boston Plone Conf last week:
+    This is Rikupekka - a community member from Finland. He joined us at PloneConf Bristol 2014 for the first time.
+    This picture he tweeted after meeting Alex Limi at the Boston PloneConf last week:
 
     "Now I know how a teenage Justin Bieber fan feels when meeting his idol ;-)"
 
-    In the Plone Community every Member is approachable by others
+    In the Plone community every member is approachable
 
-    There is no Rockstar behaviour by leading community members,
-    actually Alex Limi and Alan Runyan where the best example:
+    There is no rockstar behaviour by leading community members,
+    Alex Limi and Alan Runyan set the best example:
 
     Side Story:
 
-    PloneConf Brasil 2013 - Max and me arrived early in Brazilia,
-    on the first evening we went to a gas station next to our hotel.
+    PloneConf Brazil 2013 - Max and I arrived early in Brasilia.
+    On the first evening we went to a gas station next to our hotel.
 
-    From the point of the community and our own perception we both were
-    still newbe's - we did attend several confs before, but weren't
+    From the point of the community and in our own minds we both were
+    still newbies - we did attend several PloneConfs before, but weren't
     code contributors nor known members of the community
 
-    We met Alan Runyan at this gas stations - he remembered us,
-    he sit down with us there sharing a few beers and talked for
+    We met Alan Runyan at this gas station - he remembered us,
+    he sat down with us there sharing a few beers and talking for
     almost two hours.
 
 
@@ -1196,13 +1196,13 @@ It is not the |br| Release Manager
 
 .. note::
 
-    On The IPC8 (International Python Conference 8 2000 in Arlington, VA
-    Zope did has a seperate track that attracts more than 90 additional Persons
+    At the IPC8 (International Python Conference 8) 2000 in Arlington, VA,
+    Zope had a separate track that attracted more than 90 additional people.
 
-    IPC went up from 100 attends to more than 250
-    Zope has that much attraction that the split up and organize their own conferences
+    The IPC went from 100 attendees to more than 250.
+    Zope attracted so much attention that they organized their own conferences
 
-    From 2003 on that become the anual Plone Conf
+    From 2003 on that became the annual PloneConf
 
     * 2003 - New Orleans
     * 2004/2005 - Vienna
@@ -1210,11 +1210,11 @@ It is not the |br| Release Manager
     * 2007 - Naples
     * 2008 - Washington D.C.
     * 2009 - Budapest
-    * 2010 - Bistol, UK
+    * 2010 - Bristol, UK
     * 2011 - San Francisco / Bay Area
     * 2012 - Arnhem / B'Arnhem
     * 2013 - Brasilia
-    * 2014 - Bistol 2.0
+    * 2014 - Bristol 2.0
     * 2015 - Bucharest
     * 2016 - Boston
 
@@ -1231,31 +1231,32 @@ It is not the |br| Release Manager
 
     **Sprints**
 
-    more than one sprint per month in average
+    more than one sprint per month on average
 
-    **Symposiums**
+    **Symposia**
 
     specific subgroups or areas
 
-    * Plone Symposium East / Midwest (US University focus)
+    * Plone Symposium East / Midwest (US university focus)
+    * Plone Symposium South America (Brazil)
     * Plone Symposium Tokyo
     * Plone Open Gardens
 
 .. note::
 
-    Development often happened in Sprints. The term sprint was coined by the Zope people.
+    Development usually happens in sprints. The term "sprint" was coined by the Zope community.
 
-    In 2003 there even was a sprint in a real Castle in Austria.
-    Hosted by a real prince. And a austrian tv-crew was there reporting about the sprint.
+    In 2003 there was a sprint in a real castle in Austria,
+    hosted by a real life prince. An Austrian TV crew was there reporting about the sprint.
 
-    Remember: Back then is was still a weird thing that people spent their free time
-    and their own money to travel and work on something that they then give away for
-    free to people they don't know.
+    Back then it was still a weird thing that people would spend their free time
+    and their own money to travel and work on something that they would then give away for
+    free to people they didn't know.
 
-    Nowadays when you read bug-report on github it sometimes feels like everybody
+    Nowadays when you read a bug report on GitHub it sometimes feels like everybody
     expects you to work for free to do their job.
 
-    And a couple of weeks ago we held a anniversary sprint in the same castle.
+    Last month we held a 15th anniversary sprint in the very same castle, with the very same prince.
 
 ----
 
@@ -1277,7 +1278,7 @@ Lessons Learned
 2003
 ====
 
-lessons learned from Zope
+Lessons learned from Zope
 -------------------------
 
 You need an independent entity that holds and protects the intellectual property and copyright.
@@ -1296,7 +1297,7 @@ You need an independent entity that holds and protects the intellectual property
 
     Digital Creations renamed to Zope Corp
 
-    "Plone Solutions" the company of Alex Limi and Geir Bækholt renamed themself Jarn AS.
+    "Plone Solutions" the company of Alex Limi and Geir Bækholt renamed itself "Jarn AS".
 
 ----
 
@@ -1314,15 +1315,13 @@ Back into Python
 
 .. note::
 
-    Plone Developer become more Programmers again
+    Plone developers become more programmers again
 
-    Plone Community learned and teach other
+    The Plone community learned and mentored others
 
-    Zope / Plone Community bootstraped several institutions and organisations
+    The Zope and Plone communities bootstrapped several other institutions and organisations.
 
     * PySV is one example
-
-    They mentor other groups
 
 ----
 
@@ -1349,12 +1348,12 @@ Back into Python
 :data-x: r+0
 :data-y: r+1000
 
-So is Plone for me
+So Plone is for me
 
 .. note::
 
-    * The community has so much smarter persons like me
-    * They share knowlegde
+    * The community has so many people smarter than me
+    * They share their knowledge
     * They make me smile
 
 
@@ -1365,12 +1364,12 @@ So is Plone for me
 :data-x: r+2000
 :data-y: 1000
 
-Complains
-=========
+Complaints
+==========
 
 .. note::
 
-    We do hear and get a lot of complains about Plone
+    We do hear and get complaints about Plone
 
 
 ----
@@ -1380,7 +1379,7 @@ Complains
 :data-x: r-1000
 :data-y: 2000
 
-Plone is not hip, anymore
+Plone is not hip anymore
 
 ----
 
@@ -1420,11 +1419,11 @@ Plone is boring
 
 .. note::
 
-    Boring means not bad, but boring also did not mean good
+    Boring does not mean "bad", but boring also does not mean "good"
 
     Python is a fantastic boring technology
 
-    PHP is not that fantastic / or as bad as once
+    PHP is not that fantastic / or as bad as it once was
 
 ----
 
@@ -1464,7 +1463,7 @@ Plone is boring
 :data-x: r+0
 :data-y: r+1000
 
-**"Boring"** let you get things *done*
+**"Boring"** lets you get things *done*
 
 
 ----
@@ -1487,11 +1486,11 @@ Plone is boring
 
 .. container:: overlay centered
 
-    But is a boring System interesting?
+    But is a boring system interesting?
 
 .. note::
 
-    But is a boring System interesting?
+    But is a boring system interesting?
 
     Essentially is it attractive to be involved and to attract new users and developers
 
@@ -1516,7 +1515,7 @@ Plone is boring
 
 .
 
-    A complex system that works is invariably found to have envolved from a simple system that worked.
+    A complex system that works is invariably found to have evolved from a simple system that worked.
     A complex system designed from scratch never works and cannot be patched up to make it work.
     You have to start over with a working simple system.
 
@@ -1529,7 +1528,7 @@ Plone is boring
 
 .. note::
 
-    A complex system that works is invariably found to have envolved from a simple system that worked.
+    A complex system that works is invariably found to have evolved from a simple system that worked.
     A complex system designed from scratch never works and cannot be patched up to make it work.
     You have to start over with a working simple system.
 
@@ -1578,14 +1577,14 @@ Plone is boring
 
 .. note::
 
-    Plone model of introducing features
+    Plone's model of introducing features
 
-    New major Features will be developed as add-ons first and mature for a while before they go into core
+    New major features are developed as add-ons first and allowed to mature for a while before they go into core
 
     Examples:
 
     * Dexterity
-    * Dizao
+    * Diazo
     * Mosaic
 
     * plone.restapi
@@ -1600,13 +1599,13 @@ Plone is boring
 
 .. container:: overlay centered
 
-    **"Boring"** let's you be innovative
+    **"Boring"** lets you be innovative
 
     You could try new technologies
 
     Experiment with new approaches
 
-    *But the System itself stays very conservative*
+    *But the system itself stays very conservative*
 
 ----
 
@@ -1634,7 +1633,7 @@ Plone is boring
 
     Plone is **very complex**
 
-    It has a *Step Learning Curve*
+    It has a *steep learning curve*
 
 ----
 
@@ -1658,7 +1657,7 @@ Plone is boring
 .. note::
 
 
-    Complains about Plone is Hard, Complex and Complicated and not very Pythonic
+    Complaints that Plone is hard, complex and complicated and not very Pythonic
 
 ----
 
@@ -1676,7 +1675,7 @@ Plone is boring
 
     Repeat - Plone is an Innovation Driver
 
-    Zope & Plone has been there long before the current Practices become Standard
+    Zope and Plone were around long before current practices become standard
 
     * Before PEP8
     * Before PEP20 - Zen of Python
@@ -1710,7 +1709,7 @@ Plone is boring
 
 .. note::
 
-    PEP20 was also writen with Zope in Mind - Python should learn from the Mistakes of Zope
+    PEP20 was also written with Zope in mind - Python should learn from the Mistakes of Zope
 
 
 ----
@@ -1748,7 +1747,7 @@ Zope started with Python 1.x - Plone with 1.5
 
     Where Zope leads, Python follows
 
-    -- Python Community - around 2000
+    -- Python community - around 2000
 
 ----
 
@@ -1759,7 +1758,7 @@ Zope started with Python 1.x - Plone with 1.5
 
 .. pull-quote::
 
-    Every piece of Zope that not got adopted by the Plone Community is litterly dead
+    Every piece of Zope that was not adopted by Plone is literally dead
 
     -- Anonymous Zope Release Manager
 
@@ -1772,7 +1771,7 @@ Zope started with Python 1.x - Plone with 1.5
 
 .. pull-quote::
 
-    We have learned from our Mistakes, and we keep our User and Developers in Mind
+    We have learned from our mistakes, and we keep our users and developers in mind
 
 ----
 
@@ -1783,7 +1782,7 @@ Zope started with Python 1.x - Plone with 1.5
 
 .. container:: overlay centered
 
-    *The difference between a master and a novice is, that the master has failed more often than the novice has tried*
+    *The difference between a master and a novice is that the master has failed more often than the novice has tried*
 
     You can move fast and break things, |br| if you know the procedure to repair it quickly
 
@@ -1819,7 +1818,7 @@ Plone Roadmap 2020
 
 .. pull-quote::
 
-    Plone stays the |br| First Class Citizen of |br| Content Management |br| and Python Web
+    Plone remains the |br| First Class Citizen of |br| Content Management |br| and Python Web
 
 ----
 
@@ -1830,13 +1829,13 @@ Plone Roadmap 2020
 
 .. container:: overlay centered
 
-    **Onboard the Plone Community and join the journey**
+    **Join the Plone Community and join the journey**
 
     See you at
 
-    * Plone Open Garden 2017 - Sorrento - Italiy - 18-22. April 2017
-    * PloneConf 2017 Barcelona - Catalonia - 16-22.  October 2017
-    * or any Sprint or Event, ...
+    * Plone Open Garden 2017 - Sorrento - Italy - April 18-22, 2017
+    * PloneConf 2017 Barcelona - Catalonia - October 16-22, 2017
+    * or any sprint or event, ... plone.org/events
 
 ----
 
