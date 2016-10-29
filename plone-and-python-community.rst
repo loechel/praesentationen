@@ -712,7 +712,7 @@ Zope2 - The Python Web Application Server
 
     Python was not really that big at that time
     so Digital Creations paid $100.000 to build a Perl-runtime into Zope.
-    ...and 2 people actually used it.
+    ... and 2 people actually used it.
     In Zope you were even able to run Perl *and* PHP scripts.
 
     And Zope became very popular - not because of Perl and PHP - but because
@@ -796,8 +796,6 @@ Zope2 - The Python Web Application Server
     * allow access to it
     * and publish it right there.
 
-    Plone Classic Theme
-
     Side-Kick: Wikipedia Theme
 
 ----
@@ -824,7 +822,7 @@ Zope2 - The Python Web Application Server
 
 .. note::
 
-    The user interface and the default design of Plone changed with time.
+    The user interface and the default appearance of Plone changed with time.
     But the idea of empowering users remained constant.
 
 ----
@@ -1818,7 +1816,7 @@ Plone Roadmap 2020
 
 .. pull-quote::
 
-    Plone remains the |br| First Class Citizen of |br| Content Management |br| and Python Web
+    Plone remains a |br| First Class Citizen of |br| Content Management |br| and Python Web
 
 ----
 
