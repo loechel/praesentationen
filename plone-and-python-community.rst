@@ -70,33 +70,33 @@ A Long Journey
 
 .. note::
 
-    First of all I want to thanks for the honour to speak as the opening Keynote at PyCon.DE 2016 in Munich
+    First of all I want to thank you for the honour to speak as the opening Keynote at PyCon.DE 2016 in Munich
 
     Welcome to the LMU
 
-    I have worried about giving the Keynote - I am neigther the president of the Plone Foundation
-    nor the Release Manager. I even don't belong to the smartest persons in the the Plone Community
+    I have worried about giving the Keynote - I am neither the president of the Plone Foundation
+    nor the Release Manager. I am not even among the smartest persons in the Plone community.
 
-    A lot of other fabulous Community Members now sitting infront of me and might would give a better and
-    even more technical adequate talk than me
+    A lot of other fabulous community members are now sitting in front of me and might have given a better and
+    even more technically interesting talk.
 
-    I am just a server for the community and I was asked to talk about our awesome community.
+    I am just a message-bearer and I was asked to talk about our awesome community.
 
-    So I started to prepare this Keynote, as I was requested to speak about
-    Plone and the general Python community
+    So I started to prepare this keynote, as I was requested to speak about
+    Plone and the general Python community.
 
-    But I realized that, due to a large overlap and a lots of joined efforts
-    it must be about the joined community and history of both Zope and Plone
-    in conjunction to the general Python community
+    But I realized that, due to a large overlap and lots of joint efforts
+    this talk must be about the history of both Zope and Plone
+    in relation to the general Python community.
 
     **Questions to Auditorium:**
 
-    * Whom of you know Zope & Plone
-    * How Many People from one of both communities is here today
-    * How many of you have every contributed to both
+    * Who among you know Zope & Plone?
+    * How many people from either community is here today?
+    * How many of you have ever contributed to both?
 
-      * To Plone
-      * To Zope
+      * to Plone
+      * to Zope
 
 ----
 
