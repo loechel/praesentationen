@@ -4,7 +4,6 @@
 :keywords: Plone, Zope, Security, PloneConf 2016
 :data-transition-duration: 1200
 :css-all: css/plone-security-in-context.css
-:js: js/plone-security-in-context-charts-js
 :auto-console: Yes
 
 
@@ -45,7 +44,7 @@
 
 .. container:: centered
 
-    .. image:: images/plone-logo.png
+    .. image:: images/logos/plone-logo.png
         :height: 200px
         :class: centered
 
@@ -223,7 +222,7 @@ How to proof Security
 * Security is a **process** not a **state**
 * Real Security could not be tested automatically |br| |rarr| known vulnerability could
 
-.. image:: images/OWASP-Logo.jpg
+.. image:: images/logos/OWASP-Logo.jpg
     :width: 300px
     :class: right
     :alt: Open Web Application Security Project
