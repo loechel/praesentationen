@@ -1,0 +1,473 @@
+
+.subtitle-slide h1 {
+  margin-top: 280px;
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.75);
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.overlay-b {
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 2px solid rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+  color: #fff;
+  padding: 20px;
+}
+
+.overlay strong,
+.overlay em,
+.overlay-b strong,
+.overlay-b em {
+  display: block;
+}
+
+.overlay ul,
+.overlay-b ul,
+.overlay ol,
+.overlay-b ol {
+  text-align: left;
+}
+
+blockquote {
+  font-size: 2em;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+div.cite {
+  font-size: 0.6em;
+  text-align: right;
+}
+
+.code {
+  text-align: left;
+  background-color: transparent;
+}
+
+.img-quote {
+  background-color: rgba(255, 255, 255, 0.75);
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 5px;
+  font-size: 10px;
+  line-height: 1.2em;
+}
+
+.red {
+  color: #fd0000;
+}
+
+.green {
+  color: #00fd00;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  line-height: 1.2em;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+  line-height: 1.2em;
+}
+
+// Section FOSS and Academia OR "Why Universities Love Open Source"
+div#fossscience2,
+div#fossscience3,
+div#fossscience4 {
+  ol, ul {
+    font-size: 26px;
+    line-height: 1em;
+  }
+  blockquote {
+    margin: 0;
+    margin-top: 20px;
+    p {
+      font-size: 32px;
+      line-height: 1em;
+    }
+  }
+}
+
+
+.fs26px {
+  font-size: 26px;
+}
+
+
+
+// Section History
+
+div#ILU {
+  background-image: url("../images/www.w3.org_OOP_9606_Workshop_.png");
+  background-color: #ffffff;
+  background-size: 70% 70%;
+  div.overlay {
+    p:nth-of-type(1) {
+      font-size: 36px;
+      line-height: 1.2em;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    p:nth-of-type(3) {
+      margin-top: 30px;
+    }
+    p:nth-of-type(4) {
+      font-size: 26px;
+    }
+    ul {
+      margin-bottom: 50px;
+      font-size: 26px;
+    }
+  }
+}
+
+div#zope-corp {
+  background-image: url("../images/zope-corp.jpg");
+  div.overlay {
+    margin-top: 160px;
+    p:nth-of-type(1) {
+      font-size: 36px;
+      line-height: 1.2em;
+      text-align: center;
+      margin-bottom: 30px;
+
+      em {
+        font-size: 20px;
+      }
+    }
+    li {
+      font-size: 20px;
+      line-height: 1.1em;
+    }
+  }
+}
+
+div#birthday {
+  background-image: url("../images/plone-birthday-15.jpg");
+  .overlay {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 2px;
+  }
+}
+
+
+// Second part What is Plone
+
+div#not-framework {
+  background-image: url("../images/Framework.jpg");
+  .overlay-b {
+    font-size: 48px;
+    margin-top: 260px;
+    line-height: 1.2em;
+  }
+}
+
+
+div#cms {
+  background-image: url("../images/Katalog_Karteikarten.jpg");
+  .overlay {
+    strong {
+      font-size: 90px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+    }
+    em {
+      display: inline;
+      ::first-letter {
+        font-weight: bold;
+        font-size: 120%;
+      }
+    }
+  }
+}
+
+div#adaptation {
+  background-image: url("../images/Oscar_Pistorius.jpg");
+  .overlay-b {
+    font-size: 40px;
+    margin-top: 80px;
+    line-height: 1.2em;
+
+    strong {
+      font-size: 60px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    em {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 40px;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+
+// Second Section What is Plone and waht makes it so awesome
+
+div#traversal {
+  h1 {
+    margin-top: 160px;
+    margin-bottom: 80px;
+  }
+  div.centered {
+    font-size: 80px;
+  }
+
+  pre {
+    text-align: center;
+    padding: 50px;
+    margin-top: 60px;
+    font-size: 26px;
+  }
+}
+
+div#sprint {
+  background-image: url("../images/castle-sprint-2003.jpg");
+  strong {
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+
+div#out-of-men {
+  background-image: url("../images/Laurence_Rowe.png");
+  .overlay {
+    margin-top: 490px;
+    blockquote {
+      margin: 0;
+      line-height: 1.2em;
+      font-size: 34px;
+    }
+  }
+}
+
+
+div#spirit1 {
+  background-image: url("../images/2012_conference.jpeg");
+  .overlay {
+    margin-top: 150px;
+    blockquote {
+      margin: 0;
+      line-height: 1.2em;
+    }
+  }
+}
+
+div#spirit2 {
+  background-image: url("../images/brasil-dinner.jpg");
+}
+
+
+
+// Story about beeing Boring
+
+div#boring1 {
+  p {
+    margin-top: 300px;
+    text-align: center;
+    font-size: 90px;
+  }
+}
+
+div#boring2 {
+  ul {
+    margin-top: 120px;
+    margin-left: 180px;
+  }
+}
+
+div#boring3 {
+  background-image: url("../images/boring.jpg");
+  blockquote {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding: 20px;
+    font-size: 54px;
+    margin-top: 350px;
+    margin-bottom: 10px;
+  }
+  cite {
+    color: #fff;
+  }
+}
+
+
+div#boring4 {
+  background-image: url("../images/not-equal.png");
+  background-color: #ffffff;
+  background-size: 400px 400px;
+  p {
+    text-align: center;
+    font-size: 38px;
+    margin-top: 290px;
+  };
+}
+
+div#boring5 {
+  background-image: url("../images/checklist.jpg");
+  background-color: #ffffff;
+  p {
+    font-size: 38px;
+  };
+}
+
+div#boring6 {
+  background-image: url("../images/Bills-to-Pay.jpg");
+  background-color: #ffffff;
+  .overlay {
+    font-size: 38px;
+    margin-top: 260px;
+    strong {
+      display: inline-block;
+    }
+  };
+}
+
+div#boring-question {
+  background-image: url("../images/question-mark-gold.png");
+  background-color: #ffffff;
+  background-size: 400px 600px;
+
+  div.overlay {
+    margin-top: 250px;
+  }
+}
+
+
+div#boring-answer {
+  background-image: url("../images/cruise-ship.jpg");
+  .overlay {
+    margin-top: 450px;
+  }
+}
+div#innovationsn{
+  background-image: url("../images/Innovation-Adoption-Lifecycle.jpg");
+  background-color: #ffffff;
+  background-size: 900px 500px;
+  div.overlay-b {
+    margin-top: 250px;
+  }
+}
+
+
+
+div#be-innovative {
+  background-image: url("../images/keep-calm-and-try-new-things.jpg");
+  p {
+    margin-bottom: 30px;
+    font-size: 40px;
+  }
+}
+
+div#step-learning-curve {
+  background-image: url("../images/stairs.jpg");
+  strong {
+    margin-bottom: 30px;
+  }
+}
+
+div#hard {
+  background-image: url("../images/mud.jpg");
+}
+
+
+
+div#master {
+  background-image: url("../images/karate-kid.jpg");
+
+  .overlay {
+    margin-top: 350px;
+    p {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+div#intergration-framework {
+  background-image: url("../images/puzzle_krypt.jpg");
+  .overlay-b {
+    font-size: 56px;
+    line-height: 1.5em;
+    margin-top: 20px
+  }
+  img {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+div#zen {
+  background-image: url("../images/zen.jpg");
+
+  .overlay {
+    margin-top: 220px;
+  }
+}
+
+div#complex-systems {
+  background-image: url("../images/Tokyo_by_night_2011.jpg");
+
+  blockquote {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding: 20px;
+    font-size: 36px;
+    margin-top: 30px;
+  }
+  cite {
+    color: #fff;
+  }
+}
+
+
+
+
+div.slide .timed,
+div.slide .timed1,
+div.slide .timed3,
+div.slide .timed5,
+div.slide .timed10 {
+  opacity: 0;
+}
+
+div.slide.active .timed1 {
+    opacity: 1;
+    transition: opacity 1s ease 1s;
+}
+
+div.slide.active .timed3 {
+    opacity: 1;
+    transition: opacity 3s ease 3s;
+}
+
+div.slide.active .timed5 {
+    opacity: 1;
+    transition: opacity 5s ease 5s;
+}
+
+div.slide.active .timed10 {
+    opacity: 1;
+    transition: opacity 10s ease 10s;
+}
