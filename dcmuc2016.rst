@@ -49,11 +49,14 @@
 
 .. class:: subtitle
 
-Why Universities Love Open Source
+and "Why Universities Love Open Source"
 
 .. class:: referent
 
-Alexander Loechel
+Alexander Loechel - Referent IT-Projekte |br|
+Ludwig-Maximilians-Universität München |br|
+DrupalCamp 2016 Munich
+
 
 .. note::
 
@@ -69,7 +72,7 @@ Alexander Loechel
 
 :id: fossscience1
 :class: slide lmu-slide level-1
-:data-x: r-1500
+:data-x: r-3500
 :data-y: 1000
 
 .. class:: slide-title
@@ -196,52 +199,193 @@ Academia: Science, Teaching and Research is about sharing and enhancing knowledg
     Science and knowledge is not about the money |br|
     Freedom of Science is a high value and quite expensive
 
+
 ----
 
-:id: ILU
+:id: fossscience5
+:class: slide lmu-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. class:: slide-title
+
+  :slide-title-line1:`Why Universities Love or Should Love Open Source`
+
+Give back
+=========
+
+We do love Open Source and honour the Open Source Communities
+
+* Contribute Code and Documentation
+* Open our Location for FOSS Events
+
+and we like the discourse on
+
+* Open Source Sorftware
+* Concepts of Technologies
+* Approaches to Requirements
+
+
+
+----
+
+:id: discourse
+:class: slide lmu-slide level-1
+:data-x: r+1000
+:data-y: 1000
+
+.. class:: slide-title
+
+  :slide-title-line1:`Lessons Learned from other CMS`
+
+
+Lessons Learned from other CMS
+==============================
+
+.. note::
+
+    Questions in Audotorium
+
+    * Who knows the CMS-Garden Project
+    * Who has worked with any other CMS than Drupal
+
+----
+
+:id: best-cms
 :class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
+
+.. container:: overlay-b
+
+    Which is the **best** |br| Content Management System?
+
+
+----
+
+:id: depends
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+
 .. container:: overlay
 
-    .. image:: images/www.w3.org_TR_WD-ilu-requestor.png
-        :width: 100px
-        :class: right
+    it depends ...
 
-    **Joint W3C/OMG Workshop on**
-    **Distributed Objects and Mobile Code**
+----
 
-    *June 24-25, 1996*
-    *Boston, Massachusetts*
+:id: garden
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
 
-    **Program Committee**
+CMS-Garden
+==========
 
-    .. image:: images/PaulEveritt.gif
-        :width: 200px
-        :class: right
+.. image:: images/cms-gartenfibel.png
+    :height: 500px
+    :class: right
+    :alt: CMS-Garden Fiebel
 
-    * Tim Berners-Lee, W3C
-    * Dan Connolly, W3C
-    * Paul Everitt, Digital Creations
-    * ...
-    * Guido van Rossum, CNRI
-    * ...
+.. container:: overlay-b
 
-    |rarr| The ILU Requester: Object Services in HTTP Servers
+    * *learn from others,*
+    * *exchange knowledge with other communities*
+    * *cooperation on marketing open source and CMS*
+
+----
+
+:id: market
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+----
+
+:id: market-perspective
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+
+
+.. container:: overlay-b
+
+    Product vs. Plattform
+
+    **Orientation**
 
 .. note::
 
-    Also in 1996, someone else from Digital Creations participated in a joint
-    W3C/OMG Working Group specifying modern object publishing on the web
+    Do not orientate only upwards also downwards or to direct neighbours
 
-    Paul Everitt
+    There is only one guaranteed way |rarr| Down till death or forgetness
 
-    https://www.youtube.com/watch?v=EgWb9z6i0dc
+    Look at the Products, they survive because the focus on a specific need and niche market
+    There are normaly better in this special case
 
-    The birth of Object Publishing in the Web
+    Compare to WordPress |rarr| WordPress is the benchmark in Content Editing and Blogs
 
-    Also Base for REST
+----
+
+:id: discourse2
+:class: slide lmu-slide level-1
+:data-x: r+1000
+:data-y: 1000
+
+.. class:: slide-title
+
+  :slide-title-line1:`Lessons Learned from other CMS`
+
+
+Lessons Learned from other CMS
+==============================
+
+
+.. container:: centered
+
+    *The one Open Source CMS that still is ahead of Drupal* |br|
+    *in terms of concepts and technology*
+
+.. image:: images/logos/plone-logo.png
+    :height: 200px
+    :class: centered
+
+.. container:: centered
+
+    *But compared to Drupal, Typo3, WordPress, Joomla! and many others* |br|
+    *we suck at multiple areas, especially: marketing and brand awareness.*
+
+.. note::
+
+    Questions
+
+    * Who knows Plone
+
+    * Who has ever used Plone
+
+    * Who thinks he has ever used a software that was driven of highly influenced by Plone Community Members
+
+        * Mozilla Firefox
+        * Google Chrome
+        * Dropbox
+        * Debian
+        * Wikipedia
+        * REST
+        * Varnish
+
+----
+
+:id: master
+:class: slide background-image-slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. container:: overlay centered
+
+    *The difference between a master and a novice is that the master has failed more often than the novice has tried*
 
 ----
 
@@ -293,160 +437,287 @@ Academia: Science, Teaching and Research is about sharing and enhancing knowledg
 
 ----
 
-:id: not-framework
+:id: ILU
 :class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-.. container:: overlay-b centered
+.. container:: overlay
 
-    **CMS are not web frameworks**
+    .. image:: images/www.w3.org_TR_WD-ilu-requestor.png
+        :width: 100px
+        :class: right
+
+    **Joint W3C/OMG Workshop on**
+    **Distributed Objects and Mobile Code**
+
+    *June 24-25, 1996*
+    *Boston, Massachusetts*
+
+    **Program Committee**
+
+    .. image:: images/PaulEveritt.gif
+        :width: 200px
+        :class: right
+
+    * Tim Berners-Lee, W3C
+    * Dan Connolly, W3C
+    * Paul Everitt, Digital Creations
+    * ...
+    * Guido van Rossum, CNRI
+    * ...
+
+    |rarr| The ILU Requester: Object Services in HTTP Servers
 
 .. note::
 
-    I see quite often the perception that Plone is a web framework
+    Also in 1996, someone else from Digital Creations participated in a joint
+    W3C/OMG Working Group specifying modern object publishing on the web
 
-    No, it is not a web framework
+    Paul Everitt
+
+    https://www.youtube.com/watch?v=EgWb9z6i0dc
+
+    The birth of Object Publishing in the Web
+
+    Also Base for REST
+
+----
+
+:id: complex-systems
+:class: slide background-image-slide level-1
+:data-x: r+1000
+:data-y: 1000
+
+.. epigraph::
+
+    A complex system that works is invariably found to have evolved from a simple system that worked.
+    The inverse proposition also appears to be true:
+    A complex system designed from scratch never works and cannot be made to work.
+    You have to start over, beginning with a working simple system.
+
+    -- "John Gall's law" - from "Systemantics: How Systems Really Work and How They Fail" - 1975
+
+
+.. container:: img-quote
+
+    CC3-BY-SA https://en.wikipedia.org/wiki/File:Tokyo_by_night_2011.jpg
+
+.. note::
+
+    A complex system that works is invariably found to have evolved from a simple system that worked.
+    The inverse proposition also appears to be true:
+    A complex system designed from scratch never works and cannot be made to work.
+    You have to start over, beginning with a working simple system.
+
+    -- "John Gall's law" - from "Systemantics: How Systems Really Work and How They Fail"
+
+    “All software becomes legacy as soon as it's written.”
+
+    -- Andrew Hunt & David Thomas, The Pragmatic Programmer
+
+    "Inside every well-written large program is a well-written small program."
+
+    -- Charles Antony Richard Hoare
 
 
 ----
 
-:id: cms
+:id: zope-leads
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. epigraph::
+
+    Those who do not study Zope, are condemned to reinvent it.
+
+    -- Foreword for "Web Component Development with Zope 3" 2nd Edition 2007 by PJ Eby; |br| Python Core Developer - Creator of Setuptools (Python Packaging), WSGI-Specification
+
+.. note::
+
+    So it has been for a decade, and the trend doesn’t show any signs of stopping.
+    Whatever the latest buzzword—be it RESTful web programming, standardized
+    interfaces, pluggable components, or practical restricted-execution
+    environments, Zope has quietly led the way, delivering the goods years ahead
+    of anyone else. Not just as technology concepts, but shipped and working in
+    paying clients’ offices.
+
+    And yet, strangely, Zope’s role in the ongoing development of Python
+    is little-known and little-appreciated among Python developers. It is frequently
+    the case that some new and much-touted development in the Python
+    community—especially in the web application and object security arenas—is
+    something that Zope has already been doing for many years.
+
+    I’m somewhat baffled by this peculiar blind spot in the Python community.
+    Even when I tell people that Zope’s already done something that they’re
+    working on, the response is usually a blank look, or no response at all. It’s
+    almost as if the innovations of Zope don’t really exist until somebody else
+    reinvents them. In fact, the pattern has led me coin this little saying:
+
+----
+
+:id: zen
 :class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
 .. container:: overlay centered
 
-    **CMS**
 
-    *Content* *Management* *System*
+    *The Zen of Python*
+
+    .. code:: python
+
+        >>> import this
+        The Zen of Python, by Tim Peters
+
+    Beautiful is better than ugly.
+    **Explicit is better than implicit.**
+    **Simple is better than complex.**
+    **Complex is better than complicated.**
+    Flat is better than nested.
+    Sparse is better than dense.
+    **Readability counts.**
+    Special cases aren't special enough to break the rules.
+    ...
 
 .. note::
 
-    Plone is a Content Management System
-
-    Focus on **Management** system - most CMSs are web publishing systems
+    PEP20 was also written with Zope in mind - Python should learn from the Mistakes of Zope
 
 ----
 
-:id: intergration-framework
+:id: layers
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+Don't be complicated
+====================
+
+* Introduce a Layer-Concept |br|
+  Abstraction Layers define:
+
+  * bounderies for functionality
+  * an API
+
+* Reuse standard Frameworks
+
+* be reproducible (especially on Setups)
+
+*Drupal 8 feels a lot like Plone 2.5 or Plone 3 Series*
+
+.. note::
+
+    Drupal 8:
+
+    * Symfony
+    * Doctrine
+    * Drush
+    * Twig (Armin Ronacher - Python Flask)
+    * Composer / Conductor
+
+    Plone started with 2.5:
+
+    * zc.buildout
+    * ZCA
+    * ZTK
+    * ZODB
+
+    Plone is now at Plone 5.1 coming up
+
+
+----
+
+:id: names
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+Names
+=====
+
+.. container:: centered
+
+    *Names and Versions could harm your brand*
+
+    Zope2 |rarr| Zope3 almost killed Zope
+
+    Typo3 CMS vs. Typo3 Neos
+
+    Typo light |rarr| Contenido
+
+    repoze |rarr| bfg |rarr| pyramid
+
+    |rarr| Backdrop (Fork from Drupal 7)
+
+
+----
+
+:id: keepup
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+Keep Up with general Language and Web-Framework communities
+===========================================================
+
+.. container:: centered
+
+    Python2 |rarr| Python3
+
+    PHP5 |rarr| PHP7
+
+    Symfony
+
+    ...
+
+----
+
+:id: hard
+:class: slide background-image-slide level-1
+:data-x: r+1000
+:data-y: 1000
+
+
+.. container:: overlay-b centered
+
+    Complains:
+
+    * Hard
+
+    * Complex
+
+    * Complicated
+
+----
+
+:id: step-learning-curve
 :class: slide background-image-slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-.. container:: overlay-b centered
+.. container:: overlay centered
 
-    Plone is a |br| **Content Integration Framework**
+    Complains System (Plone/Drupal/\*) are **very complex**
 
+    They have a *steep learning curve*
 
-    .. image:: images/multi-tool.png
-        :width: 500px
-
-.. container:: img-quote
-
-    CC2-BY-SA https://en.wikipedia.org/wiki/File:Puzzle_Krypt-2.jpg
 
 .. note::
 
-    *Use the right tool for the job*
-
-
+    Result: You lose parts of the Community, around up to 2/3
 
 ----
 
-:id: traversal
+:id: pro
 :class: slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-Traversal
-=========
-
-.. container:: centered
-
-    /site/folder/page
-
-.. code:: python
-
-    {'site': {'folder': {'page': page_object}}}
-
-.. note::
-
-    Look at this simple URL
-
-    * This part of the URL is called the “path”. You can see that it looks a lot like a filesystem path.
-    * Static web servers like Apache or Nginx serve static content by walking the filesystem, following these paths and returning the item at the end of the path as an HTTP response.
-    * CGI, the dominant dynamic web technology of the early days, works the same way, except that the path ends in an executable script that generates HTTP headers and a response body.
-
-    ... could we not, then, transform this filesystem hierarchy into a series of nested objects?
-
-    Treating path segments like keys would allow us to walk the chain of contained objects just
-    like walking a filesystem.
-
-    Then, when the right object is found, what should we do with it?
-
-
-----
-
-:id: ttw-2
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-Zope2 - The Python Web Application Server
-=========================================
-
-.. image:: images/philip/perl.png
-    :width: 700px
-    :class: centered
-    :alt: perl
-
-.. note::
-
-    Side Story:
-
-    Python was not really that big at that time
-    so Digital Creations paid $100.000 to build a Perl-runtime into Zope.
-    ... and 2 people actually used it.
-    In Zope you were even able to run Perl *and* PHP scripts.
-
-    And Zope became very popular - not because of Perl and PHP - but because
-     it allowed new developers to build powerful applications with only a browser.
-
-    It lowered the bar to get started in web development.
-
-
-----
-
-:id: start-of-plone
-:class: slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-
-.. image:: images/logos/plone-logo.png
-    :width: 600px
-    :class: centered
-    :alt: Plone
-
-.. container:: centered
-
-    is about
-
-    *User Experience*
-
-    *User Interface*
-
-    *Accessibility*
-
-    **Empowering of Users**
-
-.. note::
-
-    Plone wraps the cool technical features of Zope and provides a nice user interface.
-
-    After Plone's first public release in October 2001, it quickly gained users and mindshare.
+Professionalisation
+===================
 
 ----
 
@@ -472,53 +743,12 @@ Zope2 - The Python Web Application Server
     * they might do other things but they still belong to the family
     * they still do the things the Plone way - reliable, approachable
 
-
-----
-
-:id: sprint
-:class: slide background-image-slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. container:: overlay centered
-
-    **Sprints**
-
-    more than one sprint per month on average
-
-    **Symposia**
-
-    specific subgroups or areas
-
-    * Plone Symposium East / Midwest (US university focus)
-    * Plone Symposium South America (Brazil)
-    * Plone Symposium Tokyo
-    * Plone Open Gardens
-
-.. note::
-
-    Development usually happens in sprints. The term "sprint" was coined by the Zope community.
-
-    In 2003 there was a sprint in a real castle in Austria,
-    hosted by a real life prince. An Austrian TV crew was there reporting about the sprint.
-
-    Back then it was still a weird thing that people would spend their free time
-    and their own money to travel and work on something that they would then give away for
-    free to people they didn't know.
-
-    Nowadays when you read a bug report on GitHub it sometimes feels like everybody
-    expects you to work for free to do their job.
-
-    Last month we held a 15th anniversary sprint in the very same castle, with the very same prince.
-
-
-
 ----
 
 :id: boring1
 :class: slide level-1
-:data-x: r+0
-:data-y: r+1000
+:data-x: r+1000
+:data-y: 1000
 
 CMS are boring
 
@@ -564,7 +794,7 @@ CMS are boring
 :data-x: r+0
 :data-y: r+1000
 
-.
+.. epigraph::
 
     Every company gets about three innovation tokens.
 
@@ -613,8 +843,8 @@ CMS are boring
 
 :id: boring-question
 :class: slide background-image-slide level-1
-:data-x: r+0
-:data-y: r+1000
+:data-x: r+1000
+:data-y: 1000
 
 .. container:: overlay centered
 
@@ -625,7 +855,6 @@ CMS are boring
     But is a boring system interesting?
 
     Essentially is it attractive to be involved and to attract new users and developers
-
 
 ----
 
@@ -640,46 +869,6 @@ CMS are boring
 
 ----
 
-:id: complex-systems
-:class: slide background-image-slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. epigraph::
-
-    A complex system that works is invariably found to have evolved from a simple system that worked.
-    The inverse proposition also appears to be true:
-    A complex system designed from scratch never works and cannot be made to work.
-    You have to start over, beginning with a working simple system.
-
-    -- "John Gall's law" - from "Systemantics: How Systems Really Work and How They Fail" - 1975
-
-
-.. container:: img-quote
-
-    CC3-BY-SA https://en.wikipedia.org/wiki/File:Tokyo_by_night_2011.jpg
-
-.. note::
-
-    A complex system that works is invariably found to have evolved from a simple system that worked.
-    The inverse proposition also appears to be true:
-    A complex system designed from scratch never works and cannot be made to work.
-    You have to start over, beginning with a working simple system.
-
-    -- "John Gall's law" - from "Systemantics: How Systems Really Work and How They Fail"
-
-    “All software becomes legacy as soon as it's written.”
-
-    -- Andrew Hunt & David Thomas, The Pragmatic Programmer
-
-    "Inside every well-written large program is a well-written small program."
-
-    -- Charles Antony Richard Hoare
-
-
-
-----
-
 :id: innovations
 :class: slide background-image-slide level-1
 :data-x: r+0
@@ -690,12 +879,10 @@ CMS are boring
 
     Innovation Driver
 
-
 .. note::
 
     Geoffrey Moore, in his book,
     "Crossing the Chasm: Marketing and Selling High-tech Products to Mainstream Customers,"
-
 
 ----
 
@@ -712,110 +899,92 @@ CMS are boring
 
     Experiment with new approaches
 
-    *But the system itself stays very conservative*
-
 
 ----
 
-:id: step-learning-curve
+:id: conclusions
 :class: slide background-image-slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. container:: overlay centered
-
-    Plone is **very complex**
-
-    It has a *steep learning curve*
-
-----
-
-:id: hard
-:class: slide background-image-slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-
-.. container:: overlay-b centered
-
-    Plone is:
-
-    * Hard
-
-    * Complex
-
-    * Complicated
-
-
-.. note::
-
-
-    Complaints that Plone is hard, complex and complicated and not very Pythonic
-
-----
-
-:id: zen
-:class: slide background-image-slide level-1
-:data-x: r+0
-:data-y: r+1000
-
-.. container:: overlay centered
-
-
-    **The Zen of Python**
-
-    .. code::
-
-        >>> import this
-        The Zen of Python, by Tim Peters
-
-        Beautiful is better than ugly.
-        Explicit is better than implicit.
-        Simple is better than complex.
-        Complex is better than complicated.
-        Flat is better than nested.
-        Sparse is better than dense.
-        Readability counts.
-        Special cases aren't special enough to break the rules.
-        ...
-
-.. note::
-
-    PEP20 was also written with Zope in mind - Python should learn from the Mistakes of Zope
+:data-x: r+1000
+:data-y: 1000
 
 
 ----
 
-:id: zope-leads
+:id: good-way
 :class: slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-
-.. pull-quote::
-
-    Where Zope leads, Python follows
-
-    -- Python community - around 2000
+Drupal is on a good way
+=======================
 
 
 ----
 
-:id: master
-:class: slide background-image-slide level-1
+:id: losts
+:class: slide level-1
 :data-x: r+0
 :data-y: r+1000
 
-.. container:: overlay centered
+.. container:: centered
 
-    *The difference between a master and a novice is that the master has failed more often than the novice has tried*
+    **Drupal will lose:**
 
-    You can move fast and break things, |br| if you know the procedure to repair it quickly
+    Advantages (Major-Release Incompatibility)
+
+    Community
+
+    Get a problem on growing new developers
+
+
+
+----
+
+:id: focus
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. container:: centered
+
+    **Drupal should choose and focus on a niche market**
+
+    Enterprise Segment / Upper CMS-Market |br| is not a niche market
+
+    Drupal was always best in Social Integration with the CMS
+
+
+----
+
+:id: best-tool
+:class: slide level-1
+:data-x: r+0
+:data-y: r+1000
+
+.. epigraph::
+
+    Use the **Right Tool** |br| for the Job
+
+.. container:: centered
+
+    That often will be **Drupal**, |br| but sometimes **WordPress** is the better choice for *simple* things |br|
+    or **Plone** for more *complex* or *security critical*.
+
+.. note::
+
+    Ask:
+
+    Please be honest with your knowledge on Drupal
+    - would you like to have your government Web-Portals, Intranets and other Assets implemented with Drupal
+
+    would you like that your tax money is spent for that
+
+    especially with the knowledge of development processes within the community and Drupal Security
 
 
 ----
 
 :id: overview
 :data-x: 0
-:data-y: 6000
-:data-scale: 16
+:data-y: 3200
+:data-scale: 9

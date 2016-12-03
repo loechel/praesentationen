@@ -98,11 +98,109 @@ div#fossscience4 {
   }
 }
 
+div#discourse {
+  h1 {
+    margin-top: 200px;
+    font-size: 50px;
+  }
+}
+
+div#discourse2 {
+  h1 {
+    margin-top: 30px;
+    font-size: 50px;
+  }
+  img {
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+  p {
+    font-size: 26px;
+  }
+}
 
 .fs26px {
   font-size: 26px;
 }
 
+// Lessons Learned and Market
+
+div#best-cms {
+  background-image: url(../images/question_gold.png), url(../images/podium.png);
+  background-size: auto 320px, auto 450px;
+  background-position: center 20px, center 250px;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  text-align: center;
+
+  .overlay-b {
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 50px;
+    line-height: 1.2em;
+    margin-top: 280px;
+    text-align: center;
+    strong {
+      display: inline-block;
+    }
+  }
+}
+
+div#depends {
+  background-image: url("../images/oscars2.jpg");
+  .overlay {
+    font-size: 50px;
+    line-height: 1.2em;
+    width: 300px;
+    margin-top: 480px;
+    text-align: center;
+  }
+}
+
+
+
+div#market {
+  background-image: url("../images/subway_Graphic_2016_1280px.jpg");
+}
+
+div#market-perspective {
+  background-image: url("../images/2016-WCM-LOGO-LANDSCAPE.png");
+  .overlay-b {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+div#garden {
+  background-image: url("../images/cms-garden.jpg");
+
+  h1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+  }
+  .overlay-b {
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 230px;
+  }
+}
+
+
+div#plone {
+  img {
+    margin-top: 230px;
+    margin-bottom: 60px;
+  }
+}
 
 
 // Section History
@@ -358,7 +456,7 @@ div#boring-answer {
     margin-top: 450px;
   }
 }
-div#innovationsn{
+div#innovations {
   background-image: url("../images/Innovation-Adoption-Lifecycle.jpg");
   background-color: #ffffff;
   background-size: 900px 500px;
@@ -371,9 +469,15 @@ div#innovationsn{
 
 div#be-innovative {
   background-image: url("../images/keep-calm-and-try-new-things.jpg");
-  p {
-    margin-bottom: 30px;
-    font-size: 40px;
+  .overlay {
+    margin-top: 115px;
+    p {
+      margin-bottom: 30px;
+      font-size: 40px;
+      strong {
+        margin-bottom: 15px;
+      }
+    }
   }
 }
 
@@ -394,10 +498,7 @@ div#master {
   background-image: url("../images/karate-kid.jpg");
 
   .overlay {
-    margin-top: 350px;
-    p {
-      margin-bottom: 20px;
-    }
+    margin-top: 480px;
   }
 }
 
@@ -421,6 +522,30 @@ div#zen {
   .overlay {
     margin-top: 220px;
   }
+
+  .code {
+    border: none;
+  }
+
+  p {
+    text-align: left;
+    font-family: "Droid Sans Mono";
+    white-space: pre-wrap;
+    font-size: 20px;
+    line-height: 1.1em;
+    strong {
+      display: inline-block;
+      font-weight: bold;
+      color: #fd5555;
+    }
+    em {
+      text-align: center;
+      font-family: 'Open Sans', Arial, sans-serif;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: bold;
+    }
+  }
 }
 
 div#complex-systems {
@@ -442,7 +567,100 @@ div#complex-systems {
 }
 
 
+div#layers {
+  h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  };
 
+  em {
+    font-size: 36px;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
+div#conclusions {
+  background-image: url(../images/conclusions-recommendations.jpg);
+}
+
+div#names,
+div#keepup {
+  h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 60px;
+  }
+  .centered {
+    p {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+
+div#pro {
+  h1 {
+    font-size: 72px;
+    margin-top: 270px;
+  }
+}
+
+div#good-way {
+  h1 {
+    font-size: 68px;
+    margin-top: 270px;
+  }
+}
+
+div#losts {
+  .centered {
+    p {
+      font-size: 30px;
+      line-height: 1.2em;
+      margin-bottom: 30px;
+      strong {
+        font-size: 60px;
+        margin-top: 80px;
+        line-height: 1.2em;
+        margin-bottom: 60px;
+        display: block;
+      }
+    }
+  }
+}
+
+div#focus {
+  .centered {
+    p {
+      font-size: 30px;
+      line-height: 1.2em;
+      margin-bottom: 30px;
+      strong {
+        font-size: 60px;
+        margin-top: 120px;
+        line-height: 1.2em;
+        margin-bottom: 60px;
+        display: block;
+      }
+    }
+  }
+}
+
+div#best-tool {
+  blockquote p {
+    margin-top: 220px;
+    font-size: 60px;
+  }
+  .centered {
+    font-size: 26px;
+  }
+}
 
 div.slide .timed,
 div.slide .timed1,
